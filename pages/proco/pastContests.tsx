@@ -3,7 +3,7 @@ import { LinkComponent, Section, Title } from '../../components/section';
 
 export default function Contact() {
   return (
-    <Layout pageName="proco">
+    <Layout title="ProCo Past Contests" pageName="proco">
       <Section>
         <Title>ProCo Past Contests</Title>
         <LinkComponent href="https://drive.google.com/drive/folders/1FDA6GdAMi4O0wOQlZDZnIHuxuhUINI7p?usp=sharing">

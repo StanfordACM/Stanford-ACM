@@ -10,7 +10,7 @@ import {
 
 export default function Contact() {
   return (
-    <Layout pageName="proco">
+    <Layout title="ProCo Information" pageName="proco">
       <Section>
         <Title>ProCo Information</Title>
         <h2>Team Registration</h2>

@@ -8,7 +8,7 @@ import {
 
 export default function HackyEvenings() {
   return (
-    <Layout pageName="hackyEvenings">
+    <Layout title="Hacky Evenings" pageName="hackyEvenings">
       <Section>
         <Title>Hacky Evenings</Title>
         <Paragraph>

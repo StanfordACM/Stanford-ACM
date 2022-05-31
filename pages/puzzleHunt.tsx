@@ -8,7 +8,7 @@ import {
 
 export default function PuzzleHunt() {
   return (
-    <Layout pageName="puzzleHunt">
+    <Layout title="Puzzle Hunt" pageName="puzzleHunt">
       <Section>
         <Title>Puzzle Hunt</Title>
         <h2>What is this?</h2>

@@ -8,7 +8,7 @@ import {
 
 export default function Contact() {
   return (
-    <Layout pageName="contact">
+    <Layout title="Contact" pageName="contact">
       <Section>
         <Title>Get in Touch!</Title>
         <Paragraph>

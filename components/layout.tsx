@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import styled from 'styled-components';
 
 import Navigation from './navigation';
@@ -21,10 +22,14 @@ const Main = styled.main`
 
 export default function Layout({
   children,
+  title,
   pageName
-}: React.PropsWithChildren<{ pageName: string }>) {
+}: React.PropsWithChildren<{ title: string; pageName: string }>) {
   return (
     <>
+      <Head>
+        <title>{title}</title>
+      </Head>
       <Navigation pageName={pageName} />
       <Main>{children}</Main>
     </>

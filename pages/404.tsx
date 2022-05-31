@@ -9,7 +9,7 @@ const CenteredParagraph = styled(Paragraph)`
 
 export default function Contact() {
   return (
-    <Layout pageName="404">
+    <Layout title="404" pageName="404">
       <Section>
         <Title>404</Title>
         <CenteredParagraph>

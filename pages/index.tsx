@@ -19,7 +19,7 @@ function SectionTitle({
 
 export default function About() {
   return (
-    <Layout pageName="about">
+    <Layout title="About" pageName="about">
       <Section>
         <Title>About</Title>
 

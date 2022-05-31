@@ -10,7 +10,7 @@ const Container = styled.div`
 
 export default function Contact() {
   return (
-    <Layout pageName="officers">
+    <Layout title="Officers" pageName="officers">
       <Container>
         <Title>Meet the ACM Officers!</Title>
         <People title="Current" startShown={true}>

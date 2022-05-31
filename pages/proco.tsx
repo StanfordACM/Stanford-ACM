@@ -30,7 +30,7 @@ const SponsorParagraph = styled(Paragraph)`
 
 export default function Contact() {
   return (
-    <Layout pageName="proco">
+    <Layout title="ProCo" pageName="proco">
       <Section>
         <Title>ProCo</Title>
         <Introduction>

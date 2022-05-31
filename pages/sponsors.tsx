@@ -11,7 +11,7 @@ import { Sponsor, Sponsors } from '../components/sponsors';
 
 export default function Contact() {
   return (
-    <Layout pageName="sponsors">
+    <Layout title="Sponsors" pageName="sponsors">
       <Section>
         <Title>Interested in Sponsoring ACM?</Title>
         <Paragraph>

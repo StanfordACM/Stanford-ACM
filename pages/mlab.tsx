@@ -51,7 +51,7 @@ function Publication({
 
 export default function Contact() {
   return (
-    <Layout pageName="mlab">
+    <Layout title="MLab" pageName="mlab">
       <Section>
         <Title>MLab</Title>
         <Paragraph>
