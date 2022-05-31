@@ -14,46 +14,39 @@ export default function Contact() {
       <Container>
         <Title>Meet the ACM Officers!</Title>
         <People title="Current" startShown={true}>
-          <Person name="Gordon Chi" year={2023} position="Co-President" />
-          <Person name="Ryan Chi" year={2024} position="Co-President" />
+          <Person name="Jeremy Kim" year={2024} position="Co-President" />
+          <Person name="Ian Ng" year={2024} position="Co-President" />
           <Person name="Patrick Liu" year={2024} position="MLab Co-Director" />
           <Person
             name="Niveditha Iyer"
             year={2024}
             position="MLab Co-Director"
           />
-          <Person name="Erik Rozi" year={2024} position="MLab Co-Director" />
-          <Person
-            name="Jeremy Kim"
-            year={2024}
-            position="Financial Officer, Hacky Evenings Director, Webmaster"
-          />
-          <Person
-            name="William Zhang"
-            year={2024}
-            position="Reading Group Co-Director"
-          />
-          <Person
-            name="Nathan Kim"
-            year={2024}
-            position="Reading Group Co-Director"
-          />
-          <Person name="Ian Ng" year={2024} position="ProCo Director" />
-          <Person name="James Zheng" year={2024} position="Social Co-Chair" />
-          <Person name="Rhythm Garg" year={2024} position="Social Co-Chair" />
-          <Person
-            name="Yasmine Mitchell"
-            year={2023}
-            position="Social Co-Chair"
-          />
+          <Person name="Bradley Moon" year={2025} position="Vice-President" />
+          <Person name="Isaac Dan Zhao" year={2025} position="Vice-President" />
+          <Person name="Hannah Kim" year={2024} position="Financial Officer" />
+          <Person name="Sonny Young" year={2025} position="Puzzle Hunt Chair" />
+          <Person name="Sydney Yan" year={2025} position="Puzzle Hunt Chair" />
+          <Person name="Rohan Sikand" year={2023} position="Social Chair" />
+          <Person name="Scott Hickmann" year={2025} position="Webmaster" />
         </People>
         <People title="Alumni" startShown={false}>
+          <Person name="Ryan Chi" year={2024} />
+          <Person name="Erik Rozi" year={2024} />
+          <Person name="William Zhang" year={2024} />
+          <Person name="Nathan Kim" year={2024} />
+
+          <Person name="James Zheng" year={2024} />
+          <Person name="Rhythm Garg" year={2024} />
+          <Person name="Gordon Chi" year={2023} />
+          <Person name="Yasmine Mitchell" year={2023} />
+
+          <Person name="Enok Choe" year={2023} />
           <Person name="Mihir Patel" year={2022} />
           <Person name="Vinjai Vale" year={2022} />
           <Person name="Ethan Chi" year={2022} />
-          <Person name="Jillian Tang" year={2022} />
 
-          <Person name="Enok Choe" year={2023} />
+          <Person name="Jillian Tang" year={2022} />
           <Person name="Divyahans Gupta" year={2018} />
           <Person name="Allan Jiang" year={2018} />
           <Person name="Addison Leong" year={2018} />
