@@ -24,10 +24,17 @@ export default function Contact() {
           />
           <Person name="Bradley Moon" year={2025} position="Vice-President" />
           <Person name="Isaac Dan Zhao" year={2025} position="Vice-President" />
-          <Person name="Hannah Kim" year={2024} position="Financial Officer" />
           <Person name="Sonny Young" year={2025} position="Puzzle Hunt Chair" />
           <Person name="Sydney Yan" year={2025} position="Puzzle Hunt Chair" />
+          <Person name="Ishan Khare" year={2025} position="AI Reading Group" />
+          <Person
+            name="Siddharth Sharma"
+            year={2025}
+            position="AI Reading Group"
+          />
           <Person name="Rohan Sikand" year={2023} position="Social Chair" />
+          <Person name="Rishi Verma" year={2025} position="ProCo Chair" />
+          <Person name="Hannah Kim" year={2024} position="Financial Officer" />
           <Person name="Scott Hickmann" year={2025} position="Webmaster" />
         </People>
         <People title="Alumni" startShown={false}>
