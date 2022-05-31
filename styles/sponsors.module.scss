@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@import 'utils';
+
+.page-content {
+  .sponsors {
+    text-align: center;
+  }
+
+  .sponsor {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+  }
+}
