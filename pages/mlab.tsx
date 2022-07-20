@@ -4,6 +4,34 @@ import Layout from '../components/layout';
 import { People, Person } from '../components/people';
 import { Paragraph, Section, Title } from '../components/section';
 
+const EventContainer = styled.div`
+  display: flex;
+`;
+
+const EventText = styled.p`
+  font-size: 18px;
+  line-height: 1.8em;
+  margin-bottom: 0;
+`;
+
+const EventDate = styled(EventText)`
+  flex: 3;
+`;
+
+const EventTitle = styled(EventText)`
+  flex: 4;
+  font-weight: bold;
+`;
+
+function Event({ date, title }: { date: Date; title: string }) {
+  return (
+    <EventContainer>
+      <EventDate>{date.toDateString().replace(' 2022', '')}</EventDate>
+      <EventTitle>{title}</EventTitle>
+    </EventContainer>
+  );
+}
+
 const PublicationContainer = styled.div`
   margin: 20px 0;
 `;
@@ -52,7 +80,7 @@ function Publication({
 export default function Contact() {
   return (
     <Layout title="MLab" pageName="mlab">
-      <Section>
+      <Section id="mlab">
         <Title>MLab</Title>
         <Paragraph>
           ACMLab is Stanford&apos;s premier machine learning club. Its goal is
@@ -64,14 +92,38 @@ export default function Contact() {
           Stanford NLP Group, and VMWare.
         </Paragraph>
       </Section>
-      <Section>
+      <Section id="board">
         <People title="Board" startShown={true} bigTitle>
           <Person name="Patrick Liu" year={2024} position="Co-Director" />
           <Person name="Niveditha Iyer" year={2024} position="Co-Director" />
           <Person name="Erik Rozi" year={2024} position="Co-Director" />
         </People>
       </Section>
-      <Section>
+      <Section id="schedule">
+        <Title>Fall 2022 Schedule</Title>
+        <Event date={new Date(2022, 10, 4)} title="ACM Info Session" />
+        <Event
+          date={new Date(2022, 10, 11)}
+          title="Workshop 1: Shallow Neural Networks"
+        />
+        <Event
+          date={new Date(2022, 10, 18)}
+          title="Workshop 2: Deep Neural Networks with Pytorch"
+        />
+        <Event date={new Date(2022, 10, 25)} title="Workshop 3: CNNs" />
+        <Event
+          date={new Date(2022, 11, 1)}
+          title="Workshop 4: Implementation I"
+        />
+        <Event
+          date={new Date(2022, 11, 8)}
+          title="Workshop 5: Implementation II"
+        />
+        <Event date={new Date(2022, 11, 15)} title="Project Office Hours" />
+        <Event date={new Date(2022, 11, 22)} title="Project Office Hours" />
+        <Event date={new Date(2022, 11, 29)} title="Onboarding Projects Due" />
+      </Section>
+      <Section id="recent-projects">
         <Title>Recent Projects</Title>
         <h2>SemEVAL</h2>
         <Paragraph>
@@ -97,7 +149,7 @@ export default function Contact() {
           diverse chart-based visual representations.
         </Paragraph>
       </Section>
-      <Section>
+      <Section id="recent-publications">
         <Title>Recent Publications</Title>
         <Publication
           title="An IPA Translation Task for Probing Large Language Models."

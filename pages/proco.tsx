@@ -31,7 +31,7 @@ const SponsorParagraph = styled(Paragraph)`
 export default function Contact() {
   return (
     <Layout title="ProCo" pageName="proco">
-      <Section>
+      <Section id="proco">
         <Title>ProCo</Title>
         <Introduction>
           <Paragraph>
@@ -50,7 +50,7 @@ export default function Contact() {
         </LinkComponent>{' '}
         to keep up to date on ProCo news.
       </Paragraph>
-      <Section>
+      <Section id="about">
         <Title>About ProCo</Title>
         <Paragraph>
           ProCo is hosted by Stanford ACM.{' '}
@@ -76,7 +76,7 @@ export default function Contact() {
           </em>
         </Paragraph>
       </Section>
-      <Section>
+      <Section id="sponsors">
         <Title>Sponsors</Title>
         <SponsorsRow>
           <SponsorRow>
@@ -117,7 +117,7 @@ export default function Contact() {
           www.myamberlife.com.
         </SponsorParagraph>
       </Section>
-      <Section>
+      <Section id="faq">
         <Title>Frequently Asked Questions</Title>
         <Paragraph>
           <strong>

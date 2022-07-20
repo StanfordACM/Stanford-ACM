@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import { LinkComponent, Title } from '../components/section';
 
-const Section = styled.div`
+const PeopleSection = styled.div`
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -112,7 +112,7 @@ export function People({
   const [shown, setShown] = useState(startShown);
 
   return (
-    <Section>
+    <PeopleSection>
       <SectionTitle
         bigTitle={bigTitle}
         onClick={() => setShown((shown) => !shown)}
@@ -120,6 +120,6 @@ export function People({
         {shown ? title : `${title} (Click to Expand)`}
       </SectionTitle>
       <SectionContent shown={shown}>{children}</SectionContent>
-    </Section>
+    </PeopleSection>
   );
 }

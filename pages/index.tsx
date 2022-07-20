@@ -20,7 +20,7 @@ function SectionTitle({
 export default function About() {
   return (
     <Layout title="About" pageName="about">
-      <Section>
+      <Section id="about">
         <Title>About</Title>
 
         <Paragraph>
@@ -30,7 +30,7 @@ export default function About() {
         </Paragraph>
       </Section>
 
-      <Section>
+      <Section id="activities">
         <Title>Activities</Title>
 
         <SectionTitle href="/mlab">MLab</SectionTitle>
