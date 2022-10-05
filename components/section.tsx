@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { HTMLAttributeAnchorTarget } from 'react';
 import styled from 'styled-components';
 
 export const Section = styled.section`
@@ -34,9 +35,13 @@ const LinkContent = styled.a`
 export function LinkComponent({
   children,
   href,
+  target,
   ...props
 }: React.PropsWithChildren<
-  { href?: string } & React.HTMLAttributes<HTMLElement>
+  {
+    href?: string;
+    target?: HTMLAttributeAnchorTarget;
+  } & React.HTMLAttributes<HTMLElement>
 >) {
   if (!href) {
     return <LinkContent {...props}>{children}</LinkContent>;
@@ -44,7 +49,9 @@ export function LinkComponent({
 
   return (
     <Link href={href} passHref>
-      <LinkContent {...props}>{children}</LinkContent>
+      <LinkContent target={target} {...props}>
+        {children}
+      </LinkContent>
     </Link>
   );
 }

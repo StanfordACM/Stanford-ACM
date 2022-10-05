@@ -11,6 +11,17 @@ export default function PuzzleHunt() {
     <Layout title="Puzzle Hunt" pageName="puzzleHunt">
       <Section>
         <Title>Puzzle Hunt</Title>
+        <h2>Registration Form</h2>
+        <Paragraph>
+          You can now register for Puzzle Hunt 2022-2023! Please fill out this
+          form{' '}
+          <LinkComponent
+            href="https://forms.gle/krX3Fn93YPKgSKyC8"
+            target="_blank"
+          >
+            https://forms.gle/krX3Fn93YPKgSKyC8
+          </LinkComponent>
+        </Paragraph>
         <h2>What is this?</h2>
         <Paragraph>
           Like a cross between an escape room and MITMH-style puzzle hunts. In
@@ -36,7 +47,7 @@ export default function PuzzleHunt() {
           prizes.
           <br />
           Note that due to limited capacity, registration is first-come
-          first-served. We will announce when registration opens.
+          first-served.
           <br />
         </Paragraph>
         <h2>I don&apos;t have a team! Can I still participate?</h2>
@@ -47,8 +58,12 @@ export default function PuzzleHunt() {
         <h2>Questions?</h2>
         <Paragraph>
           Reach out to us at{' '}
-          <LinkComponent href="mailto:ethanchi@cs.stanford.edu">
-            ethanchi at cs dot stanford dot edu
+          <LinkComponent href="mailto:syyan@stanford.edu">
+            syyan@stanford.edu
+          </LinkComponent>{' '}
+          and{' '}
+          <LinkComponent href="mailto:ssyoung@stanford.edu">
+            ssyoung@stanford.edu
           </LinkComponent>{' '}
           if you have any further questions! Puzzle hunt is run by{' '}
           <LinkComponent href="/">Stanford ACM</LinkComponent>&apos;s Puzzle
