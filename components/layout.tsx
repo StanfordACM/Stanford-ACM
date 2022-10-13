@@ -3,9 +3,10 @@ import styled from 'styled-components';
 
 import Navigation from './navigation';
 
-const Main = styled.main`
+const Main = styled.main<{ paddingH: number }>`
   margin: 0 0 0 360px;
-  padding: 60px 180px 60px 120px;
+  padding: ${(props) => props.paddingH}px; 180px ${(props) =>
+  props.paddingH}px 120px;
 
   @media (max-width: ${({ theme }) => theme.screen.desktop}) {
     padding: 40px 80px 40px 80px;
@@ -23,15 +24,20 @@ const Main = styled.main`
 export default function Layout({
   children,
   title,
-  pageName
-}: React.PropsWithChildren<{ title: string; pageName: string }>) {
+  pageName,
+  paddingH = 60
+}: React.PropsWithChildren<{
+  title: string;
+  pageName: string;
+  paddingH?: number;
+}>) {
   return (
     <>
       <Head>
         <title>{title}</title>
       </Head>
       <Navigation pageName={pageName} />
-      <Main>{children}</Main>
+      <Main paddingH={paddingH}>{children}</Main>
     </>
   );
 }
