@@ -15,7 +15,7 @@ import {
 
 const Introduction = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 `;
 

@@ -105,14 +105,25 @@ export default function PuzzleHunt() {
             <br />
             🧋 boba provided
           </Info>
-          <RegisterButton
-            href="https://forms.gle/krX3Fn93YPKgSKyC8"
-            target="_blank"
-          >
-            » Register now!
-          </RegisterButton>
+          <Paragraph>
+            Puzzle Hunt for fall 2022 just ended! Check back next year for more,
+            and feel free to check out{' '}
+            <LinkComponent
+              href="https://drive.google.com/drive/u/4/folders/1EP_CsFfqGoU0MZWGGJA9a18HpU4wkkiX"
+              target="_blank"
+            >
+              problems
+            </LinkComponent>{' '}
+            and{' '}
+            <LinkComponent
+              href="https://drive.google.com/drive/u/4/folders/1-tNqwzDAG7k6YfQJFumqZziCXOS3dqkN"
+              target="_blank"
+            >
+              solutions
+            </LinkComponent>{' '}
+            from the event.
+          </Paragraph>
         </Center>
-
         <Row>
           <Left>
             <SectionTitle>What is this?</SectionTitle>
