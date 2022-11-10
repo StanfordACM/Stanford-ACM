@@ -81,7 +81,7 @@ const SectionTitle = styled.h3`
   color: #376caa;
   font-size: 1.75em;
   font-weight: 500;
-  font-family: 'Mukta', sans-serif;
+  font-family: Mukta, sans-serif;
   margin-bottom: 0.2em;
 `;
 
@@ -108,21 +108,12 @@ export default function PuzzleHunt() {
           <Paragraph>
             Puzzle Hunt for fall 2022 just ended! Check back next year for more,
             and feel free to check out{' '}
-            <LinkComponent
-              href="https://drive.google.com/drive/u/4/folders/1EP_CsFfqGoU0MZWGGJA9a18HpU4wkkiX"
-              target="_blank"
-            >
-              problems
-            </LinkComponent>{' '}
-            and{' '}
-            <LinkComponent
-              href="https://drive.google.com/drive/u/4/folders/1-tNqwzDAG7k6YfQJFumqZziCXOS3dqkN"
-              target="_blank"
-            >
-              solutions
+            <LinkComponent href="/puzzleHunt/2022">
+              puzzles and solutions
             </LinkComponent>{' '}
             from the event.
           </Paragraph>
+          <RegisterButton href="/puzzleHunt/2022">View Puzzles</RegisterButton>
         </Center>
         <Row>
           <Left>
@@ -135,7 +126,10 @@ export default function PuzzleHunt() {
               <br />
               <b>No prior experience is needed.</b>
               <br />
-              See previous puzzle hunts (hosted by{' '}
+              See puzzle hunt 2022{' '}
+              <LinkComponent href="/puzzleHunt/2022">here</LinkComponent>.
+              <br />
+              See pre-2020 puzzle hunts (hosted by{' '}
               <LinkComponent href="https://sumo.stanford.edu">
                 SUMO
               </LinkComponent>
