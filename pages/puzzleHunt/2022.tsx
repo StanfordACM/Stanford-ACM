@@ -9,7 +9,7 @@ import {
 } from '../../components/section';
 
 const Image = styled.img`
-  max-height: 1000px;
+  max-height: 562px;
   height: 100%;
   object-fit: contain;
 `;
