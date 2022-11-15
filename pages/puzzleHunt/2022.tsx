@@ -249,7 +249,7 @@ export default function PuzzleHunt2022() {
         </Center>
       </Section>
       <Section>
-        <Title>Puzzles</Title>
+        <Title>Fall 2022: Mission to Mars</Title>
         <PuzzlesTable />
       </Section>
       <Section title="Credits">

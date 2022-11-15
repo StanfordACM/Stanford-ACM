@@ -126,7 +126,7 @@ export default function PuzzleHunt() {
               <br />
               <b>No prior experience is needed.</b>
               <br />
-              See puzzle hunt 2022{' '}
+              See Puzzle Hunt Fall 2022: Mission to Mars{' '}
               <LinkComponent href="/puzzleHunt/2022">here</LinkComponent>.
               <br />
               See pre-2020 puzzle hunts (hosted by{' '}
