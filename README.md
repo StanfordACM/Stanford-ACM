@@ -18,4 +18,4 @@ yarn dev
 
 ## Contributing
 
-Do not push to the `master` branch directly. Instead, open a pull request and merge it into `master` after it has been approved.
+Do not push to the `main` branch directly. Instead, open a pull request and merge it into `main` after it has been approved.
