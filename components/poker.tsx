@@ -5,12 +5,9 @@ import { Red, Title } from '../components/section';
 const Container = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-
-  @media (max-width: ${({ theme }) => theme.screen.desktop}) {
-    justify-content: center;
-  }
 `;
 
 const Left = styled.div`
