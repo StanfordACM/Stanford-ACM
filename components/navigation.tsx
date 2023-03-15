@@ -133,6 +133,12 @@ export default function Navigation({ pageName }: { pageName: string }) {
         >
           hacky evenings
         </NavigationLink>
+        <NavigationLink
+          selected={pageName === 'pokerTournament'}
+          href="/pokerTournament"
+        >
+          poker tournament
+        </NavigationLink>
       </Links>
     </Sidebar>
   );

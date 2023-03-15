@@ -17,6 +17,10 @@ export const Title = styled.h1`
   }
 `;
 
+export const Red = styled.span`
+  color: ${({ theme }) => theme.colors.red};
+`;
+
 export const Paragraph = styled.p`
   font-size: 18px;
   line-height: 1.8em;
