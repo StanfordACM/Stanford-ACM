@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import styled from 'styled-components';
+
 import Layout from '../../components/layout';
 import {
   LinkComponent,
@@ -8,6 +10,10 @@ import {
   Title
 } from '../../components/section';
 
+const ProgramsList = styled.ul`
+  max-width: 932px;
+`;
+
 export default function Contact() {
   return (
     <Layout title="ProCo Information" pageName="proco">
@@ -15,15 +21,20 @@ export default function Contact() {
         <Title>ProCo Information</Title>
         <h2>Team Registration</h2>
         <Paragraph>
-          Due to the online nature of the contest, Stanford requires a maximum
-          of 300 participants. Thus, slots to participate are awarded on a first
-          come first serve basis. International students are welcome but are not
-          eligible for swag.
+          This year&apos;s competition will be in-person at the Stanford campus.
+          We will be hosting a maximum of 300 participants. Thus, slots to
+          participate are awarded on a first come first serve basis.
         </Paragraph>
         <Paragraph>
           <strong>
-            The contest happened on March 5, 2022. Registration has closed.
-            Information for next year&apos;s ProCo will be released soon.
+            The contest is scheduled for April 15, 2023. Registration for the
+            contest closes on April 5th, 2023. We will be sending out more
+            details about the contest&apos;s logistics by email to accepted
+            participants. People can register at{' '}
+            <LinkComponent href="https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform">
+              https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform
+            </LinkComponent>
+            .
           </strong>
         </Paragraph>
         <Paragraph>
@@ -53,8 +64,8 @@ export default function Contact() {
           Advanced division.
         </Paragraph>
         <Paragraph>
-          If eligible for either division, teams may choose compete in the
-          Advanced division. One incentive for doing so, is better prizes.
+          If eligible for either division, teams may choose to compete in the
+          Advanced division. One incentive for doing so is better prizes.
         </Paragraph>
         <Paragraph>
           The ProCo staff has the right to disqualify any team that does not
@@ -76,7 +87,7 @@ export default function Contact() {
           Cool prizes will be awarded to the highest-scoring teams and vary year
           to year. Previous first place prizes have included Raspberry Pis, iPad
           Minis and Nintendo 3DSes. This year, our prizes are sponsored by
-          Citadel Securities, and Amber by LatticeWork.
+          Citadel Securities and Hudson River Trading.
         </Paragraph>
         <Title>Rules</Title>
         <h2>Access and Communication</h2>
@@ -110,24 +121,27 @@ export default function Contact() {
             as closely as possible to the specifications. This includes spacing,
             capitalization, and punctuation. See below for examples for input
             and output.
-            <ul>
+            <ProgramsList>
               <li>
                 Java
+                <br />
                 <img alt="Java IO" src="/proco/java-io.png" />
               </li>
               <li>
                 C++
+                <br />
                 <img alt="C++ IO" src="/proco/cpp-io.png" />
               </li>
               <li>
-                C
+                C<br />
                 <img alt="C IO" src="/proco/c-io.png" />
               </li>
               <li>
                 Python 2.7
+                <br />
                 <img alt="Python 2.7 IO" src="/proco/python2.7-io.png" />
               </li>
-            </ul>
+            </ProgramsList>
           </li>
         </ul>
         <h2>Submissions</h2>
@@ -192,12 +206,15 @@ export default function Contact() {
           registration form, and include their username in the form.
         </Paragraph>
         <Paragraph>
-          They will also have to create their team on Codeforces, and report
-          their team ID upon check-in the day of the contest. Stay tuned for
-          more instructions on how to do this. After registration closes, ProCo
-          staff members will also be able to help students do this on the day of
-          the contest. Furthermore, we will host office hours to help students
-          with doing this ahead of time.
+          Each team must also create a team ID on Codeforces:{' '}
+          <LinkComponent
+            href="https://docs.google.com/document/d/1PbllTUWEOEI-9VDyD4hfH2BEaMDCvvi5y1PYiHd2oME/edit"
+            target="_blank"
+          >
+            https://docs.google.com/document/d/1PbllTUWEOEI-9VDyD4hfH2BEaMDCvvi5y1PYiHd2oME/edit
+          </LinkComponent>
+          . Each team member will need to submit this team ID and team name when
+          filling out the registration form.
         </Paragraph>
         <h2>Scoring</h2>
         <Paragraph>

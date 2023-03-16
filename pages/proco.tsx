@@ -20,8 +20,9 @@ const Introduction = styled.div`
 `;
 
 const ProcoImage = styled.img`
-  height: 20%;
-  width: 20%;
+  height: 100%;
+  width: 100%;
+  max-width: 160px;
 `;
 
 const SponsorParagraph = styled(Paragraph)`
@@ -55,7 +56,12 @@ export default function Contact() {
         <Paragraph>
           ProCo is hosted by Stanford ACM.{' '}
           <strong>
-            The contest will happen on March 5, 2022. Registration has closed.
+            The contest will happen in-person on April 15, 2023. Registration
+            for the contest closes on April 5th, 2023. People can register at
+            <LinkComponent href="https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform">
+              https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform
+            </LinkComponent>
+            .
           </strong>
         </Paragraph>
         <Paragraph>
@@ -80,15 +86,23 @@ export default function Contact() {
         <Title>Sponsors</Title>
         <SponsorsRow>
           <SponsorRow>
-            <SponsorRowImage src="/logos/verkada.png" alt="Verkada" />
+            <SponsorRowImage src="/logos/hrt.png" alt="Hudston River Trading" />
           </SponsorRow>
           <SponsorRow>
-            <SponsorRowImage src="/logos/citadelDouble.png" alt="Citadel" />
-          </SponsorRow>
-          <SponsorRow>
-            <SponsorRowImage src="/logos/amber.png" alt="Amber" />
+            <SponsorRowImage src="/logos/citadel2.png" alt="Citadel" />
           </SponsorRow>
         </SponsorsRow>
+        <SponsorParagraph>
+          Hudson River Trading: Hudson River Trading is always on the lookout
+          for passionate problem solvers and as such is excited to be a sponsor
+          for this event. We are a multi-asset class quantitative trading firm
+          that provides liquidity on global markets and directly to our clients.
+          We have built one of the world&apos;s most advanced computing
+          environments for research and development, modeling, and risk
+          management, and are at the forefront of technical innovation for
+          financial markets everywhere. We are thoughtful market leaders,
+          committed to the health and longevity of global markets.
+        </SponsorParagraph>
         <SponsorParagraph>
           Citadel: Citadel and Citadel Securities, two of the leading firms
           within the financial services industry, are proud to be a sponsoring
@@ -103,18 +117,6 @@ export default function Contact() {
           opportunity for select freshman and sophomores to visit our offices,
           network with our employees and other partcipants, and get an exlusive,
           in-depth look at all our offerings.
-        </SponsorParagraph>
-        <SponsorParagraph>
-          Amber was developed at LatticeWork by leading experts in cloud and
-          data storage technologies. Founded in 2014 by Dr. Pantas Sutardja,
-          Co-Founder & former CTO of Marvell Technology Group - a global leader
-          in digital storage technologies, LatticeWork is uniquely positioned to
-          be a transformational leader for edge computing data storage
-          technology with the world&apos;s first Personal Hybrid Cloud Storage
-          Platform. LatticeWork is proud to be a sponsor for Stanford ACM&apos;s
-          2022 ProCo event. We are offering participants special promo code:
-          ACMPROCO20 for 20% discount on all Amber products at
-          www.myamberlife.com.
         </SponsorParagraph>
       </Section>
       <Section id="faq">
@@ -202,8 +204,7 @@ export default function Contact() {
           <strong>Q: Will my travel expenses be reimbursed? </strong>
         </Paragraph>
         <Paragraph>
-          A: Since this year&apos;s contest is online, there are no travel
-          expenses.
+          A: Unfortunately, we will not be reimbursing travel expenses.
         </Paragraph>
 
         <Paragraph>

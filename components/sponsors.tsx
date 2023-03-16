@@ -22,7 +22,7 @@ export const SponsorsRow = styled.div`
 
 export const SponsorRow = styled.a`
   height: 100px;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
 `;
