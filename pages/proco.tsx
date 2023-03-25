@@ -182,7 +182,7 @@ export default function Contact() {
             output.
           </li>
           <li>
-            Python 2.7 with IDLE: The console is built into the scripting
+            Python 3 with IDLE: The console is built into the scripting
             environment.
           </li>
         </ul>

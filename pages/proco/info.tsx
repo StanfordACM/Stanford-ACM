@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
-
 import styled from 'styled-components';
 
+import { Code } from '../../components/code';
 import Layout from '../../components/layout';
 import {
   LinkComponent,
@@ -13,6 +12,52 @@ import {
 const ProgramsList = styled.ul`
   max-width: 932px;
 `;
+
+const JavaCode = `import java.io.*;
+import java.util.*;
+import java.lang.*;
+
+//class name must be the TASK name of the problem
+class addtwonums {
+
+  public static void main(String[] args) throws java.lang.Exception {
+
+    //make an input reader called input
+    //input.readLine() reads in the next line of input
+    BufferedReader input = new BufferedReader (new InputStreamReader(System.in));
+    
+    //a StringTokenizer st can parse space-separated input in a line (input.readLine())
+    StringTokenizer st = new StringTokenizer(input.readLine()) ;
+    
+    //st.nextToken() gets the next space-separated part of input
+    //Integer.parseInt(st.nextToken()) interprets token as an integer
+    int a = Integer.parseInt(st.nextToken());
+    int b = Integer.parseInt(st.nextToken());
+    System.out.println(a + b);
+  }
+}`;
+
+const CppCode = `#include <iostream>
+using namespace std;
+
+int main() {
+  int a, b;
+  cin >> a >> b; //read in input from stdin
+  cout << a + b << "\\n"; //prints a + b to stdout
+  return 0;
+}`;
+
+const CCode = `#include <stdio.h>
+
+int main(void) {
+  int a, b;
+  scanf("%d %d", &a, &b); //read in input from stdin
+  printf("%d\\n", a + b); //prints a + b to stdout
+  return 0;
+}`;
+
+const PythonCode = `a, b = [int (x) for x in input().split()]
+print(a + b)`;
 
 export default function Contact() {
   return (
@@ -110,11 +155,11 @@ export default function Contact() {
         <ul>
           <li>
             All input will be received from console input (System.in in Java,
-            cin in C++, stdin in C, sys.stdin in Python 2.7).
+            cin in C++, stdin in C, sys.stdin in Python 3).
           </li>
           <li>
             All output should be sent to console output (System.out in Java,
-            cout in C++, stdout in C, sys.stdout in Python 2.7).
+            cout in C++, stdout in C, sys.stdout in Python 3).
           </li>
           <li>
             Each program will specify its own output format. Format all output
@@ -125,21 +170,21 @@ export default function Contact() {
               <li>
                 Java
                 <br />
-                <img alt="Java IO" src="/proco/java-io.png" />
+                <Code language="java" code={JavaCode} />
               </li>
               <li>
                 C++
                 <br />
-                <img alt="C++ IO" src="/proco/cpp-io.png" />
+                <Code language="cpp" code={CppCode} />
               </li>
               <li>
                 C<br />
-                <img alt="C IO" src="/proco/c-io.png" />
+                <Code language="c" code={CCode} />
               </li>
               <li>
-                Python 2.7
+                Python 3
                 <br />
-                <img alt="Python 2.7 IO" src="/proco/python2.7-io.png" />
+                <Code language="python" code={PythonCode} />
               </li>
             </ProgramsList>
           </li>
@@ -147,12 +192,11 @@ export default function Contact() {
         <h2>Submissions</h2>
         <ul>
           <li>
-            We will be accepting submissions in C, C++, Java, Python 2.7, and
-            Python 3.6.
+            We will be accepting submissions in C, C++, Java, and Python 3.6.
           </li>
           <li>
-            Solutions will be graded using GNU C++11, Java 1.8.0, Python 2.7,
-            and Python 3.6 on Linux machines.
+            Solutions will be graded using GNU C++11, Java 1.8.0, and Python 3.6
+            on Linux machines.
           </li>
           <li>
             All files must be named in the format specified on your problem
