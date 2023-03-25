@@ -196,32 +196,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   /**
-  * Code formatting
-  */
-  pre,
-  code {
-    font-size: 15px;
-    border: 1px solid ${({ theme }) => theme.colors.grayLight};
-    border-radius: 3px;
-    background-color: #eef;
-  }
-
-  code {
-    padding: 1px 5px;
-  }
-
-  pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-      border: 0;
-      padding-right: 0;
-      padding-left: 0;
-    }
-  }
-
-  /**
   * Icons
   */
   .icon {
