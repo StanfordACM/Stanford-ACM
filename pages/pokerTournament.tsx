@@ -16,21 +16,21 @@ export default function PokerTournament() {
           Think you might be the best poker player on campus? Or just looking
           for a good time? What are you waiting for?
           <br />
-          <LinkComponent href="https://docs.google.com/forms/d/1QX1I4HceY1CZ805rvYOU9AaNZYQ4AdrStJots526vG0/viewform?edit_requested=true#responses">
+          <LinkComponent href="https://forms.gle/wFPCRSfEW8hHj339A">
             Sign up now.
           </LinkComponent>
           <br />
           All skill levels are welcome. There will be food, swag, and prizes.
         </Paragraph>
         <Paragraph>
-          <b>Schedule</b>: TBA
+          <b>Schedule</b>: May 13, 2023
           <br />
           (We expect the preliminary rounds will last several hours, with one
           final table to conclude the event. We will also have tables /
           slideshows from our sponsors.)
         </Paragraph>
         <Paragraph>
-          <b>Sponsors</b>: TBA
+          <b>Sponsors</b>: Two Sigma
           <br />
           (If you are interested in partnering with us, please email{' '}
           <LinkComponent href="mailto:stanfordpokertournament@gmail.com">
