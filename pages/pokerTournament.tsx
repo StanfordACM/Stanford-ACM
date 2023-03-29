@@ -30,7 +30,7 @@ export default function PokerTournament() {
           slideshows from our sponsors.)
         </Paragraph>
         <Paragraph>
-          <b>Sponsors</b>: Two Sigma
+          <b>Sponsors</b>: Two Sigma, Hudson River Trading
           <br />
           (If you are interested in partnering with us, please email{' '}
           <LinkComponent href="mailto:stanfordpokertournament@gmail.com">
