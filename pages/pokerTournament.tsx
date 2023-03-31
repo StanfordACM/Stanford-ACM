@@ -8,7 +8,7 @@ export default function PokerTournament() {
       <Section>
         <PokerTitle />
         <Paragraph>
-          On May 6, 2023, Stanford ACM is hosting Stanford&apos;s inaugural{' '}
+          On May 13, 2023, Stanford ACM is hosting Stanford&apos;s inaugural{' '}
           <b>Poker Tournament</b>, sponsored by the premier trading firms in the
           nation (HRT, Jane Street, etc.)
         </Paragraph>
