@@ -53,7 +53,12 @@ export default function About() {
         </Paragraph>
         <Paragraph>
           <strong>
-            The contest will happen on March 5, 2022. Registration has closed.
+            The contest will happen in-person on April 15, 2023. Registration
+            for the contest closes on April 5th, 2023. People can register at{' '}
+            <LinkComponent href="https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform">
+              https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform
+            </LinkComponent>
+            .
           </strong>
         </Paragraph>
 
