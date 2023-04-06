@@ -73,7 +73,7 @@ export default function Contact() {
         <Paragraph>
           <strong>
             The contest is scheduled for April 15, 2023. Registration for the
-            contest closes on April 5th, 2023. We will be sending out more
+            contest closes on April 10th, 2023. We will be sending out more
             details about the contest&apos;s logistics by email to accepted
             participants. Students may register at{' '}
             <LinkComponent href="https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform">
