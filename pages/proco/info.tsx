@@ -98,6 +98,26 @@ export default function Contact() {
           be allowed to replace team members, only drop them if they are unable
           to attend.
         </Paragraph>
+        <h2>Schedule</h2>
+        <Paragraph>
+          9 AM: Check-in
+          <br />
+          9:30 AM: Opening ceremony
+          <br />
+          9:45 AM: Practice contest
+          <br />
+          10:10 AM: 5 minute break
+          <br />
+          10:15 AM: Contest start
+          <br />
+          1:15 PM: Contest end
+          <br />
+          1:15 PM-2:15 PM: Lunch
+          <br />
+          2:15 PM-2:30 PM: XCamp presentation
+          <br />
+          2:30 PM: Closing ceremony
+        </Paragraph>
         <h2>Divisions</h2>
         <Paragraph>
           There are two different divisions in the competition: Novice and
