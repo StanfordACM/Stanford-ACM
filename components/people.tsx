@@ -87,13 +87,13 @@ export function Person({
   position
 }: {
   name: string;
-  year: number;
+  year?: number;
   position?: string;
 }) {
   return (
     <PersonContainer>
       <PersonName>{name}</PersonName>
-      <PersonYear>{year}</PersonYear>
+      {year && <PersonYear>{year}</PersonYear>}
       {position && <PersonTitle>{position}</PersonTitle>}
     </PersonContainer>
   );

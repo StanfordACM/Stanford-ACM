@@ -13,7 +13,37 @@ export default function Contact() {
     <Layout title="Officers" pageName="officers">
       <Container>
         <Title>Meet the ACM Officers!</Title>
-        <People title="Current" startShown={true}>
+        <People title="2023-2024" startShown={true}>
+          <Person name="Scott Hickmann" year={2025} position="Co-President" />
+          <Person name="Nathan Chi" year={2026} position="Co-President" />
+          <Person name="Kevin Li" year={2025} position="Vice-President" />
+          <Person name="Sydney Yan" year={2025} position="Financial Officer" />
+          <Person name="Hannah Kim" year={2024} position="Financial Officer" />
+          <Person
+            name="Kenan Hasanaliyev"
+            year={2025}
+            position="MLab Co-Director"
+          />
+          <Person
+            name="Conner Takehana"
+            year={2026}
+            position="MLab Co-Director"
+          />
+          <Person name="Helen Deng" year={2025} position="MLab Co-Director" />
+          <Person name="Tanmay Garg" year={2026} position="ProCo Director" />
+          <Person
+            name="Ian Ng"
+            year={2024}
+            position="Puzzle Hunt Co-Director"
+          />
+          <Person
+            name="Bradley Moon"
+            year={2025}
+            position="Puzzle Hunt Co-Director"
+          />
+          <Person name="William Li" position="Social Chair" />
+        </People>
+        <People title="Alumni" startShown={false}>
           <Person name="Jeremy Kim" year={2024} position="Co-President" />
           <Person name="Ian Ng" year={2024} position="Co-President" />
           <Person name="Patrick Liu" year={2024} position="MLab Co-Director" />
@@ -35,9 +65,11 @@ export default function Contact() {
           <Person name="Rohan Sikand" year={2023} position="Social Chair" />
           <Person name="Rishi Verma" year={2025} position="ProCo Chair" />
           <Person name="Hannah Kim" year={2024} position="Financial Officer" />
-          <Person name="Scott Hickmann" year={2025} position="Webmaster" />
-        </People>
-        <People title="Alumni" startShown={false}>
+          <Person
+            name="Scott Hickmann"
+            year={2025}
+            position="W3Lab Director Webmaster"
+          />
           <Person name="Ryan Chi" year={2024} />
           <Person name="Erik Rozi" year={2024} />
           <Person name="William Zhang" year={2024} />
