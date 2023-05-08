@@ -41,6 +41,7 @@ export default function Contact() {
             year={2025}
             position="Puzzle Hunt Co-Director"
           />
+          <Person name="Ishan Khare" year={2025} position="Reading Group" />
           <Person name="William Li" position="Social Chair" />
         </People>
         <People title="Alumni" startShown={false}>
