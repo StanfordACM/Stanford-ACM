@@ -10,17 +10,15 @@ export default function PokerTournament() {
         <Paragraph>
           On May 13, 2023, Stanford ACM is hosting Stanford&apos;s inaugural{' '}
           <b>Poker Tournament</b>, sponsored by the premier trading firms in the
-          nation (HRT, Jane Street, etc.)
+          nation.
         </Paragraph>
         <Paragraph>
           Think you might be the best poker player on campus? Or just looking
           for a good time? What are you waiting for?
           <br />
-          <LinkComponent href="https://forms.gle/wFPCRSfEW8hHj339A">
-            Sign up now.
-          </LinkComponent>
-          <br />
           All skill levels are welcome. There will be food, swag, and prizes.
+          <br />
+          The 2023 event has concluded. Please join us next year!
         </Paragraph>
         <Paragraph>
           <b>Schedule</b>: May 13, 2023
@@ -30,7 +28,8 @@ export default function PokerTournament() {
           slideshows from our sponsors.)
         </Paragraph>
         <Paragraph>
-          <b>Sponsors</b>: Two Sigma, Hudson River Trading
+          <b>Sponsors</b>: Two Sigma, Hudson River Trading, Jump Trading, Jane
+          Street
           <br />
           (If you are interested in partnering with us, please email{' '}
           <LinkComponent href="mailto:stanfordpokertournament@gmail.com">

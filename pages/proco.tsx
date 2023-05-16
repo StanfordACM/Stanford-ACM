@@ -91,6 +91,9 @@ export default function Contact() {
           <SponsorRow>
             <SponsorRowImage src="/logos/citadel2.png" alt="Citadel" />
           </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/logos/x-camp.png" alt="X-camp" />
+          </SponsorRow>
         </SponsorsRow>
         <SponsorParagraph>
           Hudson River Trading: Hudson River Trading is always on the lookout
