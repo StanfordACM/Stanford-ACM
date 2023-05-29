@@ -25,6 +25,7 @@ export const Paragraph = styled.p`
   font-size: 18px;
   line-height: 1.8em;
   margin-bottom: 20px;
+  overflow-wrap: break-word;
 `;
 
 const LinkContent = styled.a`

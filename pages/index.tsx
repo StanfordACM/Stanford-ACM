@@ -53,12 +53,8 @@ export default function About() {
         </Paragraph>
         <Paragraph>
           <strong>
-            The contest will happen in-person on April 15, 2023. Registration
-            for the contest closes on April 10th, 2023. Students may register at{' '}
-            <LinkComponent href="https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform">
-              https://docs.google.com/forms/d/1z9USVhZs7NW3Vs8swU-6b4_oI3z6WJhYcu2MdzYZZLM/viewform
-            </LinkComponent>
-            .
+            The contest happened in-person on April 15, 2023. More info about
+            ProCo 2024 will be released as we get closer to the spring.
           </strong>
         </Paragraph>
 
