@@ -29,7 +29,6 @@ export default function Contact() {
             year={2026}
             position="MLab Co-Director"
           />
-          <Person name="Helen Deng" year={2025} position="MLab Co-Director" />
           <Person name="Tanmay Garg" year={2026} position="ProCo Director" />
           <Person
             name="Ian Ng"
