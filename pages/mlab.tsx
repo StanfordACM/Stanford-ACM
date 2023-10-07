@@ -26,7 +26,7 @@ const EventTitle = styled(EventText)`
 function Event({ date, title }: { date: Date; title: string }) {
   return (
     <EventContainer>
-      <EventDate>{date.toDateString().replace(' 2022', '')}</EventDate>
+      <EventDate>{date.toDateString().replace(' 2023', '')}</EventDate>
       <EventTitle>{title}</EventTitle>
     </EventContainer>
   );
@@ -94,33 +94,36 @@ export default function Contact() {
       </Section>
       <Section id="board">
         <People title="Board" startShown={true} bigTitle>
-          <Person name="Patrick Liu" year={2024} position="Co-Director" />
-          <Person name="Niveditha Iyer" year={2024} position="Co-Director" />
-          <Person name="Erik Rozi" year={2024} position="Co-Director" />
+          <Person name="Kenan Hasanaliyev" year={2025} position="Co-Director" />
+          <Person name="Conner Takehana" year={2026} position="Co-Director" />
         </People>
       </Section>
       <Section id="schedule">
         <Title>Fall 2023 Schedule</Title>
-        <Event date={new Date(2022, 9, 11)} title="ACM Info Session" />
+        <Paragraph>
+          This year, we&apos;ll be meeting weekly on Wednesday from 4:30-6:00pm
+          PT.
+        </Paragraph>
+        <Event date={new Date(2023, 9, 8)} title="ACM Info Session" />
         <Event
-          date={new Date(2022, 9, 18)}
+          date={new Date(2023, 9, 11)}
           title="Workshop 1: Shallow Neural Networks"
         />
         <Event
-          date={new Date(2022, 9, 25)}
+          date={new Date(2023, 9, 18)}
           title="Workshop 2: Deep Neural Networks with Pytorch"
         />
-        <Event date={new Date(2022, 10, 25)} title="Workshop 3: CNNs" />
+        <Event date={new Date(2023, 9, 25)} title="Workshop 3: CNNs" />
         <Event
-          date={new Date(2022, 10, 1)}
+          date={new Date(2023, 10, 1)}
           title="Workshop 4: Implementation I"
         />
         <Event
-          date={new Date(2022, 10, 8)}
+          date={new Date(2023, 10, 8)}
           title="Workshop 5: Implementation II"
         />
-        <Event date={new Date(2022, 11, 15)} title="Workshop 6: Transformers" />
-        <Event date={new Date(2022, 11, 29)} title="Onboarding Projects Due" />
+        <Event date={new Date(2023, 10, 15)} title="Workshop 6: Transformers" />
+        <Event date={new Date(2023, 10, 29)} title="Onboarding Projects Demo" />
       </Section>
       <Section id="recent-projects">
         <Title>Recent Projects</Title>
