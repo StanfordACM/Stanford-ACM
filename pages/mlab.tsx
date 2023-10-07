@@ -100,27 +100,26 @@ export default function Contact() {
         </People>
       </Section>
       <Section id="schedule">
-        <Title>Fall 2022 Schedule</Title>
-        <Event date={new Date(2022, 10, 4)} title="ACM Info Session" />
+        <Title>Fall 2023 Schedule</Title>
+        <Event date={new Date(2022, 9, 11)} title="ACM Info Session" />
         <Event
-          date={new Date(2022, 10, 11)}
+          date={new Date(2022, 9, 18)}
           title="Workshop 1: Shallow Neural Networks"
         />
         <Event
-          date={new Date(2022, 10, 18)}
+          date={new Date(2022, 9, 25)}
           title="Workshop 2: Deep Neural Networks with Pytorch"
         />
         <Event date={new Date(2022, 10, 25)} title="Workshop 3: CNNs" />
         <Event
-          date={new Date(2022, 11, 1)}
+          date={new Date(2022, 10, 1)}
           title="Workshop 4: Implementation I"
         />
         <Event
-          date={new Date(2022, 11, 8)}
+          date={new Date(2022, 10, 8)}
           title="Workshop 5: Implementation II"
         />
-        <Event date={new Date(2022, 11, 15)} title="Project Office Hours" />
-        <Event date={new Date(2022, 11, 22)} title="Project Office Hours" />
+        <Event date={new Date(2022, 11, 15)} title="Workshop 6: Transformers" />
         <Event date={new Date(2022, 11, 29)} title="Onboarding Projects Due" />
       </Section>
       <Section id="recent-projects">
