@@ -128,12 +128,6 @@ export default function Navigation({ pageName }: { pageName: string }) {
           proco
         </NavigationLink>
         <NavigationLink
-          selected={pageName === 'hackyEvenings'}
-          href="/hackyEvenings"
-        >
-          hacky evenings
-        </NavigationLink>
-        <NavigationLink
           selected={pageName === 'pokerTournament'}
           href="/pokerTournament"
         >

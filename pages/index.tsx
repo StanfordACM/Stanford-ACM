@@ -63,13 +63,6 @@ export default function About() {
           ACM hosts a puzzle hunt open to all Stanford students. We invite you
           to solve puzzles as quickly as possible for prizes while having fun!
         </Paragraph>
-
-        <SectionTitle href="/hackyEvenings">Hacky Evenings</SectionTitle>
-        <Paragraph>
-          Hacky Evenings is a weekly programming meetup where students can
-          collaborate on computer science projects. Hacky Evenings has
-          previously hosted workshops on topics such as building web servers.
-        </Paragraph>
       </Section>
     </Layout>
   );
