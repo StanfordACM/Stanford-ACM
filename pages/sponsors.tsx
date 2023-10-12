@@ -31,6 +31,12 @@ export default function Contact() {
             <img src="/logos/citadel2.png" alt="Citadel Securities" />
           </Sponsor>
           <Sponsor>
+            <img src="/logos/hrt.png" alt="HRT" width={140} />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/janestreet.png" alt="Jane Street" />
+          </Sponsor>
+          <Sponsor>
             <img src="/logos/sig.png" alt="Sig" />
           </Sponsor>
           <Sponsor>

@@ -4,9 +4,9 @@ export const Sponsors = styled.div`
   text-align: center;
 `;
 
-export const Sponsor = styled.div`
+export const Sponsor = styled.div<{ width?: number }>`
   display: inline-block;
-  width: 250px;
+  width: ${(props) => props.width || 250}px;
   text-align: center;
   padding: 10px;
   margin: 0 2px;
