@@ -39,7 +39,7 @@ const RegisterButton = styled.a`
   cursor: pointer;
   color: white;
   font-family: Mukta;
-  `;
+`;
 
 const Row = styled.div`
   display: flex;
@@ -82,7 +82,7 @@ const Right = styled.div`
 `;
 
 const Header = styled.h2`
-font: mukta;
+  font: mukta;
   font-size: 1.3em;
   font-weight: 600;
   margin: 0.6em 0;
@@ -117,24 +117,33 @@ export default function PuzzleHunt() {
             🧋 boba provided
           </Info>
           <Header>
-            <h2>Puzzle Hunt signups for fall 2023 are&nbsp;
-            <LinkComponent href="https://forms.gle/eqca6sPu56yc6RB96" target="_blank">
-              now open
-            </LinkComponent>!</h2>
-            </Header>
-            <Paragraph>More details can be found&nbsp;
-            <LinkComponent href="/puzzleHunt/2023" target="_blank">
-            here
-            </LinkComponent>. {' '}
-            
-            </Paragraph> 
-          <RegisterButton href="https://forms.gle/eqca6sPu56yc6RB96" target="_blank">Register</RegisterButton>
+            <h2>
+              Puzzle Hunt signups for fall 2023 are&nbsp;
+              <LinkComponent
+                href="https://forms.gle/eqca6sPu56yc6RB96"
+                target="_blank"
+              >
+                now open
+              </LinkComponent>
+              !
+            </h2>
+          </Header>
           <Paragraph>
-          Check out {' '}
+            More details can be found&nbsp;
+            <LinkComponent href="/puzzleHunt/2023">here</LinkComponent>.{' '}
+          </Paragraph>
+          <RegisterButton
+            href="https://forms.gle/eqca6sPu56yc6RB96"
+            target="_blank"
+          >
+            Register
+          </RegisterButton>
+          <Paragraph>
+            Check out{' '}
             <LinkComponent href="/puzzleHunt/2022">
-              puzzles and solutions 
-            </LinkComponent>
-            {' '}from last year's event!
+              puzzles and solutions
+            </LinkComponent>{' '}
+            from last year&apos;s event!
           </Paragraph>
         </Center>
         <Row>
