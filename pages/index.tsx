@@ -5,9 +5,7 @@ import {
   Section,
   Title
 } from '../components/section';
-
-import { SignUpButton, Center } from './puzzleHunt/2023';
-import styled from 'styled-components';
+import { Center, SignUpButton } from './puzzleHunt/2023';
 
 function SectionTitle({
   href,
@@ -23,7 +21,7 @@ function SectionTitle({
 export default function About() {
   return (
     <Layout title="About" pageName="about">
-      <Section>
+      <Section id="puzzlehunt">
         <Center>
           <Title>Puzzle Hunt 2023: Mystery in History</Title>
           <Paragraph>Puzzle Hunt is on October XX</Paragraph>

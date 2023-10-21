@@ -117,16 +117,14 @@ export default function PuzzleHunt() {
             🧋 boba provided
           </Info>
           <Header>
-            <h2>
-              Puzzle Hunt signups for fall 2023 are&nbsp;
-              <LinkComponent
-                href="https://forms.gle/eqca6sPu56yc6RB96"
-                target="_blank"
-              >
-                now open
-              </LinkComponent>
-              !
-            </h2>
+            Puzzle Hunt signups for fall 2023 are&nbsp;
+            <LinkComponent
+              href="https://forms.gle/eqca6sPu56yc6RB96"
+              target="_blank"
+            >
+              now open
+            </LinkComponent>
+            !
           </Header>
           <Paragraph>
             More details can be found&nbsp;
