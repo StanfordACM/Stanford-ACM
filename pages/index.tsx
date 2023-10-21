@@ -6,6 +6,9 @@ import {
   Title
 } from '../components/section';
 
+import {SignUpButton, Center} from './puzzleHunt/2023';
+import styled from 'styled-components';
+
 function SectionTitle({
   href,
   children
@@ -17,12 +20,25 @@ function SectionTitle({
   );
 }
 
+
 export default function About() {
   return (
     <Layout title="About" pageName="about">
+      <Section>
+        <Center>
+        <Title>
+          Puzzle Hunt 2023: Mystery in History
+        </Title>
+        <Paragraph>
+          Puzzle Hunt is on October XX
+        </Paragraph>
+        <SignUpButton>
+          Sign Up
+        </SignUpButton>
+        </Center>
+      </Section>
       <Section id="about">
         <Title>About</Title>
-
         <Paragraph>
           ACM is Stanford&apos;s premier computer science organization. Our
           mission is to build exciting projects to learn about and solve
