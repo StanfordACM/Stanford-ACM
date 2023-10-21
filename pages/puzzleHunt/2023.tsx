@@ -1,8 +1,10 @@
 import styled, { css } from 'styled-components';
 import Layout from '../../components/layout';
-import { SponsorRow,
+import {
+  SponsorRow,
   SponsorRowImage,
-  SponsorsRow } from '../../components/sponsors';
+  SponsorsRow
+} from '../../components/sponsors';
 
 import {
   LinkComponent,
@@ -53,7 +55,7 @@ const CenterSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #EDCDA6;
+  background-color: #edcda6;
   border-radius: 18px;
   padding: 70px 70px 50px 70px;
 `;
@@ -262,7 +264,11 @@ const puzzles: Puzzle[] = [
 export default function PuzzleHunt2023() {
   return (
     <Layout title="Puzzle Hunt 2023" pageName="puzzleHunt" paddingH={40}>
-      <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'></link>
+      <link
+        href="http://fonts.googleapis.com/css?family=Oswald:300"
+        rel="stylesheet"
+        type="text/css"
+      ></link>
       <Section>
         <Center>
           <div>
@@ -277,43 +283,55 @@ export default function PuzzleHunt2023() {
       </Section>
       <Section>
         <Title>Puzzle Hunt Fall 2023: Mystery in History</Title>
-      <Center>
-        <IntroText>
-            Signups are now open!
-        </IntroText>
-        <SignUpButton href="https://forms.gle/eqca6sPu56yc6RB96" target="_blank">
-           Sign up
-        </SignUpButton>
-        <IntroText>
-          For hunt details, click{' '} 
-          <LinkComponent href="https://docs.google.com/document/d/1NDAmQZblLul5ztnWuZy14vqyYn7dwCJW/edit?usp=sharing&ouid=116577593488707626970&rtpof=true&sd=true" target="_blank">
-          here
-          </LinkComponent>.
-        </IntroText>
-      </Center>
+        <Center>
+          <IntroText>Signups are now open!</IntroText>
+          <SignUpButton
+            href="https://forms.gle/eqca6sPu56yc6RB96"
+            target="_blank"
+          >
+            Sign up
+          </SignUpButton>
+          <IntroText>
+            For hunt details, click{' '}
+            <LinkComponent
+              href="https://docs.google.com/document/d/1NDAmQZblLul5ztnWuZy14vqyYn7dwCJW/edit?usp=sharing&ouid=116577593488707626970&rtpof=true&sd=true"
+              target="_blank"
+            >
+              here
+            </LinkComponent>
+            .
+          </IntroText>
+        </Center>
         <CenterSection>
-          <IntroHeader>
-            MISSION BRIEFING
-          </IntroHeader>
+          <IntroHeader>MISSION BRIEFING</IntroHeader>
           <IntroText>
-          Hello, puzzlers, and welcome. You’ve been called here today to solve a centuries-old murder and stop the time-jumping culprit from unraveling the timeline. We’ll be sending you back in time, to some of the most pivotal and mysterious moments in human history. Your job is to find the clues, solve the puzzles, and catch the killer. Time is running out.
+            Hello, puzzlers, and welcome. You’ve been called here today to solve
+            a centuries-old murder and stop the time-jumping culprit from
+            unraveling the timeline. We’ll be sending you back in time, to some
+            of the most pivotal and mysterious moments in human history. Your
+            job is to find the clues, solve the puzzles, and catch the killer.
+            Time is running out.
           </IntroText>
-          <IntroText>
-            Good luck.
-          </IntroText>
+          <IntroText>Good luck.</IntroText>
         </CenterSection>
       </Section>
 
       <Section>
-      <Title>Sponsors</Title>
-      <SponsorsRow>
+        <Title>Sponsors</Title>
+        <SponsorsRow>
           <SponsorRow>
-            <SponsorRowImage src="/puzzleHunt/hrt.png" alt="Hudston River Trading" />
+            <SponsorRowImage
+              src="/puzzleHunt/hrt.png"
+              alt="Hudston River Trading"
+            />
           </SponsorRow>
           <SponsorRow>
-            <SponsorRowImage src="/puzzleHunt/JaneStreet.png" alt="Hudston River Trading" />
+            <SponsorRowImage
+              src="/puzzleHunt/JaneStreet.png"
+              alt="Hudston River Trading"
+            />
           </SponsorRow>
-          </SponsorsRow>
+        </SponsorsRow>
       </Section>
     </Layout>
   );

@@ -6,7 +6,7 @@ import {
   Title
 } from '../components/section';
 
-import {SignUpButton, Center} from './puzzleHunt/2023';
+import { SignUpButton, Center } from './puzzleHunt/2023';
 import styled from 'styled-components';
 
 function SectionTitle({
@@ -20,21 +20,14 @@ function SectionTitle({
   );
 }
 
-
 export default function About() {
   return (
     <Layout title="About" pageName="about">
       <Section>
         <Center>
-        <Title>
-          Puzzle Hunt 2023: Mystery in History
-        </Title>
-        <Paragraph>
-          Puzzle Hunt is on October XX
-        </Paragraph>
-        <SignUpButton>
-          Sign Up
-        </SignUpButton>
+          <Title>Puzzle Hunt 2023: Mystery in History</Title>
+          <Paragraph>Puzzle Hunt is on October XX</Paragraph>
+          <SignUpButton>Sign Up</SignUpButton>
         </Center>
       </Section>
       <Section id="about">

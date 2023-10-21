@@ -46,7 +46,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Mukta|Inconsolata|Special+Elite|Rubik|Nunito|Open+Sans:400,700&display=fallback"
           />
-          
         </Head>
         <body>
           <Main />
