@@ -27,15 +27,19 @@ const Info = styled.div`
 `;
 
 const RegisterButton = styled.a`
-  border-radius: 5px;
   text-align: center;
-  padding: 0.3em;
+  display: inline-block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.5em 1em;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   background-color: #4b65d4;
   cursor: pointer;
   color: white;
-`;
+  font-family: Mukta;
+  `;
 
 const Row = styled.div`
   display: flex;
@@ -77,6 +81,13 @@ const Right = styled.div`
   }
 `;
 
+const Header = styled.h2`
+font: mukta;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0.6em 0;
+`;
+
 const SectionTitle = styled.h3`
   color: #376caa;
   font-size: 1.75em;
@@ -99,21 +110,32 @@ export default function PuzzleHunt() {
             />
           </div>
           <Info>
-            📅 Saturday, October 29th
+            📅 Saturday, November 4th
             <br />
             🕐 1-5pm
             <br />
             🧋 boba provided
           </Info>
+          <Header>
+            <h2>Puzzle Hunt signups for fall 2023 are&nbsp;
+            <LinkComponent href="https://forms.gle/eqca6sPu56yc6RB96" target="_blank">
+              now open
+            </LinkComponent>!</h2>
+            </Header>
+            <Paragraph>More details can be found&nbsp;
+            <LinkComponent href="/puzzleHunt/2023" target="_blank">
+            here
+            </LinkComponent>. {' '}
+            
+            </Paragraph> 
+          <RegisterButton href="https://forms.gle/eqca6sPu56yc6RB96" target="_blank">Register</RegisterButton>
           <Paragraph>
-            Puzzle Hunt for fall 2022 just ended! Check back next year for more,
-            and feel free to check out{' '}
+          Check out {' '}
             <LinkComponent href="/puzzleHunt/2022">
-              puzzles and solutions
-            </LinkComponent>{' '}
-            from the event.
+              puzzles and solutions 
+            </LinkComponent>
+            {' '}from last year's event!
           </Paragraph>
-          <RegisterButton href="/puzzleHunt/2022">View Puzzles</RegisterButton>
         </Center>
         <Row>
           <Left>
@@ -169,12 +191,12 @@ export default function PuzzleHunt() {
             <SectionTitle>Questions?</SectionTitle>
             <Paragraph>
               Reach out to us at{' '}
-              <LinkComponent href="mailto:syyan@stanford.edu">
-                syyan@stanford.edu
+              <LinkComponent href="mailto:iyhn8192@stanford.edu">
+                iyhn8192@stanford.edu
               </LinkComponent>{' '}
               and{' '}
-              <LinkComponent href="mailto:ssyoung@stanford.edu">
-                ssyoung@stanford.edu
+              <LinkComponent href="mailto:bradmoon@stanford.edu">
+                bradmoon@stanford.edu
               </LinkComponent>{' '}
               if you have any further questions! Puzzle hunt is run by{' '}
               <LinkComponent href="/">Stanford ACM</LinkComponent>&apos;s Puzzle

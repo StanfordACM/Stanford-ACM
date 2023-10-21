@@ -44,8 +44,9 @@ export default class MyDocument extends Document {
           {/* eslint-disable-next-line @next/next/google-font-display */}
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Mukta|Inconsolata|Rubik|Nunito|Open+Sans:400,700&display=fallback"
+            href="https://fonts.googleapis.com/css?family=Mukta|Inconsolata|Special+Elite|Rubik|Nunito|Open+Sans:400,700&display=fallback"
           />
+          
         </Head>
         <body>
           <Main />
