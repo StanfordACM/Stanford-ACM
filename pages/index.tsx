@@ -7,7 +7,7 @@ import {
   Title
 } from '../components/section';
 
-import {SignUpButton, Center} from './puzzleHunt/2023';
+import { SignUpButton, Center } from './puzzleHunt/2023';
 import styled from 'styled-components';
 
 function SectionTitle({
@@ -30,7 +30,7 @@ const Announcement = styled.div`
   font-family: 'Special Elite';
   font-weight: 400;
   font-size: 28px;
-  background-color: #FF7377;
+  background-color: #ff7377;
   cursor: pointer;
   color: white;
 `;
@@ -48,15 +48,19 @@ export default function About() {
     <Layout title="About" pageName="about">
       <Section>
         <Announcement>
-        ⚠️{' '}
-          <AnnounceLinkComponent href="https://forms.gle/eqca6sPu56yc6RB96" target="_blank">
+          ⚠️{' '}
+          <AnnounceLinkComponent
+            href="https://forms.gle/eqca6sPu56yc6RB96"
+            target="_blank"
+          >
             ANNOUNCEMENT: PUZZLE HUNT 2023 SIGN-UPS NOW OPEN
-          </AnnounceLinkComponent>{' '}⚠️
-        <Paragraph>
-          <AnnounceLinkComponent href="/puzzleHunt/2023" target="_blank">
-          Click <u>here</u> for more information.
-          </AnnounceLinkComponent>
-        </Paragraph>
+          </AnnounceLinkComponent>{' '}
+          ⚠️
+          <Paragraph>
+            <AnnounceLinkComponent href="/puzzleHunt/2023" target="_blank">
+              Click <u>here</u> for more information.
+            </AnnounceLinkComponent>
+          </Paragraph>
         </Announcement>
       </Section>
       <Section id="about">
@@ -105,5 +109,3 @@ export default function About() {
     </Layout>
   );
 }
-
-
