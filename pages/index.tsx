@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Layout from '../components/layout';
 import {
   LinkComponent,
@@ -5,7 +6,9 @@ import {
   Section,
   Title
 } from '../components/section';
-import { Center, SignUpButton } from './puzzleHunt/2023';
+
+import { SignUpButton, Center } from './puzzleHunt/2023';
+import styled from 'styled-components';
 
 function SectionTitle({
   href,
@@ -18,15 +21,47 @@ function SectionTitle({
   );
 }
 
+const Announcement = styled.div`
+  text-align: center;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.8em 1em 0.1em 1em;
+  font-family: 'Special Elite';
+  font-weight: 400;
+  font-size: 28px;
+  background-color: #ff7377;
+  cursor: pointer;
+  color: white;
+`;
+
+const AnnounceLinkComponent = styled.a`
+  color: black;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.grayLight};
+  }
+`;
+
 export default function About() {
   return (
     <Layout title="About" pageName="about">
-      <Section id="puzzlehunt">
-        <Center>
-          <Title>Puzzle Hunt 2023: Mystery in History</Title>
-          <Paragraph>Puzzle Hunt is on October XX</Paragraph>
-          <SignUpButton>Sign Up</SignUpButton>
-        </Center>
+      <Section>
+        <Announcement>
+          ⚠️{' '}
+          <AnnounceLinkComponent
+            href="https://forms.gle/eqca6sPu56yc6RB96"
+            target="_blank"
+          >
+            ANNOUNCEMENT: PUZZLE HUNT 2023 SIGN-UPS NOW OPEN
+          </AnnounceLinkComponent>{' '}
+          ⚠️
+          <Paragraph>
+            <AnnounceLinkComponent href="/puzzleHunt/2023" target="_blank">
+              Click <u>here</u> for more information.
+            </AnnounceLinkComponent>
+          </Paragraph>
+        </Announcement>
       </Section>
       <Section id="about">
         <Title>About</Title>
