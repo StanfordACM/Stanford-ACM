@@ -46,23 +46,6 @@ const AnnounceLinkComponent = styled.a`
 export default function About() {
   return (
     <Layout title="About" pageName="about">
-      <Section>
-        <Announcement>
-          ⚠️{' '}
-          <AnnounceLinkComponent
-            href="https://forms.gle/eqca6sPu56yc6RB96"
-            target="_blank"
-          >
-            ANNOUNCEMENT: PUZZLE HUNT 2023 SIGN-UPS NOW OPEN
-          </AnnounceLinkComponent>{' '}
-          ⚠️
-          <Paragraph>
-            <AnnounceLinkComponent href="/puzzleHunt/2023" target="_blank">
-              Click <u>here</u> for more information.
-            </AnnounceLinkComponent>
-          </Paragraph>
-        </Announcement>
-      </Section>
       <Section id="about">
         <Title>About</Title>
         <Paragraph>

@@ -117,6 +117,10 @@ export default function PuzzleHunt() {
             🧋 boba provided
           </Info>
           <Header>
+            Puzzle Hunt signups for fall 2023 are now closed. Stay tuned for the
+            next one!
+          </Header>
+          {/* <Header>
             Puzzle Hunt signups for fall 2023 are&nbsp;
             <LinkComponent
               href="https://forms.gle/eqca6sPu56yc6RB96"
@@ -125,23 +129,23 @@ export default function PuzzleHunt() {
               now open
             </LinkComponent>
             !
-          </Header>
+          </Header> */}
           <Paragraph>
             More details can be found&nbsp;
             <LinkComponent href="/puzzleHunt/2023">here</LinkComponent>.{' '}
           </Paragraph>
-          <RegisterButton
+          {/* <RegisterButton
             href="https://forms.gle/eqca6sPu56yc6RB96"
             target="_blank"
           >
             Register
-          </RegisterButton>
+          </RegisterButton> */}
           <Paragraph>
             Check out{' '}
             <LinkComponent href="/puzzleHunt/2022">
               puzzles and solutions
             </LinkComponent>{' '}
-            from last year&apos;s event!
+            from 2022!
           </Paragraph>
         </Center>
         <Row>

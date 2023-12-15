@@ -100,13 +100,13 @@ export default function PuzzleHunt2023() {
       <Section>
         <Title>Puzzle Hunt Fall 2023: Mystery in History</Title>
         <Center>
-          <IntroText>Signups are now open!</IntroText>
+          {/* <IntroText>Signups are now open!</IntroText>
           <SignUpButton
             href="https://forms.gle/eqca6sPu56yc6RB96"
             target="_blank"
           >
             Sign up
-          </SignUpButton>
+          </SignUpButton> */}
           <IntroText>
             For hunt details, click{' '}
             <LinkComponent
