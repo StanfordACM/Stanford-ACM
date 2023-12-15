@@ -359,13 +359,6 @@ export default function Contact() {
             Math-oriented programming problems
           </li>
         </ul>
-
-        <hr />
-
-        <div>
-          Information originally from Lennart Jansson and maintained by Jeremy
-          Kim.
-        </div>
       </Section>
     </Layout>
   );

@@ -90,6 +90,12 @@ export default function Contact() {
           <SponsorRow>
             <SponsorRowImage src="/logos/x-camp.png" alt="X-camp" />
           </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage
+              src="/logos/amber.png"
+              alt="Amber by LatticeWork"
+            />
+          </SponsorRow>
         </SponsorsRow>
         <SponsorParagraph>
           Hudson River Trading: Hudson River Trading is always on the lookout
@@ -116,6 +122,22 @@ export default function Contact() {
           opportunity for select freshman and sophomores to visit our offices,
           network with our employees and other partcipants, and get an exlusive,
           in-depth look at all our offerings.
+        </SponsorParagraph>
+        <SponsorParagraph>
+          LatticeWork: LatticeWork pioneers cloud-edge solutions,
+          revolutionizing data and video management while upholding privacy.
+          Championing on-prem with AmberPRO and Amber X, both with AmberOS, we
+          leverage AI-driven smart storage platforms built on a personal hybrid
+          cloud architecture. Now, we&apos;re also at the forefront of Video
+          Analytic Intelligent Sensing, coupled with AI, to craft bespoke
+          solutions for privacy-focused enterprises in cloud-edge environments.
+          LatticeWork is proud to be a sponsor for Stanford ACM&apos;s ProCo
+          event since 2022. We are offering participants and members special
+          promo code: STANFORD30 for 30% discount on all Amber products at{' '}
+          <LinkComponent href="https://www.myamberlife.com" target="_blank">
+            www.myamberlife.com
+          </LinkComponent>
+          .
         </SponsorParagraph>
       </Section>
       <Section id="faq">
@@ -223,13 +245,6 @@ export default function Contact() {
         <Paragraph>
           A: International students are welcome but are not eligible for swag.
         </Paragraph>
-
-        <hr />
-
-        <div>
-          Information originally from Lennart Jansson and maintained by Jeremy
-          Kim.
-        </div>
       </Section>
     </Layout>
   );
