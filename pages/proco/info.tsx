@@ -8,6 +8,8 @@ import {
   Section,
   Title
 } from '../../components/section';
+import { ProcoImage } from '../proco';
+import { Center } from '../puzzleHunt/2023';
 
 const ProgramsList = styled.ul`
   max-width: 932px;
@@ -64,6 +66,13 @@ export default function Contact() {
     <Layout title="ProCo Information" pageName="proco">
       <Section>
         <Title>ProCo Information</Title>
+      </Section>
+      <Section>
+        <Center>
+          <ProcoImage src="/proco/poster.png" />
+        </Center>
+      </Section>
+      <Section>
         <h2>Team Registration</h2>
         <Paragraph>
           This year&apos;s competition will be in-person at the Stanford campus.
@@ -71,10 +80,13 @@ export default function Contact() {
           participate are awarded on a first come first serve basis.
         </Paragraph>
         <Paragraph>
-          <strong>
-            The contest happened in-person on April 15, 2023. More info about
-            ProCo 2024 will be released as we get closer to the spring.
-          </strong>
+          <b>Date:</b> May 4, 2024
+          <br />
+          <b>Time:</b> 9 AM
+          <br />
+          <b>Location:</b> Sapp Center for Science Teaching and Learning
+          <br />
+          <b>Deadline to sign up:</b> Wednesday, May 1<br />
         </Paragraph>
         <Paragraph>
           Once you submit your registration form, we will send out a
@@ -100,17 +112,11 @@ export default function Contact() {
           <br />
           9:45 AM: Practice contest
           <br />
-          10:10 AM: 5 minute break
+          10:00 AM: Contest start
           <br />
-          10:15 AM: Contest start
+          12:30 PM: Contest end
           <br />
-          1:15 PM: Contest end
-          <br />
-          1:15 PM-2:15 PM: Lunch
-          <br />
-          2:15 PM-2:30 PM: XCamp presentation
-          <br />
-          2:30 PM: Closing ceremony
+          12:45 PM: Closing ceremony
         </Paragraph>
         <h2>Divisions</h2>
         <Paragraph>
@@ -130,8 +136,12 @@ export default function Contact() {
           The ProCo staff has the right to disqualify any team that does not
           follow these rules of division assignment. If you are unsure what
           division to compete in, please reach out to the ProCo staff at{' '}
-          <LinkComponent href="mailto:procostaff2022@gmail.com">
-            procostaff2022@gmail.com
+          <LinkComponent href="mailto:procostaff2024@gmail.com">
+            proco2024staff@gmail.com
+          </LinkComponent>{' '}
+          and{' '}
+          <LinkComponent href="mailto:nchi1@stanford.edu">
+            nchi1@stanford.edu
           </LinkComponent>
           .
         </Paragraph>
@@ -142,12 +152,7 @@ export default function Contact() {
           be facilitated in any fashion.
         </Paragraph>
         <h2>Prizes</h2>
-        <Paragraph>
-          Cool prizes will be awarded to the highest-scoring teams and vary year
-          to year. Previous first place prizes have included Raspberry Pis, iPad
-          Minis and Nintendo 3DSes. This year, our prizes are sponsored by
-          Citadel Securities and Hudson River Trading.
-        </Paragraph>
+        <Paragraph>Boba will be awarded to all participants.</Paragraph>
         <Title>Rules</Title>
         <h2>Access and Communication</h2>
         <ul>

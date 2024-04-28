@@ -77,10 +77,13 @@ export default function About() {
           explore their passion in computer science.
         </Paragraph>
         <Paragraph>
-          <strong>
-            The contest happened in-person on April 15, 2023. More info about
-            ProCo 2024 will be released as we get closer to the spring.
-          </strong>
+          <b>Date:</b> May 4, 2024
+          <br />
+          <b>Time:</b> 9 AM
+          <br />
+          <b>Location:</b> Sapp Center for Science Teaching and Learning
+          <br />
+          <b>Deadline to sign up:</b> Wednesday, May 1<br />
         </Paragraph>
 
         <SectionTitle href="/puzzleHunt">Puzzlehunt</SectionTitle>

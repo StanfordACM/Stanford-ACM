@@ -19,10 +19,10 @@ const Introduction = styled.div`
   align-items: center;
 `;
 
-const ProcoImage = styled.img`
+export const ProcoImage = styled.img`
   height: 100%;
   width: 100%;
-  max-width: 160px;
+  max-width: 500px;
 `;
 
 const SponsorParagraph = styled(Paragraph)`
@@ -41,7 +41,7 @@ export default function Contact() {
             and engaging opportunity for high school students in the Bay Area to
             explore their passion in computer science.
           </Paragraph>
-          <ProcoImage src="proco/logo.png" />
+          <ProcoImage src="/proco/poster.png" />
         </Introduction>
       </Section>
       <Paragraph>
@@ -54,11 +54,14 @@ export default function Contact() {
       <Section id="about">
         <Title>About ProCo</Title>
         <Paragraph>
-          ProCo is hosted by Stanford ACM.{' '}
-          <strong>
-            The contest happened in-person on April 15, 2023. More info about
-            ProCo 2024 will be released as we get closer to the spring.
-          </strong>
+          ProCo is hosted by Stanford ACM. <br />
+          <b>Date:</b> May 4, 2024
+          <br />
+          <b>Time:</b> 9 AM
+          <br />
+          <b>Location:</b> Sapp Center for Science Teaching and Learning
+          <br />
+          <b>Deadline to sign up:</b> Wednesday, May 1<br />
         </Paragraph>
         <Paragraph>
           Students compete in teams of up to three to compete in solving
