@@ -25,10 +25,7 @@ export default function Contact() {
         <Title>Sponsors</Title>
         <Sponsors>
           <Sponsor>
-            <img src="/logos/citadel1.png" alt="Citadel" />
-          </Sponsor>
-          <Sponsor>
-            <img src="/logos/citadel2.png" alt="Citadel Securities" />
+            <img src="/logos/citadel.png" alt="Citadel" />
           </Sponsor>
           <Sponsor>
             <img src="/logos/hrt.png" alt="HRT" width={140} />
