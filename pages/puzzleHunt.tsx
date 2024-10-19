@@ -110,36 +110,43 @@ export default function PuzzleHunt() {
             />
           </div>
           <Info>
-            📅 Saturday, November 4th
+            📅 Saturday, November 2nd
             <br />
             🕐 1-5pm
             <br />
             🧋 boba provided
           </Info>
-          <Header>
-            Puzzle Hunt signups for fall 2023 are now closed. Stay tuned for the
-            next one!
-          </Header>
           {/* <Header>
-            Puzzle Hunt signups for fall 2023 are&nbsp;
+            Puzzle Hunt signups for fall 2024 are now closed. Stay tuned for the
+            next one!
+          </Header> */}
+          <Header>
+            Puzzle Hunt signups for fall 2024 are&nbsp;
             <LinkComponent
-              href="https://forms.gle/eqca6sPu56yc6RB96"
+              href="https://forms.gle/au4BBPKUdXrcMncF6"
               target="_blank"
             >
               now open
             </LinkComponent>
             !
-          </Header> */}
+          </Header>
           <Paragraph>
             More details can be found&nbsp;
-            <LinkComponent href="/puzzleHunt/2023">here</LinkComponent>.{' '}
+            <LinkComponent href="/puzzleHunt/2024">here</LinkComponent>.{' '}
           </Paragraph>
-          {/* <RegisterButton
-            href="https://forms.gle/eqca6sPu56yc6RB96"
+          <RegisterButton
+            href="https://forms.gle/au4BBPKUdXrcMncF6"
             target="_blank"
           >
             Register
-          </RegisterButton> */}
+          </RegisterButton>
+          <Paragraph>
+            Check out{' '}
+            <LinkComponent href="/puzzleHunt/2023">
+              puzzles and solutions
+            </LinkComponent>{' '}
+            from 2023!
+          </Paragraph>
           <Paragraph>
             Check out{' '}
             <LinkComponent href="/puzzleHunt/2022">
@@ -158,6 +165,9 @@ export default function PuzzleHunt() {
               answer to a murder mystery.
               <br />
               <b>No prior experience is needed.</b>
+              <br />
+              See Puzzle Hunt Fall 2023: Mystery in History{' '}
+              <LinkComponent href="/puzzleHunt/2023">here</LinkComponent>.
               <br />
               See Puzzle Hunt Fall 2022: Mission to Mars{' '}
               <LinkComponent href="/puzzleHunt/2022">here</LinkComponent>.
@@ -202,12 +212,12 @@ export default function PuzzleHunt() {
             <SectionTitle>Questions?</SectionTitle>
             <Paragraph>
               Reach out to us at{' '}
-              <LinkComponent href="mailto:iyhn8192@stanford.edu">
-                iyhn8192@stanford.edu
+              <LinkComponent href="mailto:kristiep@stanford.edu">
+                kristiep@stanford.edu
               </LinkComponent>{' '}
               and{' '}
-              <LinkComponent href="mailto:bradmoon@stanford.edu">
-                bradmoon@stanford.edu
+              <LinkComponent href="mailto:dansun@stanford.edu">
+                dansun@stanford.edu
               </LinkComponent>{' '}
               if you have any further questions! Puzzle hunt is run by{' '}
               <LinkComponent href="/">Stanford ACM</LinkComponent>&apos;s Puzzle

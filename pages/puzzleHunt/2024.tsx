@@ -85,42 +85,32 @@ export default function PuzzleHunt2023() {
         rel="stylesheet"
         type="text/css"
       ></link>
-      <Section>
+      {/* <Section>
         <Center>
           <div>
             <Image
-              src="/puzzleHunt/2023.jpg"
-              alt="Puzzle Hunt 2023"
+              src="/puzzleHunt/2024.jpg"
+              alt="Puzzle Hunt 2024"
               width={1890}
               height={3800}
             />
           </div>
         </Center>
-      </Section>
+      </Section> */}
       <Section>
-        <Title>Puzzle Hunt Fall 2023: Mystery in History</Title>
+        <Title>Puzzle Hunt Fall 2024</Title>
         <Center>
-          {/* <IntroText>Signups are now open!</IntroText>
+          <IntroText>Signups are now open!</IntroText>
           <SignUpButton
-            href="https://forms.gle/eqca6sPu56yc6RB96"
+            href="https://forms.gle/au4BBPKUdXrcMncF6"
             target="_blank"
           >
             Sign up
-          </SignUpButton> */}
+          </SignUpButton>
           <IntroText>
             For hunt details, click{' '}
             <LinkComponent
-              href="https://docs.google.com/document/d/1NDAmQZblLul5ztnWuZy14vqyYn7dwCJW/edit?usp=sharing&ouid=116577593488707626970&rtpof=true&sd=true"
-              target="_blank"
-            >
-              here
-            </LinkComponent>
-            .
-          </IntroText>
-          <IntroText>
-            For hunt wrapup and solutions, click{' '}
-            <LinkComponent
-              href="https://docs.google.com/document/d/1MP1GlhaIOYhbrOGc3VrdJyBorTjSf2k5/edit?usp=sharing&ouid=109195318303251738108&rtpof=true&sd=true"
+              href="https://docs.google.com/document/d/1xSNXh2tGo8EqbY8jbficMfTU4MCYZ3fc/edit?usp=sharing&ouid=109195318303251738108&rtpof=true&sd=true"
               target="_blank"
             >
               here
@@ -131,12 +121,11 @@ export default function PuzzleHunt2023() {
         <CenterSection>
           <IntroHeader>MISSION BRIEFING</IntroHeader>
           <IntroText>
-            Hello, puzzlers, and welcome. You’ve been called here today to solve
-            a centuries-old murder and stop the time-jumping culprit from
-            unraveling the timeline. We’ll be sending you back in time, to some
-            of the most pivotal and mysterious moments in human history. Your
-            job is to find the clues, solve the puzzles, and catch the killer.
-            Time is running out.
+            Hello, puzzlers, and welcome. Our scouts in the field have gotten
+            advance intel of some suspicious activities in the kingdom. Your
+            mission for this hunt will be announced as soon as we decode their
+            transmission. Stay alert and be ready to jump on the case as soon as
+            it drops.
           </IntroText>
           <IntroText>Good luck.</IntroText>
         </CenterSection>
@@ -156,6 +145,21 @@ export default function PuzzleHunt2023() {
               src="/puzzleHunt/JaneStreet.png"
               alt="Hudston River Trading"
             />
+          </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage
+              src="/puzzleHunt/databricks.webp"
+              alt="Databricks"
+            />
+          </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/puzzleHunt/watershed.png" alt="Watershed" />
+          </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/puzzleHunt/bloomberg.png" alt="Bloomberg" />
+          </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/puzzleHunt/codegen.png" alt="Codegen" />
           </SponsorRow>
         </SponsorsRow>
       </Section>
