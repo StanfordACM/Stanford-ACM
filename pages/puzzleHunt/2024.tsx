@@ -85,7 +85,7 @@ export default function PuzzleHunt2023() {
         rel="stylesheet"
         type="text/css"
       ></link>
-      {/* <Section>
+      <Section>
         <Center>
           <div>
             <Image
@@ -96,7 +96,7 @@ export default function PuzzleHunt2023() {
             />
           </div>
         </Center>
-      </Section> */}
+      </Section>
       <Section>
         <Title>Puzzle Hunt Fall 2024</Title>
         <Center>
