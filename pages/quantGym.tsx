@@ -12,7 +12,7 @@ export default function QuantGym() {
       <Section>
         <Title>QuantGym</Title>
         <Paragraph>
-          Quant Gym is Stanford ACM's premier quantitative analyst training
+          Quant Gym is Stanford ACMs premier quantitative analyst training
           program. Get ready to flex those muscles!
         </Paragraph>
         <Paragraph>
