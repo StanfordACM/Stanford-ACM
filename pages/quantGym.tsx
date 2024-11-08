@@ -15,6 +15,7 @@ export default function QuantGym() {
           Quant Gym is Stanford ACMs premier quantitative analyst training
           program. Get ready to flex those muscles!
         </Paragraph>
+        <Paragraph>STLC 114 - Fridays at 5pm</Paragraph>
         <Paragraph>
           To get in touch, send us an email at{' '}
           <LinkComponent href="mailto:acm-members-owners@lists.stanford.edu">
