@@ -47,7 +47,7 @@ export default function About() {
   return (
     <Layout title="About" pageName="about">
       <Section id="about">
-        <Title>Aboot</Title>
+        <Title>About</Title>
         <Paragraph>
           ACM is Stanford&apos;s premier computer science organization. Our
           mission is to build exciting projects to learn about and solve
