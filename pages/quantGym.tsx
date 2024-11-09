@@ -8,24 +8,16 @@ import {
 
 export default function QuantGym() {
   return (
-    <Layout title="Contact" pageName="quantGym">
+    <Layout title="Quant Gym" pageName="quantGym">
       <Section>
-        <Title>QuantGym</Title>
+        <Title>🏋️ Quant Gym 🏋️</Title>
         <Paragraph>
           Quant Gym is Stanford ACMs premier quantitative analyst training
-          program. Get ready to flex those muscles!
+          program. Get ready to flex those mind muscles!
         </Paragraph>
-        <Paragraph>STLC 114 - Fridays at 5pm</Paragraph>
         <Paragraph>
-          To get in touch, send us an email at{' '}
-          <LinkComponent href="mailto:acm-members-owners@lists.stanford.edu">
-            acm-members-owners@lists.stanford.edu
-          </LinkComponent>{' '}
-          and we&apos;ll follow up! Or simply join our{' '}
-          <LinkComponent href="https://mailman.stanford.edu/mailman/listinfo/acm-members">
-            mailing list
-          </LinkComponent>
-          .
+          <b>Time: </b> Fridays 5 PM <br />
+          <b>Location: </b> STLC 114 <br />
         </Paragraph>
       </Section>
     </Layout>
