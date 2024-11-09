@@ -17,17 +17,6 @@ export const Title = styled.h1`
   }
 `;
 
-export const BigTitle = styled.h1`
-  text-align: center;
-  font: 36px/1 ${({ theme }) => theme.fonts.mono};
-  font-weight: bold;
-  margin-bottom: 40px;
-
-  @media (max-width: ${({ theme }) => theme.screen.desktop}) {
-    margin-bottom: 20px;
-  }
-`;
-
 export const Red = styled.span`
   color: ${({ theme }) => theme.colors.red};
 `;
