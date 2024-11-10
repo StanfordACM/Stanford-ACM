@@ -24,9 +24,10 @@ const EventTitle = styled(EventText)`
 `;
 
 function Event({ date, title }: { date: Date; title: string }) {
+  console.log(date);
   return (
     <EventContainer>
-      <EventDate>{date.toDateString().replace(' 2023', '')}</EventDate>
+      <EventDate>{date.toDateString().replace(' 2024', '')}</EventDate>
       <EventTitle>{title}</EventTitle>
     </EventContainer>
   );
@@ -94,36 +95,56 @@ export default function Contact() {
       </Section>
       <Section id="board">
         <People title="Board" startShown={true} bigTitle>
-          <Person name="Kenan Hasanaliyev" year={2025} position="Co-Director" />
-          <Person name="Conner Takehana" year={2026} position="Co-Director" />
+          <Person name="Alden Eberts" year={2027} position="Co-Director" />
+          <Person name="Christopher Sun" year={2027} position="Co-Director" />
         </People>
       </Section>
-      <Section id="schedule">
-        <Title>Fall 2023 Schedule</Title>
+      <Section id="project">
+        <Title>Fall 2024 Onboarding Project</Title>
         <Paragraph>
-          This year, we&apos;ll be meeting weekly on Wednesday from 4:30-6:00pm
+          In the MLab Fall Onboarding Project, you will sharpen your deep
+          learning skills by engaging with a high-impact real-world problem. In
+          doing so, you will learn about infrastructure, data processing,
+          implementation, model evaluation, and other critical tools of a
+          machine learning practitioner. By the end of the project, you will
+          have gained valuable skills and expertise in the field of machine
+          learning.
+        </Paragraph>
+        <Paragraph>
+          This year’s Fall Project is on bird classification.
+        </Paragraph>
+      </Section>
+      <Section id="schedule">
+        <Title>Fall 2024 Schedule</Title>
+        <Paragraph>
+          This year, we&apos;ll be meeting weekly on Wednesday from 7:30-9:00pm
           PT.
         </Paragraph>
-        <Event date={new Date(2023, 9, 8)} title="ACM Info Session" />
         <Event
-          date={new Date(2023, 9, 11)}
+          date={new Date(2024, 9, 9)}
           title="Workshop 1: Shallow Neural Networks"
         />
         <Event
-          date={new Date(2023, 9, 18)}
-          title="Workshop 2: Deep Neural Networks with Pytorch"
+          date={new Date(2024, 9, 16)}
+          title="Workshop 2: Deep Neural Networks"
         />
-        <Event date={new Date(2023, 9, 25)} title="Workshop 3: CNNs" />
+        <Event date={new Date(2024, 9, 23)} title="Workshop 3: CNNs" />
         <Event
-          date={new Date(2023, 10, 1)}
-          title="Workshop 4: Implementation I"
+          date={new Date(2024, 9, 30)}
+          title="Workshop 4: Implementation Tips"
         />
         <Event
-          date={new Date(2023, 10, 8)}
-          title="Workshop 5: Implementation II"
+          date={new Date(2024, 10, 3)}
+          title="Onboarding Project and Teams Released"
         />
-        <Event date={new Date(2023, 10, 15)} title="Workshop 6: Transformers" />
-        <Event date={new Date(2023, 10, 29)} title="Onboarding Projects Demo" />
+        <Event
+          date={new Date(2024, 10, 30)}
+          title="Onboarding Project Submission Deadline"
+        />
+        <Event
+          date={new Date(2024, 11, 4)}
+          title="Onboarding Project Demo and Awards Ceremony"
+        />
       </Section>
       <Section id="recent-projects">
         <Title>Recent Projects</Title>
