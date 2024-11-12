@@ -20,7 +20,7 @@ export default function Contact() {
           <Person name="Sydney Yan" year={2025} position="Co-President" />
           <Person
             name="Suze van Adrichem"
-            year={0}
+            year={2027}
             position="Financial Officer"
           />
           <Person name="Elijah Song" year={2026} position="Financial Officer" />
@@ -51,7 +51,7 @@ export default function Contact() {
             year={2026}
             position="Quant Gym Co-Director"
           />
-          <Person name="Tony Wang" year={0} position="ProCo Director" />
+          <Person name="Tony Wang" year={2027} position="ProCo Director" />
           <Person
             name="Kristie Park"
             year={2026}
