@@ -192,7 +192,6 @@ const credits: { [id: string]: string[] } = {
     'Daniel Sun',
     'Sydney Yan'
   ],
-  'Graphic Design': ['Kristie Park'],
   'Test Solvers': [
     'Nathan Chi',
     'Ryan Chi',
@@ -203,7 +202,21 @@ const credits: { [id: string]: string[] } = {
   ],
   Website: ['Ian Ng', 'Chandra Suda', 'Sabrina Yen-Ko'],
   Volunteers: ['Matt Hsu', 'Ryan Rong'],
+  'Graphic Design': ['Kristie Park'],
   'Laser Cutting': ['Mira Kim', 'Kristie Park', 'Ellen Xu'],
+  'Skit Authors': ['Nathan Chi', 'Ryan Chi', 'Kristie Park'],
+  Skit: [
+    'Nathan Chi',
+    'Ryan Chi',
+    'Mira Kim',
+    'Katherine Lee',
+    'Ian Ng',
+    'Kristie Park',
+    'Chandra Suda',
+    'Daniel Sun',
+    'Sydney Yan',
+    'Sabrina Yen-Ko'
+  ],
   'Special Thanks': ['Jack Tse', 'OSE', 'Uber Prints', 'Ume Tea']
 };
 
