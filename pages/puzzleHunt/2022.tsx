@@ -131,6 +131,50 @@ const puzzles: Puzzle[] = [
   }
 ];
 
+const credits: { [id: string]: string[] } = {
+  'Co-Chairs': ['Sydney Yan', 'Sonny Young'],
+  'Editor-in-Chief': ['Ethan Chi'],
+  'Writing Team': [
+    'Ethan Chi',
+    'Nathan Chi',
+    'Ryan Chi',
+    'Kaylee Doty',
+    'Jennifer Ho',
+    'Bradley Moon',
+    'Ian Ng',
+    'Kristie Park',
+    'Daniel Sun',
+    'Sydney Yan',
+    'Sonny Young',
+    'Isaac Zhao'
+  ],
+  Volunteers: ['Gordon Chi', 'Jeremy Kim'],
+  'Test-Solvers': [
+    'Cardinality members',
+    'Jeopardy Test Server members',
+    'Guan Family',
+    'Mirchandani Family',
+    'Eden Ng',
+    'Chris Dinh',
+    'William Wu'
+  ],
+  Website: ['Ethan Chi', 'Ryan Chi', 'Scott Hickmann'],
+  'Jigsaw Team': ['Kristie Park', 'Daniel Sun', 'Sonny Young', 'Erik Roise'],
+  Skit: [
+    'Ian Ng',
+    'Nathan Chi',
+    'Ryan Chi',
+    'Jennifer Ho',
+    'Bradley Moon',
+    'Kristie Park',
+    'Daniel Sun',
+    'Sydney Yan',
+    'Sonny Young'
+  ],
+  Sponsors: ['MosaicML', 'Citadel'],
+  'Special Thanks': ['Kung Fu Tea Palo Alto', 'Custom Ink']
+};
+
 export default function PuzzleHunt2022() {
   return (
     <Layout title="Puzzle Hunt 2022" pageName="puzzleHunt" paddingH={40}>
@@ -152,114 +196,7 @@ export default function PuzzleHunt2022() {
       </Section>
       <Section title="Credits">
         <Title>Credits</Title>
-        <Credits>
-          <h2>Co-Chairs</h2>
-          <Paragraph>
-            Sydney Yan
-            <br />
-            Sonny Young
-          </Paragraph>
-          <h2>Editor-in-Chief</h2>
-          <Paragraph>Ethan Chi</Paragraph>
-          <h2>Writing Team</h2>
-          <Paragraph>
-            Ethan Chi
-            <br />
-            Nathan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Kaylee Doty
-            <br />
-            Jennifer Ho
-            <br />
-            Bradley Moon
-            <br />
-            Ian Ng
-            <br />
-            Kristie Park
-            <br />
-            Daniel Sun
-            <br />
-            Sydney Yan
-            <br />
-            Sonny Young
-            <br />
-            Isaac Zhao
-          </Paragraph>
-          <h2>Volunteers</h2>
-          <Paragraph>
-            Gordon Chi
-            <br />
-            Jeremy Kim
-          </Paragraph>
-          <h2>Test-Solvers</h2>
-          <Paragraph>
-            Cardinality members
-            <br />
-            Jeopardy Test Server members
-            <br />
-            Guan Family
-            <br />
-            Mirchandani Family
-            <br />
-            Eden Ng
-            <br />
-            Chris Dinh
-            <br />
-            William Wu
-          </Paragraph>
-          <h2>Website</h2>
-          <Paragraph>
-            Ethan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Scott Hickmann
-          </Paragraph>
-          <h2>Jigsaw Team</h2>
-          <Paragraph>
-            Kristie Park
-            <br />
-            Daniel Sun
-            <br />
-            Sonny Young
-            <br />
-            Erik Roise
-          </Paragraph>
-          <h2>Skit</h2>
-          <Paragraph>
-            Ian Ng
-            <br />
-            Nathan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Jennifer Ho
-            <br />
-            Bradley Moon
-            <br />
-            Kristie Park
-            <br />
-            Daniel Sun
-            <br />
-            Sydney Yan
-            <br />
-            Sonny Young
-          </Paragraph>
-          <h2>Sponsors</h2>
-          <Paragraph>
-            MosaicML
-            <br />
-            Citadel
-          </Paragraph>
-          <h2>Special Thanks</h2>
-          <Paragraph>
-            Kung Fu Tea Palo Alto
-            <br />
-            Custom Ink
-          </Paragraph>
-        </Credits>
+        <Credits credits={credits}></Credits>
       </Section>
     </Layout>
   );

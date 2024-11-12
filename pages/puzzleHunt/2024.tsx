@@ -79,26 +79,23 @@ const IntroText = styled.p`
 
 const puzzles: Puzzle[] = [
   {
-    name: 'Onboarding',
-    credits: 'Sydney Yan and Kristie Park',
-    puzzleLink:
-      'https://docs.google.com/document/d/1Q-6O2qEcqLSQLLzljvdcbrbbqRG1X9Ol4IF-t9kL0Pc/edit?usp=share_link',
+    name: '[1-1] The Amazeing Griddler',
+    credits: '',
+    puzzleLink: '/puzzleHunt/2024/1-1.pdf',
     solutionLink:
       'https://docs.google.com/document/d/197-BFFw74zBj7KcOwDM9XyjCLv_zqfWUDX2C5m8rXfg/edit?usp=share_link'
   },
   {
-    name: 'ProMosaic',
-    credits: 'Nathan Chi, Ryan Chi, and Sydney Yan',
-    puzzleLink:
-      'https://docs.google.com/document/d/1Q8VG8ONnH0noHUR_mF51yxrMq3vaWDwUzcfc-8hpniA/edit?usp=share_link',
+    name: '[1-2] Sable, a chevron couched, gules',
+    credits: '',
+    puzzleLink: '/puzzleHunt/2024/1-2.pdf',
     solutionLink:
       'https://docs.google.com/document/d/16Q3afLLBQkAVBxagO-5UvBY8QK6G54cnTGWxgQwb5tY/edit?usp=share_link'
   },
   {
-    name: 'Quick Response Replication',
-    credits: 'Daniel Sun, Kristie Park, and Sonny Young',
-    puzzleLink:
-      'https://docs.google.com/spreadsheets/d/1bWpf4vqXZp-OZed3eSsNrGgLYKM0NKumbFmhuEIT_Ms/edit?usp=share_link',
+    name: '[1-3] To the Moon!',
+    credits: '',
+    puzzleLink: '/puzzleHunt/2024/1-3.pdf',
     solutionLink:
       'https://docs.google.com/spreadsheets/d/1RykPL8cm_SA4TL97AcfaMXh7N7FU7XvkTmYZ94GXY9k/edit?usp=share_link'
   },
@@ -184,6 +181,32 @@ const puzzles: Puzzle[] = [
   }
 ];
 
+const credits: { [id: string]: string[] } = {
+  'Co-Chairs': ['Kristie Park', 'Daniel Sun'],
+  'Writing Team': [
+    'Karolyn Cheng',
+    'Katherine Li',
+    'Bradley Moon',
+    'Ian Ng',
+    'Kristie Park',
+    'Daniel Sun',
+    'Sydney Yan'
+  ],
+  'Graphic Design': ['Kristie Park'],
+  'Test Solvers': [
+    'Nathan Chi',
+    'Ryan Chi',
+    'Mira Kim',
+    'Katherine Li',
+    'Ellen Xu',
+    'Sydney Yan'
+  ],
+  Website: ['Ian Ng', 'Chandra Suda', 'Sabrina Yen-Ko'],
+  Volunteers: ['Matt Hsu', 'Ryan Rong'],
+  'Laser Cutting': ['Mira Kim', 'Kristie Park', 'Ellen Xu'],
+  'Special Thanks': ['Jack Tse', 'OSE', 'Uber Prints', 'Ume Tea']
+};
+
 export default function PuzzleHunt2024() {
   return (
     <Layout title="Puzzle Hunt 2024" pageName="puzzleHunt" paddingH={40}>
@@ -196,7 +219,7 @@ export default function PuzzleHunt2024() {
         <Center>
           <div>
             <Image
-              src="/puzzleHunt/2024.jpg"
+              src="/puzzleHunt/2024/2024.jpg"
               alt="Puzzle Hunt 2024"
               width={1890}
               height={3800}
@@ -256,90 +279,7 @@ export default function PuzzleHunt2024() {
 
       <Section title="Credits">
         <Title>Credits</Title>
-        <Credits>
-          <h2>Co-Chairs</h2>
-          <Paragraph>
-            Kristie Park
-            <br />
-            Daniel Sun
-          </Paragraph>
-          {/* <h2>Writing Team</h2>
-          <Paragraph>
-            Nathan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Bradley Moon
-            <br />
-            Ian Ng
-            <br />
-            Kristie Park
-            <br />
-            Daniel Sun
-            <br />
-            Sydney Yan
-          </Paragraph> */}
-          <h2>Volunteers</h2>
-          <Paragraph>
-            Matt Hsu
-            <br />
-            Ryan Rong
-          </Paragraph>
-          {/* <h2>Test-Solvers</h2>
-          <Paragraph></Paragraph> */}
-          <h2>Website</h2>
-          <Paragraph>
-            Ian Ng
-            <br />
-            Chandra Suda
-            <br />
-            Sabrina Yen-Ko
-          </Paragraph>
-          <h2>Jigsaw Team</h2>
-          <Paragraph>
-            Mira Kim
-            <br />
-            Kristie Park
-            <br />
-            Ellen Xu
-          </Paragraph>
-          <h2>Skit Authors</h2>
-          <Paragraph>
-            Nathan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Kristie Park
-          </Paragraph>
-          <h2>Skit</h2>
-          <Paragraph>
-            Nathan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Mira Kim
-            <br />
-            Katherine Lee
-            <br />
-            Ian Ng
-            <br />
-            Kristie Park
-            <br />
-            Chandra Suda
-            <br />
-            Daniel Sun
-            <br />
-            Sydney Yan
-            <br />
-            Sabrina Yen-Ko
-          </Paragraph>
-          <h2>Special Thanks</h2>
-          <Paragraph>
-            Ume Tea Palo Alto
-            <br />
-            UberPrints
-          </Paragraph>
-        </Credits>
+        <Credits credits={credits}></Credits>
       </Section>
     </Layout>
   );
