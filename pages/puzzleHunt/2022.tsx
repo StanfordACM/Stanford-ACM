@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
 import Layout from '../../components/layout';
+import { Credits, Puzzle, PuzzlesTable } from '../../components/puzzlehunt';
 import {
-  LinkComponent,
   Paragraph as DefaultParagraph,
   Section,
   Title
@@ -23,75 +23,6 @@ const Center = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-
-const Table = styled.table`
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  font-family: Mukta, sans-serif;
-  width: 100%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  border-radius: 20px;
-`;
-
-const hideSmallCss = css`
-  @media (max-width: 960px) {
-    display: none;
-  }
-`;
-
-const TableHeaderCell = styled.th<{ hideSmall?: boolean }>`
-  padding: 12px 15px;
-  :first-of-type {
-    border-top-left-radius: 20px;
-  }
-  :last-of-type {
-    border-top-right-radius: 20px;
-  }
-  ${(props) => props.hideSmall && hideSmallCss}
-`;
-
-const TableCell = styled.td<{ hideSmall?: boolean }>`
-  padding: 12px 15px;
-  border-right: 1px solid ${({ theme }) => theme.colors.grayLight};
-  :last-of-type {
-    border-right: none;
-  }
-  ${(props) => props.hideSmall && hideSmallCss}
-`;
-
-const TableHeaderRow = styled.tr`
-  background-color: ${({ theme }) => theme.colors.red};
-  color: #ffffff;
-  text-align: center;
-  font-size: 1.5em;
-`;
-
-const TableRow = styled.tr`
-  text-align: center;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.grayLight};
-  font-size: 1.25em;
-  :last-of-type {
-    border-bottom: none;
-  }
-`;
-
-const Credits = styled.div`
-  column-count: 3;
-  @media (max-width: 1240px) {
-    column-count: 2;
-  }
-  @media (max-width: 960px) {
-    column-count: 1;
-  }
-`;
-
-interface Puzzle {
-  name: string;
-  credits: string;
-  puzzleLink: string;
-  solutionLink: string;
-}
 
 const puzzles: Puzzle[] = [
   {
@@ -200,39 +131,6 @@ const puzzles: Puzzle[] = [
   }
 ];
 
-function PuzzlesTable() {
-  return (
-    <Table>
-      <thead>
-        <TableHeaderRow>
-          <TableHeaderCell>Name</TableHeaderCell>
-          <TableHeaderCell hideSmall>Credits</TableHeaderCell>
-          <TableHeaderCell>Puzzle</TableHeaderCell>
-          <TableHeaderCell>Solution</TableHeaderCell>
-        </TableHeaderRow>
-      </thead>
-      <tbody>
-        {puzzles.map((puzzle, index) => (
-          <TableRow key={index}>
-            <TableCell>{puzzle.name}</TableCell>
-            <TableCell hideSmall>{puzzle.credits}</TableCell>
-            <TableCell>
-              <LinkComponent href={puzzle.puzzleLink} target="_blank">
-                Puzzle
-              </LinkComponent>
-            </TableCell>
-            <TableCell>
-              <LinkComponent href={puzzle.solutionLink} target="_blank">
-                Solution
-              </LinkComponent>
-            </TableCell>
-          </TableRow>
-        ))}
-      </tbody>
-    </Table>
-  );
-}
-
 export default function PuzzleHunt2022() {
   return (
     <Layout title="Puzzle Hunt 2022" pageName="puzzleHunt" paddingH={40}>
@@ -250,7 +148,7 @@ export default function PuzzleHunt2022() {
       </Section>
       <Section>
         <Title>Fall 2022: Mission to Mars</Title>
-        <PuzzlesTable />
+        <PuzzlesTable puzzles={puzzles} />
       </Section>
       <Section title="Credits">
         <Title>Credits</Title>
