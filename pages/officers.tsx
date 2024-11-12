@@ -15,7 +15,7 @@ export default function Contact() {
         <Title>Meet the ACM Officers!</Title>
 
         {/* Active officers */}
-        <People title="2023-2024" startShown={true}>
+        <People title="2024-2025" startShown={true}>
           <Person name="Justin Gu" year={2027} position="Co-President" />
           <Person name="Sydney Yan" year={2025} position="Co-President" />
           <Person
@@ -41,8 +41,8 @@ export default function Contact() {
             year={2026}
             position={
               <>
-                Quant Gym Co-Director <br />
-                Geoguessr Co-Director
+                Advisor <br />
+                Quant Gym/GeoGuessr Co-Director
               </>
             }
           />
@@ -51,8 +51,8 @@ export default function Contact() {
             year={2025}
             position={
               <>
-                Quant Gym Co-Director <br />
-                Geoguessr Co-Director
+                Advisor <br />
+                Quant Gym/GeoGuessr Co-Director
               </>
             }
           />
@@ -81,8 +81,6 @@ export default function Contact() {
           />
           <Person name="Eric Cui" year={2027} position="Webmaster" />
           <Person name="Sabrina Yen-Ko" year={2028} position="Webmaster" />
-          <Person name="Nathan Chi" year={2026} position="Advisor" />
-          <Person name="Ryan Chi" year={2025} position="Advisor" />
           <Person name="Scott Hickman" year={2025} position="Advisor" />
         </People>
 
