@@ -22,8 +22,8 @@ export default function QuantGym() {
             src="/quantGym/greenbook.png"
             alt="Puzzle Hunt"
             style={{ borderRadius: '5px' }}
-            width={350}
-            height={336}
+            width={275}
+            height={325}
           />
         </Center>
         <Paragraph>
