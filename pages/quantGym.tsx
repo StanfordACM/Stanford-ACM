@@ -27,14 +27,20 @@ export default function QuantGym() {
           />
         </Center>
         <Paragraph>
-          Quant Gym is Stanford ACM&apos;s premier quantitative trading training
-          program. The key to getting a Quant Job is to practice Quant
-          Questions, so get ready to flex those mind muscles. Let&apos;s work
-          together to practice our skills and <b>ACE</b> the interviews 😤!
+          Traders @ Stanford is Stanford&apos;s premier club for quantitative
+          finance, trading, research, and engineering. Quant is one of the most
+          desirable industries in the world, and yet students simply can&apos;t
+          break in. <b>We</b> provide that opportunity to break in. Our flagship
+          program, QUANT GYM, prepares students for the interview, superday,
+          actual internship, and beyond, through a carefully curated set of
+          probability puzzles, mathematical brainteasers, and trading
+          challenges, run by a crack team of ex-HRT, Five Rings, and Citadel
+          interns. Separately, we run bigger events such as estimathons and
+          modeling challenges.
         </Paragraph>
         <Paragraph>
-          <b>Time: </b> Fridays 5 PM <br />
-          <b>Location: </b> STLC 114 <br />
+          <b>Where: </b> STLC 114 <br />
+          <b>When: </b> Fridays @ 5PM <br />
         </Paragraph>
         <Paragraph>
           (If you are interested in partnering with us, please email{' '}
