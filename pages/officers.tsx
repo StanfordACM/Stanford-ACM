@@ -23,7 +23,7 @@ export default function Contact() {
             year={0}
             position="Financial Officer"
           />
-          <Person name="Elijah Song" year={0} position="Financial Officer" />
+          <Person name="Elijah Song" year={2026} position="Financial Officer" />
           <Person name="Alden Eberts" year={2027} position="MLab Co-Director" />
           <Person
             name="Christopher Sun"
@@ -32,7 +32,11 @@ export default function Contact() {
           />
           <Person name="Ethan Boneh" year={0} position="DevLab Co-Director" />
           <Person name="Emily Han" year={0} position="DevLab Co-Director" />
-          <Person name="Nathan Chi" year={0} position="Quant Gym Co-Director" />
+          <Person
+            name="Nathan Chi"
+            year={2026}
+            position="Quant Gym Co-Director"
+          />
           <Person name="Ryan Chi" year={0} position="Quant Gym Co-Director" />
           <Person name="Brian Xu" year={0} position="Quant Gym Co-Director" />
           <Person name="Tony Wang" year={0} position="ProCo Director" />
@@ -48,7 +52,11 @@ export default function Contact() {
           />
           <Person name="Tesvara Jiang" year={0} position="Social Co-Chair" />
           <Person name="Annie Lee" year={0} position="Social Co-Chair" />
-          <Person name="Nathan Chi" year={0} position="GeoGuessr Co-Director" />
+          <Person
+            name="Nathan Chi"
+            year={2026}
+            position="GeoGuessr Co-Director"
+          />
           <Person name="Ryan Chi" year={0} position="GeoGuessr Co-Director" />
           <Person
             name="Daniel Zamoshchin"
@@ -57,7 +65,7 @@ export default function Contact() {
           />
           <Person name="Eric Cui" year={2027} position="Webmaster" />
           <Person name="Sabrina Yen-Ko" year={2028} position="Webmaster" />
-          <Person name="Nathan Chi" year={0} position="Advisor" />
+          <Person name="Nathan Chi" year={2026} position="Advisor" />
           <Person name="Ryan Chi" year={0} position="Advisor" />
           <Person name="Scott Hickman" year={0} position="Advisor" />
         </People>
