@@ -91,6 +91,13 @@ export default function About() {
           ACM hosts a puzzle hunt open to all Stanford students. We invite you
           to solve puzzles as quickly as possible for prizes while having fun!
         </Paragraph>
+
+        <SectionTitle href="/quantGym">Quant Gym</SectionTitle>
+        <Paragraph>
+          Quant Gym is Stanford ACMs premier quantitative trading training
+          program. Get ready to flex those mind muscles, and let&apos;s work
+          together to practice our skills and ACE the interviews 😤.
+        </Paragraph>
       </Section>
     </Layout>
   );
