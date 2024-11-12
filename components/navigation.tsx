@@ -133,6 +133,9 @@ export default function Navigation({ pageName }: { pageName: string }) {
         >
           poker tournament
         </NavigationLink>
+        <NavigationLink selected={pageName === 'quantGym'} href="/quantGym">
+          quant gym
+        </NavigationLink>
       </Links>
     </Sidebar>
   );
