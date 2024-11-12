@@ -76,15 +76,6 @@ export default function About() {
           and engaging opportunity for high school students in the Bay Area to
           explore their passion in computer science.
         </Paragraph>
-        <Paragraph>
-          <b>Date:</b> May 4, 2024
-          <br />
-          <b>Time:</b> 9 AM
-          <br />
-          <b>Location:</b> Sapp Center for Science Teaching and Learning
-          <br />
-          <b>Deadline to sign up:</b> Wednesday, May 1<br />
-        </Paragraph>
 
         <SectionTitle href="/puzzleHunt">Puzzlehunt</SectionTitle>
         <Paragraph>
