@@ -1,5 +1,5 @@
 import { math } from 'polished';
-import { useState } from 'react';
+import { ReactNode, useState } from 'react';
 import styled from 'styled-components';
 
 import { LinkComponent, Title } from '../components/section';
@@ -88,7 +88,7 @@ export function Person({
 }: {
   name: string;
   year?: number;
-  position?: string;
+  position?: ReactNode;
 }) {
   return (
     <PersonContainer>

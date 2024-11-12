@@ -39,12 +39,22 @@ export default function Contact() {
           <Person
             name="Nathan Chi"
             year={2026}
-            position="Quant Gym Co-Director"
+            position={
+              <>
+                Quant Gym Co-Director <br />
+                Geoguessr Co-Director
+              </>
+            }
           />
           <Person
             name="Ryan Chi"
             year={2025}
-            position="Quant Gym Co-Director"
+            position={
+              <>
+                Quant Gym Co-Director <br />
+                Geoguessr Co-Director
+              </>
+            }
           />
           <Person
             name="Brian Xu"
@@ -64,16 +74,6 @@ export default function Contact() {
           />
           <Person name="Tesvara Jiang" year={2027} position="Social Co-Chair" />
           <Person name="Annie Lee" year={2027} position="Social Co-Chair" />
-          <Person
-            name="Nathan Chi"
-            year={2026}
-            position="GeoGuessr Co-Director"
-          />
-          <Person
-            name="Ryan Chi"
-            year={2025}
-            position="GeoGuessr Co-Director"
-          />
           <Person
             name="Daniel Zamoshchin"
             year={2024}
