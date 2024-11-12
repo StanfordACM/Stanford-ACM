@@ -13,36 +13,78 @@ export default function Contact() {
     <Layout title="Officers" pageName="officers">
       <Container>
         <Title>Meet the ACM Officers!</Title>
-        <People title="2023-2024" startShown={true}>
-          <Person name="Scott Hickmann" year={2025} position="Co-President" />
-          <Person name="Nathan Chi" year={2026} position="Co-President" />
-          <Person name="Kevin Li" year={2025} position="Vice-President" />
-          <Person name="Sydney Yan" year={2025} position="Financial Officer" />
-          <Person name="Hannah Kim" year={2024} position="Financial Officer" />
+
+        {/* Active officers */}
+        <People title="2024-2025" startShown={true}>
+          <Person name="Justin Gu" year={2027} position="Co-President" />
+          <Person name="Sydney Yan" year={2025} position="Co-President" />
           <Person
-            name="Kenan Hasanaliyev"
-            year={2025}
+            name="Suze van Adrichem"
+            year={2027}
+            position="Financial Officer"
+          />
+          <Person name="Elijah Song" year={2026} position="Financial Officer" />
+          <Person name="Alden Eberts" year={2027} position="MLab Co-Director" />
+          <Person
+            name="Christopher Sun"
+            year={2027}
             position="MLab Co-Director"
           />
           <Person
-            name="Conner Takehana"
+            name="Ethan Boneh"
+            year={2027}
+            position="DevLab Co-Director"
+          />
+          <Person name="Emily Han" year={2027} position="DevLab Co-Director" />
+          <Person
+            name="Nathan Chi"
             year={2026}
-            position="MLab Co-Director"
+            position={
+              <>
+                Advisor <br />
+                Quant Gym/GeoGuessr Co-Director
+              </>
+            }
           />
-          <Person name="Tanmay Garg" year={2026} position="ProCo Director" />
           <Person
-            name="Ian Ng"
-            year={2024}
-            position="Puzzle Hunt Co-Director"
-          />
-          <Person
-            name="Bradley Moon"
+            name="Ryan Chi"
             year={2025}
-            position="Puzzle Hunt Co-Director"
+            position={
+              <>
+                Advisor <br />
+                Quant Gym/GeoGuessr Co-Director
+              </>
+            }
           />
-          <Person name="Ishan Khare" year={2025} position="Reading Group" />
-          <Person name="William Li" position="Social Chair" />
+          <Person
+            name="Brian Xu"
+            year={2026}
+            position="Quant Gym Co-Director"
+          />
+          <Person name="Tony Wang" year={2027} position="ProCo Director" />
+          <Person
+            name="Kristie Park"
+            year={2026}
+            position="PuzzleHunt Co-Director"
+          />
+          <Person
+            name="Daniel Sun"
+            year={2025}
+            position="PuzzleHunt Co-Director"
+          />
+          <Person name="Tesvara Jiang" year={2027} position="Social Co-Chair" />
+          <Person name="Annie Lee" year={2027} position="Social Co-Chair" />
+          <Person
+            name="Daniel Zamoshchin"
+            year={2024}
+            position="GeoGuessr Co-Director"
+          />
+          <Person name="Eric Cui" year={2027} position="Webmaster" />
+          <Person name="Sabrina Yen-Ko" year={2028} position="Webmaster" />
+          <Person name="Scott Hickman" year={2025} position="Advisor" />
         </People>
+
+        {/* Alumni */}
         <People title="Alumni" startShown={false}>
           <Person name="Jeremy Kim" year={2024} position="Co-President" />
           <Person name="Ian Ng" year={2024} position="Co-President" />
