@@ -30,44 +30,60 @@ export default function Contact() {
             year={2027}
             position="MLab Co-Director"
           />
-          <Person name="Ethan Boneh" year={0} position="DevLab Co-Director" />
-          <Person name="Emily Han" year={0} position="DevLab Co-Director" />
+          <Person
+            name="Ethan Boneh"
+            year={2027}
+            position="DevLab Co-Director"
+          />
+          <Person name="Emily Han" year={2027} position="DevLab Co-Director" />
           <Person
             name="Nathan Chi"
             year={2026}
             position="Quant Gym Co-Director"
           />
-          <Person name="Ryan Chi" year={0} position="Quant Gym Co-Director" />
-          <Person name="Brian Xu" year={0} position="Quant Gym Co-Director" />
+          <Person
+            name="Ryan Chi"
+            year={2025}
+            position="Quant Gym Co-Director"
+          />
+          <Person
+            name="Brian Xu"
+            year={2026}
+            position="Quant Gym Co-Director"
+          />
           <Person name="Tony Wang" year={0} position="ProCo Director" />
           <Person
             name="Kristie Park"
-            year={0}
+            year={2026}
             position="PuzzleHunt Co-Director"
           />
           <Person
             name="Daniel Sun"
-            year={0}
+            year={2025}
             position="PuzzleHunt Co-Director"
           />
-          <Person name="Tesvara Jiang" year={0} position="Social Co-Chair" />
-          <Person name="Annie Lee" year={0} position="Social Co-Chair" />
+          <Person name="Tesvara Jiang" year={2027} position="Social Co-Chair" />
+          <Person name="Annie Lee" year={2027} position="Social Co-Chair" />
           <Person
             name="Nathan Chi"
             year={2026}
             position="GeoGuessr Co-Director"
           />
-          <Person name="Ryan Chi" year={0} position="GeoGuessr Co-Director" />
+          <Person
+            name="Ryan Chi"
+            year={2025}
+            position="GeoGuessr Co-Director"
+          />
           <Person
             name="Daniel Zamoshchin"
-            year={0}
+            year={2024}
             position="GeoGuessr Co-Director"
           />
           <Person name="Eric Cui" year={2027} position="Webmaster" />
           <Person name="Sabrina Yen-Ko" year={2028} position="Webmaster" />
           <Person name="Nathan Chi" year={2026} position="Advisor" />
-          <Person name="Ryan Chi" year={0} position="Advisor" />
-          <Person name="Scott Hickman" year={0} position="Advisor" />
+          <Person name="Ryan Chi" year={2025} position="Advisor" />
+          <Person name="Scott Hickman" year={2025} position="Advisor" />
         </People>
 
         {/* Alumni */}
