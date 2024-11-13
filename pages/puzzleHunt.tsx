@@ -109,37 +109,20 @@ export default function PuzzleHunt() {
               height={336}
             />
           </div>
-          <Info>
-            📅 Saturday, November 2nd
-            <br />
-            🕐 1-5pm
-            <br />
-            🧋 boba provided
-          </Info>
-          {/* <Header>
-            Puzzle Hunt signups for fall 2024 are now closed. Stay tuned for the
-            next one!
-          </Header> */}
           <Header>
-            Puzzle Hunt signups for fall 2024 are&nbsp;
-            <LinkComponent
-              href="https://forms.gle/au4BBPKUdXrcMncF6"
-              target="_blank"
-            >
-              now open
+            Thank you to everyone who came to our fall 2024 Puzzle Hunt{' '}
+            <LinkComponent href="https://news.stanford.edu/stories/2024/11/annual-puzzle-hunt-brings-together-hundreds-of-student-solvers">
+              (featured in the Stanford Report)
             </LinkComponent>
-            !
+            ! Stay tuned for the next one!
           </Header>
           <Paragraph>
-            More details can be found&nbsp;
-            <LinkComponent href="/puzzleHunt/2024">here</LinkComponent>.{' '}
+            Check out{' '}
+            <LinkComponent href="/puzzleHunt/2024">
+              puzzles and solutions
+            </LinkComponent>{' '}
+            from 2024!
           </Paragraph>
-          <RegisterButton
-            href="https://forms.gle/au4BBPKUdXrcMncF6"
-            target="_blank"
-          >
-            Register
-          </RegisterButton>
           <Paragraph>
             Check out{' '}
             <LinkComponent href="/puzzleHunt/2023">
@@ -165,6 +148,9 @@ export default function PuzzleHunt() {
               answer to a murder mystery.
               <br />
               <b>No prior experience is needed.</b>
+              <br />
+              See Puzzle Hunt Fall 2024: Piech in Peril{' '}
+              <LinkComponent href="/puzzleHunt/2024">here</LinkComponent>.
               <br />
               See Puzzle Hunt Fall 2023: Mystery in History{' '}
               <LinkComponent href="/puzzleHunt/2023">here</LinkComponent>.

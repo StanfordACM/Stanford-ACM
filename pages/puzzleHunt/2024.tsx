@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 import Layout from '../../components/layout';
-import { LinkComponent, Section } from '../../components/section';
+import { Credits, Puzzle, PuzzlesTable } from '../../components/puzzlehunt';
+import { LinkComponent, Paragraph, Section } from '../../components/section';
 import {
   SponsorRow,
   SponsorRowImage,
@@ -15,11 +16,10 @@ const Image = styled.img`
 `;
 
 const Title = styled.h1`
-  font-size: 36px;
-  font-family: 'Special Elite', sans-serif;
+  font-size: 24px;
+  font-family: 'Press Start 2P', sans-serif;
   max-height: 700px;
   weight: bold;
-  font-style: italic;
   text-align: center;
   height: 100%;
   object-fit: contain;
@@ -33,7 +33,7 @@ export const SignUpButton = styled.a`
   border-radius: 8px;
   text-align: center;
   padding: 0.5em 1em;
-  font-family: 'Special Elite';
+  font-family: 'Press Start 2P';
   font-weight: 400;
   font-size: 28px;
   background-color: #4b65d4;
@@ -64,22 +64,160 @@ const IntroHeader = styled.h1`
   line-height: 36px;
   font-weight: bold;
   margin-bottom: 24px;
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'Press Start 2P', sans-serif;
   color: red;
 `;
 
 const IntroText = styled.p`
   text-align: center;
-  font: 22px/1 ${({ theme }) => theme.fonts.mono};
+  font: 14px/1 ${({ theme }) => theme.fonts.mono};
   line-height: 28px;
   font-weight: bold;
   margin-bottom: 28px;
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'Press Start 2P', sans-serif;
 `;
 
-export default function PuzzleHunt2023() {
+const puzzles: Puzzle[] = [
+  {
+    name: '[1-1] The Amazeing Griddler',
+    credits: 'Daniel Sun, Karolyn Cheng',
+    puzzleLink: '/puzzleHunt/2024/1-1.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[1-2] Sable, a chevron couched, gules',
+    credits: 'Daniel Sun, Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/1-2.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[1-3] To the Moon!',
+    credits: 'Daniel Sun',
+    puzzleLink: '/puzzleHunt/2024/1-3.pdf',
+    solutionLink: ''
+  },
+  {
+    name: "[1-4] Shifty Caesar's Silent Soirée",
+    credits: 'Kristie Park, Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/1-4.pdf',
+    solutionLink: '/puzzleHunt/2024/sol/1-4sol.pdf'
+  },
+  {
+    name: '[1-5] Should I Touch Grass?',
+    credits: 'Karolyn Cheng, Daniel Sun',
+    puzzleLink: '/puzzleHunt/2024/1-5.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[1-6] mirror | rorrim',
+    credits: 'Daniel Sun, Karolyn Cheng, Sydney Yan',
+    puzzleLink: '/puzzleHunt/2024/1-6.pdf',
+    solutionLink: ''
+  },
+  {
+    name: "[1-M] Bluebeard's Castle",
+    credits: 'Daniel Sun',
+    puzzleLink: '/puzzleHunt/2024/1-M.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[2-R] Super Meyer Odyssey',
+    credits: 'Daniel Sun, Kristie Park, Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/Runaround.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[3-1] Jigsaw',
+    credits: 'Kristie Park',
+    puzzleLink: '/puzzleHunt/2024/3-1.pdf',
+    solutionLink: '/puzzleHunt/2024/sol/3-1sol.pdf'
+  },
+  {
+    name: '[Beginner 3-2] Add Dresses',
+    credits: 'Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/beg3-2.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[Beginner 3-3] Double Trouble Double Trouble',
+    credits: 'Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/beg3-3.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[Experienced 3-1b] ? Flower',
+    credits: 'Kristie Park, Bradley Moon, Daniel Sun ',
+    puzzleLink: '/puzzleHunt/2024/exp3-1b.pdf',
+    solutionLink: '/puzzleHunt/2024/sol/exp3-1bsol.pdf'
+  },
+  {
+    name: '[Experienced 3-2] Insert Coin to Play',
+    credits: 'Ian Ng',
+    puzzleLink: '/puzzleHunt/2024/exp3-2.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[Experienced 3-3] Squaring the Circle',
+    credits: 'Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/exp3-3.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[Beginner 4-M] Concluding Coupa Castle',
+    credits: 'Bradley Moon, Karolyn Cheng, Kristie Park, Daniel Sun, Ian Ng',
+    puzzleLink: '/puzzleHunt/2024/begmeta.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[Experienced 4-M] Concluding Coupa Castle',
+    credits: 'Bradley Moon, Karolyn Cheng, Kristie Park, Daniel Sun, Ian Ng',
+    puzzleLink: '/puzzleHunt/2024/expmeta.pdf',
+    solutionLink: ''
+  }
+];
+
+const credits: { [id: string]: string[] } = {
+  'Co-Chairs': ['Kristie Park', 'Daniel Sun'],
+  'Writing Team': [
+    'Karolyn Cheng',
+    'Katherine Li',
+    'Bradley Moon',
+    'Ian Ng',
+    'Kristie Park',
+    'Daniel Sun',
+    'Sydney Yan'
+  ],
+  'Test Solvers': [
+    'Nathan Chi',
+    'Ryan Chi',
+    'Mira Kim',
+    'Katherine Li',
+    'Ellen Xu',
+    'Sydney Yan'
+  ],
+  Website: ['Ian Ng', 'Chandra Suda', 'Sabrina Yen-Ko'],
+  Volunteers: ['Matt Hsu', 'Ryan Rong'],
+  'Graphic Design': ['Kristie Park'],
+  'Laser Cutting': ['Mira Kim', 'Kristie Park', 'Ellen Xu'],
+  'Skit Authors': ['Nathan Chi', 'Ryan Chi', 'Kristie Park'],
+  Skit: [
+    'Nathan Chi',
+    'Ryan Chi',
+    'Mira Kim',
+    'Katherine Lee',
+    'Ian Ng',
+    'Kristie Park',
+    'Chandra Suda',
+    'Daniel Sun',
+    'Sydney Yan',
+    'Sabrina Yen-Ko'
+  ],
+  'Special Thanks': ['Jack Tse', 'OSE', 'Uber Prints', 'Ume Tea']
+};
+
+export default function PuzzleHunt2024() {
   return (
-    <Layout title="Puzzle Hunt 2023" pageName="puzzleHunt" paddingH={40}>
+    <Layout title="Puzzle Hunt 2024" pageName="puzzleHunt" paddingH={40}>
       <link
         href="http://fonts.googleapis.com/css?family=Oswald:300"
         rel="stylesheet"
@@ -89,7 +227,7 @@ export default function PuzzleHunt2023() {
         <Center>
           <div>
             <Image
-              src="/puzzleHunt/2024.jpg"
+              src="/puzzleHunt/2024/2024.jpg"
               alt="Puzzle Hunt 2024"
               width={1890}
               height={3800}
@@ -98,15 +236,8 @@ export default function PuzzleHunt2023() {
         </Center>
       </Section>
       <Section>
-        <Title>Puzzle Hunt Fall 2024</Title>
+        <Title>Puzzle Hunt Fall 2024: Piech in Peril</Title>
         <Center>
-          <IntroText>Signups are now open!</IntroText>
-          <SignUpButton
-            href="https://forms.gle/au4BBPKUdXrcMncF6"
-            target="_blank"
-          >
-            Sign up
-          </SignUpButton>
           <IntroText>
             For hunt details, click{' '}
             <LinkComponent
@@ -117,18 +248,14 @@ export default function PuzzleHunt2023() {
             </LinkComponent>
             .
           </IntroText>
-        </Center>
-        <CenterSection>
-          <IntroHeader>MISSION BRIEFING</IntroHeader>
           <IntroText>
-            Hello, puzzlers, and welcome. Our scouts in the field have gotten
-            advance intel of some suspicious activities in the kingdom. Your
-            mission for this hunt will be announced as soon as we decode their
-            transmission. Stay alert and be ready to jump on the case as soon as
-            it drops.
+            <LinkComponent href="https://news.stanford.edu/stories/2024/11/annual-puzzle-hunt-brings-together-hundreds-of-student-solvers">
+              Read the feature
+            </LinkComponent>{' '}
+            on our event from the OSE team.
           </IntroText>
-          <IntroText>Good luck.</IntroText>
-        </CenterSection>
+          <PuzzlesTable puzzles={puzzles}></PuzzlesTable>
+        </Center>
       </Section>
 
       <Section>
@@ -162,6 +289,11 @@ export default function PuzzleHunt2023() {
             <SponsorRowImage src="/puzzleHunt/codegen.png" alt="Codegen" />
           </SponsorRow>
         </SponsorsRow>
+      </Section>
+
+      <Section title="Credits">
+        <Title>Credits</Title>
+        <Credits credits={credits}></Credits>
       </Section>
     </Layout>
   );

@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
 import Layout from '../../components/layout';
+import { Credits, Puzzle, PuzzlesTable } from '../../components/puzzlehunt';
 import {
-  LinkComponent,
   Paragraph as DefaultParagraph,
   Section,
   Title
@@ -23,75 +23,6 @@ const Center = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-
-const Table = styled.table`
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  font-family: Mukta, sans-serif;
-  width: 100%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  border-radius: 20px;
-`;
-
-const hideSmallCss = css`
-  @media (max-width: 960px) {
-    display: none;
-  }
-`;
-
-const TableHeaderCell = styled.th<{ hideSmall?: boolean }>`
-  padding: 12px 15px;
-  :first-of-type {
-    border-top-left-radius: 20px;
-  }
-  :last-of-type {
-    border-top-right-radius: 20px;
-  }
-  ${(props) => props.hideSmall && hideSmallCss}
-`;
-
-const TableCell = styled.td<{ hideSmall?: boolean }>`
-  padding: 12px 15px;
-  border-right: 1px solid ${({ theme }) => theme.colors.grayLight};
-  :last-of-type {
-    border-right: none;
-  }
-  ${(props) => props.hideSmall && hideSmallCss}
-`;
-
-const TableHeaderRow = styled.tr`
-  background-color: ${({ theme }) => theme.colors.red};
-  color: #ffffff;
-  text-align: center;
-  font-size: 1.5em;
-`;
-
-const TableRow = styled.tr`
-  text-align: center;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.grayLight};
-  font-size: 1.25em;
-  :last-of-type {
-    border-bottom: none;
-  }
-`;
-
-const Credits = styled.div`
-  column-count: 3;
-  @media (max-width: 1240px) {
-    column-count: 2;
-  }
-  @media (max-width: 960px) {
-    column-count: 1;
-  }
-`;
-
-interface Puzzle {
-  name: string;
-  credits: string;
-  puzzleLink: string;
-  solutionLink: string;
-}
 
 const puzzles: Puzzle[] = [
   {
@@ -200,38 +131,49 @@ const puzzles: Puzzle[] = [
   }
 ];
 
-function PuzzlesTable() {
-  return (
-    <Table>
-      <thead>
-        <TableHeaderRow>
-          <TableHeaderCell>Name</TableHeaderCell>
-          <TableHeaderCell hideSmall>Credits</TableHeaderCell>
-          <TableHeaderCell>Puzzle</TableHeaderCell>
-          <TableHeaderCell>Solution</TableHeaderCell>
-        </TableHeaderRow>
-      </thead>
-      <tbody>
-        {puzzles.map((puzzle, index) => (
-          <TableRow key={index}>
-            <TableCell>{puzzle.name}</TableCell>
-            <TableCell hideSmall>{puzzle.credits}</TableCell>
-            <TableCell>
-              <LinkComponent href={puzzle.puzzleLink} target="_blank">
-                Puzzle
-              </LinkComponent>
-            </TableCell>
-            <TableCell>
-              <LinkComponent href={puzzle.solutionLink} target="_blank">
-                Solution
-              </LinkComponent>
-            </TableCell>
-          </TableRow>
-        ))}
-      </tbody>
-    </Table>
-  );
-}
+const credits: { [id: string]: string[] } = {
+  'Co-Chairs': ['Sydney Yan', 'Sonny Young'],
+  'Editor-in-Chief': ['Ethan Chi'],
+  'Writing Team': [
+    'Ethan Chi',
+    'Nathan Chi',
+    'Ryan Chi',
+    'Kaylee Doty',
+    'Jennifer Ho',
+    'Bradley Moon',
+    'Ian Ng',
+    'Kristie Park',
+    'Daniel Sun',
+    'Sydney Yan',
+    'Sonny Young',
+    'Isaac Zhao'
+  ],
+  Volunteers: ['Gordon Chi', 'Jeremy Kim'],
+  'Test-Solvers': [
+    'Cardinality members',
+    'Jeopardy Test Server members',
+    'Guan Family',
+    'Mirchandani Family',
+    'Eden Ng',
+    'Chris Dinh',
+    'William Wu'
+  ],
+  Website: ['Ethan Chi', 'Ryan Chi', 'Scott Hickmann'],
+  'Jigsaw Team': ['Kristie Park', 'Daniel Sun', 'Sonny Young', 'Erik Roise'],
+  Skit: [
+    'Ian Ng',
+    'Nathan Chi',
+    'Ryan Chi',
+    'Jennifer Ho',
+    'Bradley Moon',
+    'Kristie Park',
+    'Daniel Sun',
+    'Sydney Yan',
+    'Sonny Young'
+  ],
+  Sponsors: ['MosaicML', 'Citadel'],
+  'Special Thanks': ['Kung Fu Tea Palo Alto', 'Custom Ink']
+};
 
 export default function PuzzleHunt2022() {
   return (
@@ -250,118 +192,11 @@ export default function PuzzleHunt2022() {
       </Section>
       <Section>
         <Title>Fall 2022: Mission to Mars</Title>
-        <PuzzlesTable />
+        <PuzzlesTable puzzles={puzzles} />
       </Section>
       <Section title="Credits">
         <Title>Credits</Title>
-        <Credits>
-          <h2>Co-Chairs</h2>
-          <Paragraph>
-            Sydney Yan
-            <br />
-            Sonny Young
-          </Paragraph>
-          <h2>Editor-in-Chief</h2>
-          <Paragraph>Ethan Chi</Paragraph>
-          <h2>Writing Team</h2>
-          <Paragraph>
-            Ethan Chi
-            <br />
-            Nathan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Kaylee Doty
-            <br />
-            Jennifer Ho
-            <br />
-            Bradley Moon
-            <br />
-            Ian Ng
-            <br />
-            Kristie Park
-            <br />
-            Daniel Sun
-            <br />
-            Sydney Yan
-            <br />
-            Sonny Young
-            <br />
-            Isaac Zhao
-          </Paragraph>
-          <h2>Volunteers</h2>
-          <Paragraph>
-            Gordon Chi
-            <br />
-            Jeremy Kim
-          </Paragraph>
-          <h2>Test-Solvers</h2>
-          <Paragraph>
-            Cardinality members
-            <br />
-            Jeopardy Test Server members
-            <br />
-            Guan Family
-            <br />
-            Mirchandani Family
-            <br />
-            Eden Ng
-            <br />
-            Chris Dinh
-            <br />
-            William Wu
-          </Paragraph>
-          <h2>Website</h2>
-          <Paragraph>
-            Ethan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Scott Hickmann
-          </Paragraph>
-          <h2>Jigsaw Team</h2>
-          <Paragraph>
-            Kristie Park
-            <br />
-            Daniel Sun
-            <br />
-            Sonny Young
-            <br />
-            Erik Roise
-          </Paragraph>
-          <h2>Skit</h2>
-          <Paragraph>
-            Ian Ng
-            <br />
-            Nathan Chi
-            <br />
-            Ryan Chi
-            <br />
-            Jennifer Ho
-            <br />
-            Bradley Moon
-            <br />
-            Kristie Park
-            <br />
-            Daniel Sun
-            <br />
-            Sydney Yan
-            <br />
-            Sonny Young
-          </Paragraph>
-          <h2>Sponsors</h2>
-          <Paragraph>
-            MosaicML
-            <br />
-            Citadel
-          </Paragraph>
-          <h2>Special Thanks</h2>
-          <Paragraph>
-            Kung Fu Tea Palo Alto
-            <br />
-            Custom Ink
-          </Paragraph>
-        </Credits>
+        <Credits credits={credits}></Credits>
       </Section>
     </Layout>
   );
