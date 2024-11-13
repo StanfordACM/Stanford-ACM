@@ -248,6 +248,12 @@ export default function PuzzleHunt2024() {
             </LinkComponent>
             .
           </IntroText>
+          <IntroText>
+            <LinkComponent href="https://news.stanford.edu/stories/2024/11/annual-puzzle-hunt-brings-together-hundreds-of-student-solvers">
+              Read the feature
+            </LinkComponent>{' '}
+            on our event from the OSE team.
+          </IntroText>
           <PuzzlesTable puzzles={puzzles}></PuzzlesTable>
         </Center>
       </Section>
