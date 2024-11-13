@@ -117,7 +117,7 @@ export function Credits({ credits }: { credits: { [id: string]: string[] } }) {
   return (
     <CreditsWrapper>
       {Object.entries(credits).map(([key, value]) => (
-        <div key={key}>
+        <div style={{ display: 'inline-block', width: '100%' }} key={key}>
           <h2>{key}</h2>
           <Paragraph>
             {value.map((person, index) => (
