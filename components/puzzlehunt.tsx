@@ -42,6 +42,9 @@ const TableHeaderCell = styled.th<{ hideSmall?: boolean }>`
   :last-of-type {
     border-top-right-radius: 20px;
   }
+  @media (max-width: 960px) {
+    padding: 10px 10px;
+  }
   ${(props) => props.hideSmall && hideSmallCss}
 `;
 
@@ -50,6 +53,9 @@ const TableCell = styled.td<{ hideSmall?: boolean }>`
   border-right: 1px solid ${({ theme }) => theme.colors.grayLight};
   :last-of-type {
     border-right: none;
+  }
+  @media (max-width: 960px) {
+    padding: 5px 5px;
   }
   ${(props) => props.hideSmall && hideSmallCss}
 `;
@@ -76,7 +82,7 @@ export function PuzzlesTable({ puzzles }: { puzzles: Puzzle[] }) {
       <thead>
         <TableHeaderRow>
           <TableHeaderCell>Name</TableHeaderCell>
-          <TableHeaderCell hideSmall>Credits</TableHeaderCell>
+          <TableHeaderCell>Credits</TableHeaderCell>
           <TableHeaderCell>Puzzle</TableHeaderCell>
           <TableHeaderCell>Solution</TableHeaderCell>
         </TableHeaderRow>
@@ -85,7 +91,7 @@ export function PuzzlesTable({ puzzles }: { puzzles: Puzzle[] }) {
         {puzzles.map((puzzle, index) => (
           <TableRow key={index}>
             <TableCell>{puzzle.name}</TableCell>
-            <TableCell hideSmall>{puzzle.credits}</TableCell>
+            <TableCell>{puzzle.credits}</TableCell>
             <TableCell>
               <LinkComponent href={puzzle.puzzleLink} target="_blank">
                 Puzzle
@@ -111,7 +117,7 @@ export function Credits({ credits }: { credits: { [id: string]: string[] } }) {
   return (
     <CreditsWrapper>
       {Object.entries(credits).map(([key, value]) => (
-        <div key={key}>
+        <div style={{ display: 'inline-block', width: '100%' }} key={key}>
           <h2>{key}</h2>
           <Paragraph>
             {value.map((person, index) => (
