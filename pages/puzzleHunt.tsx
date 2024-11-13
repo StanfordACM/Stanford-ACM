@@ -176,6 +176,9 @@ export default function PuzzleHunt() {
               <br />
               <b>No prior experience is needed.</b>
               <br />
+              See Puzzle Hunt Fall 2024: Piech in Peril{' '}
+              <LinkComponent href="/puzzleHunt/2024">here</LinkComponent>.
+              <br />
               See Puzzle Hunt Fall 2023: Mystery in History{' '}
               <LinkComponent href="/puzzleHunt/2023">here</LinkComponent>.
               <br />
