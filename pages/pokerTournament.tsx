@@ -31,7 +31,6 @@ export default function PokerTournament() {
         </Paragraph>
         <Paragraph>
           <b>Sponsors</b>: Hudson River Trading, Jump Trading, Jane Street, SIG
-          Street
           <br />
           (If you are interested in partnering with us, please email{' '}
           <LinkComponent href="mailto:stanfordpokertournament@gmail.com">
