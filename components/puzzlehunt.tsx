@@ -92,9 +92,13 @@ export function PuzzlesTable({ puzzles }: { puzzles: Puzzle[] }) {
               </LinkComponent>
             </TableCell>
             <TableCell>
-              <LinkComponent href={puzzle.solutionLink} target="_blank">
-                Solution
-              </LinkComponent>
+              {puzzle.solutionLink != '' ? (
+                <LinkComponent href={puzzle.solutionLink} target="_blank">
+                  Solution
+                </LinkComponent>
+              ) : (
+                <>Coming Soon</>
+              )}
             </TableCell>
           </TableRow>
         ))}

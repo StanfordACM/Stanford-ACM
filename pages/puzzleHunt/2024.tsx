@@ -80,104 +80,99 @@ const IntroText = styled.p`
 const puzzles: Puzzle[] = [
   {
     name: '[1-1] The Amazeing Griddler',
-    credits: '',
+    credits: 'Daniel Sun, Karolyn Cheng',
     puzzleLink: '/puzzleHunt/2024/1-1.pdf',
-    solutionLink:
-      'https://docs.google.com/document/d/197-BFFw74zBj7KcOwDM9XyjCLv_zqfWUDX2C5m8rXfg/edit?usp=share_link'
+    solutionLink: ''
   },
   {
     name: '[1-2] Sable, a chevron couched, gules',
-    credits: '',
+    credits: 'Daniel Sun, Bradley Moon',
     puzzleLink: '/puzzleHunt/2024/1-2.pdf',
-    solutionLink:
-      'https://docs.google.com/document/d/16Q3afLLBQkAVBxagO-5UvBY8QK6G54cnTGWxgQwb5tY/edit?usp=share_link'
+    solutionLink: ''
   },
   {
     name: '[1-3] To the Moon!',
-    credits: '',
+    credits: 'Daniel Sun',
     puzzleLink: '/puzzleHunt/2024/1-3.pdf',
-    solutionLink:
-      'https://docs.google.com/spreadsheets/d/1RykPL8cm_SA4TL97AcfaMXh7N7FU7XvkTmYZ94GXY9k/edit?usp=share_link'
+    solutionLink: ''
   },
   {
-    name: 'Italian Food Tips',
-    credits: 'Ethan Chi and Ryan Chi',
-    puzzleLink:
-      'https://docs.google.com/document/d/1bajxhoP-dgOr7G7tz4tIvETHorx9uVnP2TFdv1MLn2g/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1BhFmQf4M6KfJG7lRzILLdT3ICdpP9SlcXgY3AfSZ3nQ/edit?usp=share_link'
+    name: "[1-4] Shifty Caesar's Silent Soirée",
+    credits: 'Kristie Park, Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/1-4.pdf',
+    solutionLink: '/puzzleHunt/2024/sol/1-4sol.pdf'
   },
   {
-    name: 'Space Race',
-    credits: 'Sydney Yan',
-    puzzleLink:
-      'https://docs.google.com/document/d/1pe0tMnYhiyIAwGZpgP0vowObJez47dPvRAhMiXziAFU/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1-kfVt_epmjl3tzYLh-NKROTPWD7ZkfYtbCcTqNca7Mo/edit?usp=share_link'
+    name: '[1-5] Should I Touch Grass?',
+    credits: 'Karolyn Cheng, Daniel Sun',
+    puzzleLink: '/puzzleHunt/2024/1-5.pdf',
+    solutionLink: ''
   },
   {
-    name: 'Spaceship Maintenance',
-    credits: 'Sydney Yan, Ryan Chi, Nathan Chi and Isaac Zhao',
-    puzzleLink:
-      'https://docs.google.com/document/d/1EY_V1ZxFNuOqpw-mHaSDxZhglypqJDmjztPQyk4tp-s/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1y7PaOa3Iz0XaNwPt8GulZE0KTQvlo9VQ5WPV_lE0eEc/edit?usp=share_link'
+    name: '[1-6] mirror | rorrim',
+    credits: 'Daniel Sun, Karolyn Cheng, Sydney Yan',
+    puzzleLink: '/puzzleHunt/2024/1-6.pdf',
+    solutionLink: ''
   },
   {
-    name: 'Museo Artistico',
-    credits: 'Ethan Chi, Nathan Chi, and Daniel Sun',
-    puzzleLink:
-      'https://docs.google.com/document/d/1bRimIJ0gDRiIb8RPk9ACadQMlMkL7zyoYrUQcaRRSM4/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1UwQY8XfNujVRsLjz3Hj7g2zKCuzI-Hcho9SDnz4FbR4/edit?usp=share_link'
+    name: "[1-M] Bluebeard's Castle",
+    credits: 'Daniel Sun',
+    puzzleLink: '/puzzleHunt/2024/1-M.pdf',
+    solutionLink: ''
   },
   {
-    name: "Aren't Animals Amazing?",
-    credits: 'Bradley Moon, Nathan Chi, and Ian Ng',
-    puzzleLink:
-      'https://docs.google.com/document/d/1GSZqBiy45uLf-5_8-VaWy7HJ1JLeXV7tc1qsbGCtiy0/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1XM3WBLbCKDUnaoKwR2OXmGMgn5oK1OX_sS4lNXFjme0/edit?usp=share_link'
+    name: '[2-R] Super Meyer Odyssey',
+    credits: 'Daniel Sun, Kristie Park, Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/Runaround.pdf',
+    solutionLink: ''
   },
   {
-    name: 'A Story is Brewing',
+    name: '[3-1] Jigsaw',
+    credits: 'Kristie Park',
+    puzzleLink: '/puzzleHunt/2024/3-1.pdf',
+    solutionLink: '/puzzleHunt/2024/sol/3-1sol.pdf'
+  },
+  {
+    name: '[Beginner 3-2] Add Dresses',
     credits: 'Bradley Moon',
-    puzzleLink:
-      'https://docs.google.com/document/d/1BeFdZNOx1xR0kZhmyz4jYvrKKFTLsUu4wGIgcBuCHf8/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1aIANDlqwJABAc327ThJZPk7IFm4u4ujwSqTVp1Sm9T0/edit?usp=share_link'
+    puzzleLink: '/puzzleHunt/2024/beg3-2.pdf',
+    solutionLink: ''
   },
   {
-    name: 'Shoot for the Stars',
-    credits: 'Kristie Park, Daniel Sun, and Sydney Yan',
-    puzzleLink:
-      'https://docs.google.com/document/d/1kVFA3f7uLIi4w-1zerBIIxB-ZJM6mRrRAWyX-LBxmWg/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1XOwVyzrwI5c8dwHUBzSWhlHPi2k11IsbX-Ag_plYfdE/edit?usp=share_link'
+    name: '[Beginner 3-3] Double Trouble Double Trouble',
+    credits: 'Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/beg3-3.pdf',
+    solutionLink: ''
   },
   {
-    name: 'Mindsweeper',
-    credits: 'Kaylee Doty',
-    puzzleLink:
-      'https://docs.google.com/document/d/1ufH9JUmgFPxgTm2owGtPh-OWcBe5KUgV-U0kz7C8snY/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1aVmeK6n3cnA7XN9RXn2elrUxTEnvHmJ65bGWdwKuEgc/edit?usp=share_link'
+    name: '[Experienced 3-1b] ? Flower',
+    credits: 'Kristie Park, Bradley Moon, Daniel Sun ',
+    puzzleLink: '/puzzleHunt/2024/exp3-1b.pdf',
+    solutionLink: '/puzzleHunt/2024/sol/exp3-1bsol.pdf'
   },
   {
-    name: 'Element Elements',
-    credits: 'Sydney Yan, Ryan Chi, Nathan Chi, and Kristie Park',
-    puzzleLink:
-      'https://docs.google.com/document/d/1NSlklTxy_T6quOXujsn_FCN0yU9L51J3CdAEG4z4xoI/edit?usp=share_link',
-    solutionLink:
-      'https://docs.google.com/document/d/1YJSDSFB2LEqlk7CgrTA5CKMeFcKJeDfAVhac1YPCNYU/edit?usp=share_link'
+    name: '[Experienced 3-2] Insert Coin to Play',
+    credits: 'Ian Ng',
+    puzzleLink: '/puzzleHunt/2024/exp3-2.pdf',
+    solutionLink: ''
   },
   {
-    name: 'The Final Countdown',
-    credits: 'Kristie Park and Sonny Young',
-    puzzleLink:
-      'https://drive.google.com/file/d/1PDpxgzrXAJB-80y_ORL5uJq88vcIBI7E/view?usp=share_link',
-    solutionLink:
-      'https://drive.google.com/file/d/16rPAVH9rVe-sw8nXmZ8uQG7iPJXAQoTx/view?usp=share_link'
+    name: '[Experienced 3-3] Squaring the Circle',
+    credits: 'Bradley Moon',
+    puzzleLink: '/puzzleHunt/2024/exp3-3.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[Beginner 4-M] Concluding Coupa Castle',
+    credits: 'Bradley Moon, Karolyn Cheng, Kristie Park, Daniel Sun, Ian Ng',
+    puzzleLink: '/puzzleHunt/2024/begmeta.pdf',
+    solutionLink: ''
+  },
+  {
+    name: '[Experienced 4-M] Concluding Coupa Castle',
+    credits: 'Bradley Moon, Karolyn Cheng, Kristie Park, Daniel Sun, Ian Ng',
+    puzzleLink: '/puzzleHunt/2024/expmeta.pdf',
+    solutionLink: ''
   }
 ];
 
