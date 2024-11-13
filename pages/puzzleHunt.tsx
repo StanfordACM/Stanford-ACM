@@ -109,13 +109,6 @@ export default function PuzzleHunt() {
               height={336}
             />
           </div>
-          {/* <Info>
-            📅 Saturday, November 2nd
-            <br />
-            🕐 1-5pm
-            <br />
-            🧋 boba provided
-          </Info> */}
           <Header>
             Thank you to everyone who came to our fall 2024 Puzzle Hunt{' '}
             <LinkComponent href="https://news.stanford.edu/stories/2024/11/annual-puzzle-hunt-brings-together-hundreds-of-student-solvers">
@@ -123,26 +116,6 @@ export default function PuzzleHunt() {
             </LinkComponent>
             ! Stay tuned for the next one!
           </Header>
-          {/* <Header>
-            Puzzle Hunt signups for fall 2024 are&nbsp;
-            <LinkComponent
-              href="https://forms.gle/au4BBPKUdXrcMncF6"
-              target="_blank"
-            >
-              now open
-            </LinkComponent>
-            !
-          </Header>
-          <Paragraph>
-            More details can be found&nbsp;
-            <LinkComponent href="/puzzleHunt/2024">here</LinkComponent>.{' '}
-          </Paragraph>
-          <RegisterButton
-            href="https://forms.gle/au4BBPKUdXrcMncF6"
-            target="_blank"
-          >
-            Register
-          </RegisterButton> */}
           <Paragraph>
             Check out{' '}
             <LinkComponent href="/puzzleHunt/2024">
