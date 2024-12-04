@@ -88,7 +88,7 @@ export default function Contact() {
             <SponsorRowImage src="/logos/hrt.png" alt="Hudston River Trading" />
           </SponsorRow>
           <SponsorRow>
-            <SponsorRowImage src="/logos/citadel2.png" alt="Citadel" />
+            <SponsorRowImage src="/logos/citadel.png" alt="Citadel" />
           </SponsorRow>
           <SponsorRow>
             <SponsorRowImage src="/logos/x-camp.png" alt="X-camp" />
