@@ -55,11 +55,11 @@ export default function Contact() {
         <Title>About ProCo</Title>
         <Paragraph>
           ProCo is hosted by Stanford ACM. <br />
-          <b>Date:</b> May 4, 2024
+          <b>Date:</b> March 1, 2025
           <br />
           <b>Time:</b> 9 AM
           <br />
-          <b>Location:</b> Sapp Center for Science Teaching and Learning
+          <b>Location:</b> Stanford STLC 111
           <br />
           <b>Deadline to sign up:</b> Wednesday, May 1<br />
         </Paragraph>
