@@ -100,62 +100,31 @@ export default function Contact() {
         </People>
       </Section>
       <Section id="project">
-        <Title>Fall 2024 Onboarding Project</Title>
+        <Title>Winter 2025 SemEval</Title>
         <Paragraph>
-          In the MLab Fall Onboarding Project, you will sharpen your deep
-          learning skills by engaging with a high-impact real-world problem. In
-          doing so, you will learn about infrastructure, data processing,
-          implementation, model evaluation, and other critical tools of a
-          machine learning practitioner. By the end of the project, you will
-          have gained valuable skills and expertise in the field of machine
-          learning.
+          We submitted to Tasks 2, 3, 8, and 11 of the{' '}
+          <a href="https://semeval.github.io/SemEval2025/">
+            Workshop on Semantic Evaluation
+          </a>
+          .
         </Paragraph>
-        <Paragraph>
-          This year’s Fall Project is on bird classification.
-        </Paragraph>
-      </Section>
-      <Section id="schedule">
-        <Title>Fall 2024 Schedule</Title>
-        <Paragraph>
-          This year, we&apos;ll be meeting weekly on Wednesday from 7:30-9:00pm
-          PT.
-        </Paragraph>
-        <Event
-          date={new Date(2024, 9, 9)}
-          title="Workshop 1: Shallow Neural Networks"
-        />
-        <Event
-          date={new Date(2024, 9, 16)}
-          title="Workshop 2: Deep Neural Networks"
-        />
-        <Event date={new Date(2024, 9, 23)} title="Workshop 3: CNNs" />
-        <Event
-          date={new Date(2024, 9, 30)}
-          title="Workshop 4: Implementation Tips"
-        />
-        <Event
-          date={new Date(2024, 10, 3)}
-          title="Onboarding Project and Teams Released"
-        />
-        <Event
-          date={new Date(2024, 10, 30)}
-          title="Onboarding Project Submission Deadline"
-        />
-        <Event
-          date={new Date(2024, 11, 4)}
-          title="Onboarding Project Demo and Awards Ceremony"
-        />
       </Section>
       <Section id="recent-projects">
         <Title>Recent Projects</Title>
+        <h2>Fall 2024 Onboarding Project</h2>
+        <Paragraph>
+          This year 30 teams with 94 participants participated in the Fall
+          Onboarding Project, developing custom models for the task of bird
+          classification.
+        </Paragraph>
         <h2>SemEVAL</h2>
         <Paragraph>
           We submitted to the Workshop on Semantic Evaluation&apos;s Task 1
           (lexical complexity modelling) and Task 8 (automatically extracting
           measurements from scientific text). Our teams performed competitively
           on both tasks, including second place in one of the Task 8
-          subcategories. Our task description papers will appear at SemEval at
-          ACL 2021.
+          subcategories. Our task description papers appeared at SemEval at ACL
+          2021.
         </Paragraph>
         <h2>Google BIG-Bench</h2>
         <Paragraph>
@@ -164,12 +133,6 @@ export default function Contact() {
           benchmark for enourmous language models like GPT-3. MLab submitted
           tasks about temporal sequences, logic puzzles, sarcasm, and IPA
           translation.
-        </Paragraph>
-        <h2>VQA</h2>
-        <Paragraph>
-          We are currently preparing a submission on the ChartQA workshop at
-          CVPR 2021, aiming to automatically parse structured information from
-          diverse chart-based visual representations.
         </Paragraph>
       </Section>
       <Section id="recent-publications">
