@@ -74,7 +74,11 @@ export default function About() {
           ProCo is a computer programming contest for high school students in
           the style of the college-level ACM-ICPC. ProCo aims to provide a fun
           and engaging opportunity for high school students in the Bay Area to
-          explore their passion in computer science.
+          explore their passion in computer science. The contest will be held on
+          Saturday, March 1st.
+        </Paragraph>
+        <Paragraph>
+          <i>Weekly meetings: Thursdays at 6pm</i>
         </Paragraph>
 
         <SectionTitle href="/puzzleHunt">Puzzlehunt</SectionTitle>
@@ -88,6 +92,39 @@ export default function About() {
           Quant Gym is Stanford ACMs premier quantitative trading training
           program. Get ready to flex those mind muscles, and let&apos;s work
           together to practice our skills and ACE the interviews 😤.
+        </Paragraph>
+        <Paragraph>
+          <i>Weekly meetings: Fridays from 5-6pm at STLC 114</i>
+        </Paragraph>
+
+        <h2>GeoGuessr</h2>
+        <Paragraph>
+          Join us for weekly GeoGuessr sessions — no experience necessary!
+        </Paragraph>
+        <Paragraph>
+          <i>
+            Weekly meetings: Thursdays at 8:15pm at Hammarskjold (592 Alvarado
+            Row)
+          </i>
+        </Paragraph>
+
+        <h2>Escape Room</h2>
+        <Paragraph>
+          We&apos;re building an exciting escape room experience for Stanford
+          students to be held in Spring quarter.
+        </Paragraph>
+        <Paragraph>
+          <i>Weekly meetings: Fridays from 4-5pm at Huang Basement</i>
+        </Paragraph>
+
+        <h2>AI Clinic</h2>
+        <Paragraph>
+          AI Clinic hosts discussions on AI Policy and ethics, and provides
+          technical consultation from AI researchers on machine learning
+          projects.
+        </Paragraph>
+        <Paragraph>
+          <i>Weekly meetings: Thursdays at 7PM at Kimball Hall Lounge</i>
         </Paragraph>
       </Section>
     </Layout>
