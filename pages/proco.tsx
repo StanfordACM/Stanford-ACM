@@ -22,7 +22,7 @@ const Introduction = styled.div`
 export const ProcoImage = styled.img`
   height: 100%;
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
 `;
 
 const SponsorParagraph = styled(Paragraph)`
@@ -55,13 +55,16 @@ export default function Contact() {
         <Title>About ProCo</Title>
         <Paragraph>
           ProCo is hosted by Stanford ACM. <br />
-          <b>Date:</b> May 4, 2024
+          <b>Date:</b> March 1, 2025
           <br />
           <b>Time:</b> 9 AM
           <br />
-          <b>Location:</b> Sapp Center for Science Teaching and Learning
+          <b>Location:</b> Stanford STLC 111
           <br />
-          <b>Deadline to sign up:</b> Wednesday, May 1<br />
+          <b>Sign up:</b>
+          <a href="https://tinyurl.com/proco2025"> tinyurl.com/proco2025</a>
+          <br />
+          <b>Deadline to sign up:</b> Friday, February 21
         </Paragraph>
         <Paragraph>
           Students compete in teams of up to three to compete in solving
