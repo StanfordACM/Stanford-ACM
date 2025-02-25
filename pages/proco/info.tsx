@@ -61,19 +61,34 @@ int main(void) {
 const PythonCode = `a, b = [int (x) for x in input().split()]
 print(a + b)`;
 
+const Button = styled.a`
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto 30px auto;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0.5em 1em;
+  font-family: ${({ theme }) => theme.fonts.mono};
+  font-weight: 400;
+  background-color: ${({ theme }) => theme.colors.red};
+  cursor: pointer;
+  color: white;
+  &:hover {
+    color: ${({ theme }) => theme.colors.redLight};
+  }
+`;
+
 export default function Contact() {
   return (
     <Layout title="ProCo Information" pageName="proco">
+      <Button href="https://www.stanfordacm.org/proco">
+        {'<'} Back to ProCo Main Page
+      </Button>
       <Section>
         <Title>ProCo Information</Title>
       </Section>
       <Section>
-        <Center>
-          <ProcoImage src="/proco/poster.png" />
-        </Center>
-      </Section>
-      <Section>
-        <h2>Team Registration</h2>
+        <h2> Team Registration 📨</h2>
         <Paragraph>
           This year&apos;s competition will be in-person at the Stanford campus.
           We will be hosting a maximum of 300 participants. Thus, slots to
@@ -86,12 +101,13 @@ export default function Contact() {
           <br />
           <b>Location:</b> Sapp Center for Science Teaching and Learning 111
           <br />
-          <b>Deadline to sign up:</b>Friday, February 21
+          <b>Deadline to sign up:</b>Wednesday, February 26, 2025
           <br />
         </Paragraph>
         <Paragraph>
           Once you submit your registration form, we will send out a
-          confirmation email saying if you were accepted or not to participate.
+          confirmation email by Thursday, Febuary 27, 2025 saying if you were
+          accepted or not to participate.
         </Paragraph>
         <Paragraph>
           Teams can have between one and three students. Students on a team do
@@ -105,21 +121,21 @@ export default function Contact() {
           be allowed to replace team members, only drop them if they are unable
           to attend.
         </Paragraph>
-        <h2>Schedule</h2>
+        <h2>Schedule ⏰</h2>
         <Paragraph>
           9 AM: Check-in
           <br />
-          9:30 AM: Opening ceremony
+          9:15 AM: Opening ceremony
           <br />
-          9:45 AM: Practice contest
+          9:30 AM: Contest starts
           <br />
-          10:00 AM: Contest start
+          11:30 AM: Contest ends
           <br />
-          12:30 PM: Contest end
+          12:00 PM: Lunch + lightning talks
           <br />
-          12:45 PM: Closing ceremony
+          1:00 PM: Closing ceremony
         </Paragraph>
-        <h2>Divisions</h2>
+        <h2>Divisions 🥋</h2>
         <Paragraph>
           There are two different divisions in the competition: Novice and
           Advanced. A team may compete in the Novice division only if all
@@ -135,27 +151,30 @@ export default function Contact() {
         </Paragraph>
         <Paragraph>
           The ProCo staff has the right to disqualify any team that does not
-          follow these rules of division assignment. If you are unsure what
-          division to compete in, please reach out to the ProCo staff at{' '}
-          <LinkComponent href="mailto:procostaff2024@gmail.com">
-            proco2024staff@gmail.com
+          follow these rules of division assignment. But we don&apos;t want to!
+          If you are unsure what division to compete in, please reach out to the
+          ProCo staff at{' '}
+          <LinkComponent href="mailto:stanfordproco2025@gmail.com">
+            stanfordproco2025@gmail.com
           </LinkComponent>{' '}
           and{' '}
-          <LinkComponent href="mailto:nchi1@stanford.edu">
-            nchi1@stanford.edu
+          <LinkComponent href="mailto:aleyang@stanford.edu">
+            aleyang@stanford.edu
           </LinkComponent>
           .
         </Paragraph>
-        <h2>Laptops and Equipment</h2>
+        <h2>Laptops and Equipment 🛠️</h2>
         <Paragraph>
           Each team member will be responsible for using their own computer and
           WiFi to compete in the contest. Communication among team members can
           be facilitated in any fashion.
         </Paragraph>
-        <h2>Prizes</h2>
-        <Paragraph>Boba will be awarded to all participants.</Paragraph>
+        <h2>Prizes 🏆</h2>
+        <Paragraph>
+          TBD! But boba will be awarded to all participants.
+        </Paragraph>
         <Title>Rules</Title>
-        <h2>Access and Communication</h2>
+        <h2>Access and Communication 📣</h2>
         <ul>
           <li>
             Each team is allowed to use up to three laptops with Internet
@@ -163,7 +182,7 @@ export default function Contact() {
           </li>
           <li>
             The use of the internet is allowed to access free resources.
-            Sentient help is strictly prohibited.
+            Sentient/AI/extraterrestrial help is strictly prohibited.
           </li>
           <li>External communication is prohibited.</li>
           <li>
@@ -171,7 +190,7 @@ export default function Contact() {
             programming tools. The use of all other programs are prohibited.
           </li>
         </ul>
-        <h2>Input and Output</h2>
+        <h2>Input and Output 📓</h2>
         <ul>
           <li>
             All input will be received from console input (System.in in Java,
@@ -209,14 +228,14 @@ export default function Contact() {
             </ProgramsList>
           </li>
         </ul>
-        <h2>Submissions</h2>
+        <h2>Submissions 📩</h2>
         <ul>
           <li>
-            We will be accepting submissions in C, C++, Java, and Python 3.6.
+            We will be accepting submissions in C, C++, Java, and Python 3.8.
           </li>
           <li>
-            Solutions will be graded using GNU C++11, Java 1.8.0, and Python 3.6
-            on Linux machines.
+            Solutions will be graded using GNU C++17, Java, and Python 3.8 on
+            Linux machines.
           </li>
           <li>
             All files must be named in the format specified on your problem
@@ -243,9 +262,9 @@ export default function Contact() {
             classes, put all of the class declarations into one file.
           </li>
         </ul>
-        <h2>Contest Format</h2>
+        <h2>Contest Format 🎲</h2>
         <Paragraph>
-          ProCo will consist of 9 - 15 unweighted problems and will last for 3
+          ProCo will consist of 9 - 15 unweighted problems and will last for 2
           hours.
         </Paragraph>
         <Paragraph>
@@ -262,7 +281,7 @@ export default function Contact() {
           language. For example, the same team could solve novA in C, novD in
           Java, and novF in C++.
         </Paragraph>
-        <h2>Contest Platform</h2>
+        <h2>Contest Platform 💻</h2>
         <Paragraph>
           This year, ProCo will be using Codeforces to host the contest. Unlike
           last year, some preparation will be required from participants.
@@ -280,7 +299,7 @@ export default function Contact() {
           . Each team member will need to submit this team ID and team name when
           filling out the registration form.
         </Paragraph>
-        <h2>Scoring</h2>
+        <h2>Scoring 💥</h2>
         <Paragraph>
           Teams are ranked according to the most problems solved. Teams who
           solve the same number of problems will be ranked in accordance with

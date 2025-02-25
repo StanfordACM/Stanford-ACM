@@ -59,12 +59,12 @@ export default function Contact() {
           <br />
           <b>Time:</b> 9 AM
           <br />
-          <b>Location:</b> Stanford STLC 111
+          <b>Location:</b> Sapp Center for Science Teaching and Learning 111
           <br />
           <b>Sign up:</b>
           <a href="https://tinyurl.com/proco2025"> tinyurl.com/proco2025</a>
           <br />
-          <b>Deadline to sign up:</b> Friday, February 21
+          <b>Deadline to sign up:</b>Wednesday, February 26, 2025
         </Paragraph>
         <Paragraph>
           Students compete in teams of up to three to compete in solving
