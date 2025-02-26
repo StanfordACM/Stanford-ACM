@@ -102,6 +102,9 @@ export default function Contact() {
               alt="Amber by LatticeWork"
             />
           </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/logos/wolfram.png" alt="Wolfram Alpha" />
+          </SponsorRow>
         </SponsorsRow>
         <SponsorParagraph>
           Hudson River Trading: Hudson River Trading is always on the lookout
