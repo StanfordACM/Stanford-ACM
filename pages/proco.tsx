@@ -100,6 +100,13 @@ export default function Contact() {
             <SponsorRowImage
               src="/logos/amber.png"
               alt="Amber by LatticeWork"
+              onClick={() =>
+                window.open(
+                  'https://www.latticeworkinc.com/hardware/amberpro/',
+                  '_blank'
+                )
+              }
+              style={{ cursor: 'pointer' }}
             />
           </SponsorRow>
           <SponsorRow>
@@ -142,9 +149,12 @@ export default function Contact() {
           solutions for privacy-focused enterprises in cloud-edge environments.
           LatticeWork is proud to be a sponsor for Stanford ACM&apos;s ProCo
           event since 2022. We are offering participants and members special
-          promo code: STANFORD30 for 30% discount on all Amber products at{' '}
-          <LinkComponent href="https://www.myamberlife.com" target="_blank">
-            www.myamberlife.com
+          promo code: STANFORD30 for 30% discount on all Amber products{' '}
+          <LinkComponent
+            href="https://www.latticeworkinc.com/brands/amber/"
+            target="_blank"
+          >
+            here
           </LinkComponent>
           .
         </SponsorParagraph>
