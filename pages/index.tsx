@@ -97,6 +97,16 @@ export default function About() {
           <i>Weekly meetings: Fridays from 5-6pm at STLC 114</i>
         </Paragraph>
 
+        <SectionTitle href="/aiClinic">AI Clinic</SectionTitle>
+        <Paragraph>
+          The Stanford AI Clinic hosts discussions on AI Policy and ethics, and
+          provides technical consultation from AI researchers on machine
+          learning projects.
+        </Paragraph>
+        <Paragraph>
+          <i>Weekly meetings: Thursdays at 7PM at Kimball Hall Lounge</i>
+        </Paragraph>
+
         <h2>GeoGuessr</h2>
         <Paragraph>
           Join us for weekly GeoGuessr sessions — no experience necessary!
@@ -115,16 +125,6 @@ export default function About() {
         </Paragraph>
         <Paragraph>
           <i>Weekly meetings: Fridays from 4-5pm at Huang Basement</i>
-        </Paragraph>
-
-        <h2>AI Clinic</h2>
-        <Paragraph>
-          AI Clinic hosts discussions on AI Policy and ethics, and provides
-          technical consultation from AI researchers on machine learning
-          projects.
-        </Paragraph>
-        <Paragraph>
-          <i>Weekly meetings: Thursdays at 7PM at Kimball Hall Lounge</i>
         </Paragraph>
       </Section>
     </Layout>

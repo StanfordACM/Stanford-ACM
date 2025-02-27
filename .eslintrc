@@ -48,6 +48,7 @@
         "aspects": ["invalidHref", "preferButton"]
       }
     ],
-    "no-console": 1
+    "no-console": 1,
+    "react/no-unescaped-entities": "off"
   }
 }
