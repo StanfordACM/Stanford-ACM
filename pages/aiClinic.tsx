@@ -29,8 +29,8 @@ export default function AiClinic() {
         </Paragraph>
         <Paragraph>
           Please join our weekly meetings for technical workshops, policy
-          discussions, and to join our quarterly project. This quarter's project
-          is focused on improving peoples' access to AI services.
+          discussions, and to join our quarterly project. This quarter&apos;s
+          project is focused on improving people&apos;s access to AI services.
         </Paragraph>
         <Paragraph>
           <b>Where: </b> Kimball Hall Lounge <br />
