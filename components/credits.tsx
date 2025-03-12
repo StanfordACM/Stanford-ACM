@@ -11,9 +11,15 @@ const CreditsWrapper = styled.div`
   }
 `;
 
-export function Credits({ credits }: { credits: { [id: string]: string[] } }) {
+export function Credits({
+  credits,
+  style = {}
+}: {
+  credits: { [id: string]: string[] };
+  style?: React.CSSProperties;
+}) {
   return (
-    <CreditsWrapper>
+    <CreditsWrapper style={style}>
       {Object.entries(credits).map(([key, value]) => (
         <div style={{ display: 'inline-block', width: '100%' }} key={key}>
           <h2>{key}</h2>

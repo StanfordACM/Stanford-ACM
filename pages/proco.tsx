@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { People, Person } from '../components/people';
 import Layout from '../components/layout';
 import {
   LinkComponent,
@@ -12,7 +12,7 @@ import {
   SponsorRowImage,
   SponsorsRow
 } from '../components/sponsors';
-
+import { Credits } from '../components/credits';
 const Introduction = styled.div`
   display: flex;
   flex-direction: column;
@@ -28,6 +28,18 @@ export const ProcoImage = styled.img`
 const SponsorParagraph = styled(Paragraph)`
   font-size: smaller;
 `;
+
+const credits: { [id: string]: string[] } = {
+  Organizers: ['Sheryl Chen', 'Tony Wang', 'Sandra Yang'],
+  'Problem Writers': [
+    'Austin Chen',
+    'Tanmay Garg',
+    'Agastya Goel',
+    'Misha Ivkov',
+    'Julia Xi',
+    'Sandra Yang'
+  ]
+};
 
 export default function Contact() {
   return (
@@ -54,17 +66,8 @@ export default function Contact() {
       <Section id="about">
         <Title>About ProCo</Title>
         <Paragraph>
-          ProCo is hosted by Stanford ACM. <br />
-          <b>Date:</b> March 1, 2025
-          <br />
-          <b>Time:</b> 9 AM
-          <br />
-          <b>Location:</b> Sapp Center for Science Teaching and Learning 111
-          <br />
-          <b>Sign up:</b>
-          <a href="https://tinyurl.com/proco2025"> tinyurl.com/proco2025</a>
-          <br />
-          <b>Deadline to sign up:</b>Wednesday, February 26, 2025
+          ProCo 2025 was just hosted on March 1st, 2025 by Stanford ACM. Keep in
+          touch for the next one!
         </Paragraph>
         <Paragraph>
           Students compete in teams of up to three to compete in solving
@@ -79,10 +82,22 @@ export default function Contact() {
         </Paragraph>
         <Paragraph>
           <em>
-            For full rules and more detailed information, see our{' '}
+            For full rules and more detailed information about ProCo 2025, see
+            our{' '}
             <LinkComponent href="/proco/info">ProCo info page.</LinkComponent>
           </em>
         </Paragraph>
+      </Section>
+      <Section id="people">
+        <Title>Credits (ProCo 2025)</Title>
+        <Credits
+          credits={credits}
+          style={{
+            textAlign: 'center',
+            maxHeight: '300px',
+            columnCount: 2
+          }}
+        />
       </Section>
       <Section id="sponsors">
         <Title>Sponsors</Title>
