@@ -1,7 +1,8 @@
 import styled, { css } from 'styled-components';
 
 import Layout from '../../components/layout';
-import { Credits, Puzzle, PuzzlesTable } from '../../components/puzzlehunt';
+import { Credits } from '../../components/credits';
+import { Puzzle, PuzzlesTable } from '../../components/puzzlehunt';
 import {
   Paragraph as DefaultParagraph,
   Section,

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 import Layout from '../../components/layout';
-import { Credits, Puzzle, PuzzlesTable } from '../../components/puzzlehunt';
+import { Puzzle, PuzzlesTable } from '../../components/puzzlehunt';
+import { Credits } from '../../components/credits';
 import { LinkComponent, Paragraph, Section } from '../../components/section';
 import {
   SponsorRow,
