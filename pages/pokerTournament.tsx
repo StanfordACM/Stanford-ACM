@@ -1,6 +1,16 @@
 import Layout from '../components/layout';
 import { PokerTitle } from '../components/poker';
-import { LinkComponent, Paragraph, Section } from '../components/section';
+import {
+  LinkComponent,
+  Paragraph,
+  Section,
+  Title
+} from '../components/section';
+import {
+  SponsorRow,
+  SponsorRowImage,
+  SponsorsRow
+} from '../components/sponsors';
 
 export default function PokerTournament() {
   return (
@@ -8,7 +18,7 @@ export default function PokerTournament() {
       <Section>
         <PokerTitle />
         <Paragraph>
-          On May 18, 2024, Stanford ACM is hosting Stanford&apos;s inaugural{' '}
+          On May 17, 2025, Stanford ACM is hosting Stanford&apos;s annual{' '}
           <b>Poker Tournament</b>, sponsored by the premier trading firms in the
           nation.
         </Paragraph>
@@ -19,25 +29,33 @@ export default function PokerTournament() {
           All skill levels are welcome. There will be boba, swag, and prizes.
         </Paragraph>
         <Paragraph>
-          <b>Date:</b> Sat, May 18, 2024
+          <b>Date:</b> Sat, May 17, 2025
           <br />
           <b>Time:</b> 10 AM
           <br />
-          <b>Location:</b> STLC
+          <b>Location:</b> Lathrop
           <br />
           (We expect the preliminary rounds will last several hours, with one
           final table to conclude the event. We will also have tables /
           slideshows from our sponsors.)
         </Paragraph>
-        <Paragraph>
-          <b>Sponsors</b>: Hudson River Trading, Jump Trading, Jane Street, SIG
-          <br />
-          (If you are interested in partnering with us, please email{' '}
-          <LinkComponent href="mailto:stanfordpokertournament@gmail.com">
-            stanfordpokertournament@gmail.com
-          </LinkComponent>{' '}
-          to discuss details.)
-        </Paragraph>
+      </Section>
+      <Section id="sponsors">
+        <Title>Sponsors</Title>
+        <SponsorsRow>
+          <SponsorRow>
+            <SponsorRowImage src="/logos/hrt.png" alt="Hudston River Trading" />
+          </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/logos/citadel.png" alt="Citadel" />
+          </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/logos/janestreet.png" alt="Jane Street" />
+          </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/logos/deshaw.png" alt="DE Shaw" />
+          </SponsorRow>
+        </SponsorsRow>
       </Section>
     </Layout>
   );
