@@ -61,7 +61,8 @@ export default function Contact() {
             year={2026}
             position="Quant Gym Co-Director"
           />
-          <Person name="Tony Wang" year={2027} position="ProCo Director" />
+          <Person name="Tony Wang" year={2027} position="ProCo Co-Director" />
+          <Person name="Sandra Yang" year={2028} position="ProCo Co-Director" />
           <Person
             name="Kristie Park"
             year={2026}

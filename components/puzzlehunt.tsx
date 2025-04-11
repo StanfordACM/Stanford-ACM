@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { LinkComponent, Paragraph } from './section';
+import { LinkComponent } from './section';
 
 export interface Puzzle {
   name: string;
@@ -7,16 +7,6 @@ export interface Puzzle {
   puzzleLink: string;
   solutionLink: string;
 }
-
-const CreditsWrapper = styled.div`
-  column-count: 3;
-  @media (max-width: 1240px) {
-    column-count: 2;
-  }
-  @media (max-width: 960px) {
-    column-count: 1;
-  }
-`;
 
 const hideSmallCss = css`
   @media (max-width: 960px) {
@@ -110,25 +100,5 @@ export function PuzzlesTable({ puzzles }: { puzzles: Puzzle[] }) {
         ))}
       </tbody>
     </Table>
-  );
-}
-
-export function Credits({ credits }: { credits: { [id: string]: string[] } }) {
-  return (
-    <CreditsWrapper>
-      {Object.entries(credits).map(([key, value]) => (
-        <div style={{ display: 'inline-block', width: '100%' }} key={key}>
-          <h2>{key}</h2>
-          <Paragraph>
-            {value.map((person, index) => (
-              <span key={index}>
-                {person}
-                <br />
-              </span>
-            ))}
-          </Paragraph>
-        </div>
-      ))}
-    </CreditsWrapper>
   );
 }
