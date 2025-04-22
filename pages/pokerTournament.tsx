@@ -55,7 +55,17 @@ export default function PokerTournament() {
           <SponsorRow>
             <SponsorRowImage src="/logos/deshaw.png" alt="DE Shaw" />
           </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/logos/walleye.jpg" alt="Walleye" />
+          </SponsorRow>
         </SponsorsRow>
+        <Paragraph>
+          If you are interested in partnering with us, please email{' '}
+          <LinkComponent href="mailto:stanfordpokertournament@gmail.com">
+            stanfordpokertournament@gmail.com
+          </LinkComponent>{' '}
+          to discuss details.
+        </Paragraph>
       </Section>
     </Layout>
   );
