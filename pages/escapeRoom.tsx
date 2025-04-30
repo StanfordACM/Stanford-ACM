@@ -26,7 +26,7 @@ export default function EscapeRoom() {
   return (
     <Layout title="Escape Room" pageName="escapeRoom">
       <Section id="escape-room">
-        <Title>Stanford Escape</Title>
+        <Title>🗝️ Stanford Escape 🔒</Title>
         <Paragraph>
           <strong>Stanford Excape</strong> is Stanford's first in-house escape
           room and is a collaboration between Stanford Student Robotics and the
