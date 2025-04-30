@@ -51,6 +51,15 @@ export default function EscapeRoom() {
           </LinkComponent>
         </Paragraph>
         <Paragraph>
+          <strong>Wait List:</strong>{' '}
+          <LinkComponent
+            href="https://docs.google.com/forms/d/163upfeiWiRj9IdMMweFtgP9V2ypFC7BQytuTTYS0XKQ/edit#responses"
+            target="_blank"
+          >
+            Link
+          </LinkComponent>
+        </Paragraph>
+        <Paragraph>
           <strong>Schedule a drop in session:</strong>{' '}
           <LinkComponent
             href="https://docs.google.com/forms/d/e/1FAIpQLSd-IdoLKvrILgTfqOfU-AagwKLnmKCv05Q3U3J0Nfrn0OXB8Q/viewform"
