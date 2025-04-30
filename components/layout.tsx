@@ -6,7 +6,7 @@ import Navigation from './navigation';
 const Main = styled.main<{ paddingH: number }>`
   margin: 0 0 0 360px;
   padding: ${(props) => props.paddingH}px; 180px ${(props) =>
-    props.paddingH}px 120px;
+  props.paddingH}px 120px;
 
   @media (max-width: ${({ theme }) => theme.screen.desktop}) {
     padding: 40px 80px 40px 80px;
