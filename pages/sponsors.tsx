@@ -84,6 +84,9 @@ export default function Contact() {
           <Sponsor>
             <img src="/logos/square.jpg" alt="Square" />
           </Sponsor>
+          <Sponsor>
+            <img src="/logos/jump.png" alt="Jump Trading" />
+          </Sponsor>
         </Sponsors>
         <br />
         <Title>Partners</Title>

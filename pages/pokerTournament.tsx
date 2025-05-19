@@ -58,6 +58,9 @@ export default function PokerTournament() {
           <SponsorRow>
             <SponsorRowImage src="/logos/walleye.jpg" alt="Walleye" />
           </SponsorRow>
+          <SponsorRow>
+            <SponsorRowImage src="/logos/jump.png" alt="Jump Trading" />
+          </SponsorRow>
         </SponsorsRow>
         <Paragraph>
           If you are interested in partnering with us, please email{' '}
