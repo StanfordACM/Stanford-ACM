@@ -16,8 +16,13 @@ export default function Contact() {
 
         {/* Active officers */}
         <People title="2024-2025" startShown={true}>
-          <Person name="Justin Gu" year={2027} position="Co-President" />
-          <Person name="Sydney Yan" year={2025} position="Co-President" />
+          <Person name="Annie Lee" year={2027} position="Co-President" />
+          <Person
+            name="Suze van Adrichem"
+            year={2025}
+            position="Co-President"
+          />
+          <Person name="Tony Wang" year={2025} position="Co-President" />
           <Person
             name="Suze van Adrichem"
             year={2027}
