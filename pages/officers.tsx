@@ -17,7 +17,11 @@ export default function Contact() {
         {/* Active officers */}
         <People title="2025-2026" startShown={true}>
           <Person name="Annie Lee" year={2027} position="Co-President" />
-          <Person name="Suze van Adrichem" year={2027} position="Co-President" />
+          <Person
+            name="Suze van Adrichem"
+            year={2027}
+            position="Co-President"
+          />
           <Person name="Tony Wang" year={2027} position="Co-President" />
           <Person name="Sandra Yang" year={2028} position="Co-President" />
           <Person name="Elana Chen" year={2028} position="Financial Officer" />
@@ -29,8 +33,16 @@ export default function Contact() {
           <Person name="Sheryl Chen" year={2028} position="ProCo Director" />
           <Person name="Jadelyn Tran" year={2028} position="Social Chair" />
           <Person name="Alexandra Kim" year={2028} position="Social Chair" />
-          <Person name="Karolyn Cheng" year={2028} position="Puzzle Hunt Director" />
-          <Person name="Kristie Park" year={2026} position="Puzzle Hunt Director" />
+          <Person
+            name="Karolyn Cheng"
+            year={2028}
+            position="Puzzle Hunt Director"
+          />
+          <Person
+            name="Kristie Park"
+            year={2026}
+            position="Puzzle Hunt Director"
+          />
           <Person name="Juli Huang" year={2028} position="Webmaster" />
           <Person name="Gorn Namchittai" year={2028} position="Webmaster" />
         </People>
