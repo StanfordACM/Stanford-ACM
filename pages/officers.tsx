@@ -15,7 +15,30 @@ export default function Contact() {
         <Title>Meet the ACM Officers!</Title>
 
         {/* Active officers */}
-        <People title="2024-2025" startShown={true}>
+        <People title="2025-2026" startShown={true}>
+          <Person name="Annie Lee" year={2027} position="Co-President" />
+          <Person name="Suze van Adrichem" year={2027} position="Co-President" />
+          <Person name="Tony Wang" year={2027} position="Co-President" />
+          <Person name="Sandra Yang" year={2028} position="Co-President" />
+          <Person name="Elana Chen" year={2028} position="Financial Officer" />
+          <Person name="Jamin Xie" year={2028} position="Financial Officer" />
+          <Person name="Ryan Rong" year={2028} position="MLab Director" />
+          <Person name="Sabrina Yen-Ko" year={2028} position="MLab Director" />
+          <Person name="Eric Cui" year={2027} position="DevLab Director" />
+          <Person name="Mao Yu Cheng" year={2028} position="DevLab Director" />
+          <Person name="Sheryl Chen" year={2028} position="ProCo Director" />
+          <Person name="Jadelyn Tran" year={2028} position="Social Chair" />
+          <Person name="Alexandra Kim" year={2028} position="Social Chair" />
+          <Person name="Karolyn Cheng" year={2028} position="Puzzle Hunt Director" />
+          <Person name="Kristie Park" year={2026} position="Puzzle Hunt Director" />
+          <Person name="Juli Huang" year={2028} position="Webmaster" />
+          <Person name="Gorn Namchittai" year={2028} position="Webmaster" />
+        </People>
+
+        <Title>Previous Officers</Title>
+
+        {/* Previous officers */}
+        <People title="2024-2025" startShown={false}>
           <Person name="Justin Gu" year={2027} position="Co-President" />
           <Person name="Sydney Yan" year={2025} position="Co-President" />
           <Person
