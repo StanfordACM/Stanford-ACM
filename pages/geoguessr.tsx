@@ -13,7 +13,7 @@ export default function GeoGuessr() {
   return (
     <Layout title="GeoGuessr" pageName="geoguessr">
       <Section id="geoguessr">
-        <Title> GeoGuessr Club </Title>
+        <Title> GeoGuessr  </Title>
         <Title>What's GeoGuessr Club?</Title>
         <Paragraph>
           We're a fun club that primarily plays GeoGuessr, a game where you figure out where you are in the world from just a single image! We'll teach you all the tips and tricks that anyone from beginners to pros use to master the game. Additionally, inspired by our recent fizz fame (reference the screenshot in 25-26-officers), we're planning on teaching the basics of geolocation and OSINT techniques.
