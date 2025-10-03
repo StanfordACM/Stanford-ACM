@@ -87,6 +87,9 @@ export default function Contact() {
           <Sponsor>
             <img src="/logos/jump.png" alt="Jump Trading" />
           </Sponsor>
+          <Sponsor>
+            <img src="/logos/walleye.jpg" alt="Walleye" />
+          </Sponsor>
         </Sponsors>
         <br />
         <Title>Partners</Title>
