@@ -43,6 +43,14 @@ const AnnounceLinkComponent = styled.a`
   }
 `;
 
+export const IndexImage = styled.img`
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+`;
+
 export default function About() {
   return (
     <Layout title="About" pageName="about">
@@ -53,6 +61,10 @@ export default function About() {
           mission is to build exciting projects to learn about and solve
           challenging technical and social problems.
         </Paragraph>
+        <Paragraph>
+          We'd love for you to join ACM! Signup form link: <LinkComponent href="https://tinyurl.com/stanfordacm2025">https://tinyurl.com/stanfordacm2025</LinkComponent>
+        </Paragraph>
+        <IndexImage src="/index/Stanford_ACM_Poster_2025.png" alt="Stanford ACM 2025 Poster" />
       </Section>
 
       <Section id="activities">
