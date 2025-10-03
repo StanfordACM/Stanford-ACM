@@ -18,7 +18,7 @@ export default function PokerTournament() {
       <Section>
         <PokerTitle />
         <Paragraph>
-          On May 17, 2025, Stanford ACM is hosting Stanford&apos;s annual{' '}
+          This spring quarter May 2026, Stanford ACM is hosting Stanford&apos;s annual{' '}
           <b>Poker Tournament</b>, sponsored by the premier trading firms in the
           nation.
         </Paragraph>
@@ -29,11 +29,11 @@ export default function PokerTournament() {
           All skill levels are welcome. There will be boba, swag, and prizes.
         </Paragraph>
         <Paragraph>
-          <b>Date:</b> Sat, May 17, 2025
+          <b>Date:</b> TBD
           <br />
-          <b>Time:</b> 10 AM
+          <b>Time:</b> TBD
           <br />
-          <b>Location:</b> Lathrop
+          <b>Location:</b> TBD
           <br />
           (We expect the preliminary rounds will last several hours, with one
           final table to conclude the event. We will also have tables /
@@ -42,6 +42,10 @@ export default function PokerTournament() {
       </Section>
       <Section id="sponsors">
         <Title>Sponsors</Title>
+        <Paragraph>
+          Sponsors TBD
+        </Paragraph>
+        {/* 
         <SponsorsRow>
           <SponsorRow>
             <SponsorRowImage src="/logos/hrt.png" alt="Hudston River Trading" />
@@ -69,6 +73,7 @@ export default function PokerTournament() {
             />
           </SponsorRow>
         </SponsorsRow>
+        */}
         <Paragraph>
           If you are interested in partnering with us, please email{' '}
           <LinkComponent href="mailto:stanfordpokertournament@gmail.com">
