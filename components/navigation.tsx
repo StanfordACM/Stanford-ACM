@@ -139,6 +139,9 @@ export default function Navigation({ pageName }: { pageName: string }) {
         <NavigationLink selected={pageName === 'quantGym'} href="/quantGym">
           quant gym
         </NavigationLink>
+        <NavigationLink selected={pageName === 'geoguessr'} href="/geoguessr">
+          geoguessr
+        </NavigationLink>
         <NavigationLink selected={pageName === 'aiClinic'} href="/aiClinic">
           ai clinic
         </NavigationLink>
