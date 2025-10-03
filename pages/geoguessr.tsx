@@ -13,10 +13,13 @@ export default function GeoGuessr() {
   return (
     <Layout title="GeoGuessr" pageName="geoguessr">
       <Section id="geoguessr">
-        <Title> GeoGuessr </Title>
+        <Title>🌍 GeoGuessr Club 🗺️</Title>
+        <Title>What's GeoGuessr Club?</Title>
         <Paragraph>
-          We'll play GeoGuessr once a week. No experience required: we'll teach you from the ground up. 
-          A mix of learning, (low-pressure) tournaments, prizes, and friends!
+          We're a fun club that primarily plays GeoGuessr, a game where you figure out where you are in the world from just a single image! We'll teach you all the tips and tricks that anyone from beginners to pros use to master the game. Additionally, inspired by our recent fizz fame (reference the screenshot in 25-26-officers), we're planning on teaching the basics of geolocation and OSINT techniques.
+        </Paragraph>
+        <Paragraph>
+          Starting this year, ACM GeoGuessr Club is participating as Stanford University at the official Collegiate GeoGuessr League! We'll be participating in both solo and doubles in weekly tournaments.
         </Paragraph>
       </Section>
       <Section id="board">
@@ -29,10 +32,7 @@ export default function GeoGuessr() {
       <Section id="meetings">
         <Title>Meeting Information</Title>
         <Paragraph>
-          Meeting Time: 8:15 - 9:15 p.m. Thursdays
-        </Paragraph>
-        <Paragraph>
-          First meeting this Thursday, Oct 10th! Location: Hammarskjöld
+          Time & Date: Hammarskjöld, Fridays 8PM
         </Paragraph>
       </Section>
       <Section id="sponsors">
