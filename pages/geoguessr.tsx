@@ -29,10 +29,10 @@ export default function GeoGuessr() {
         <Paragraph>
           Starting this year, ACM GeoGuessr Club is participating as Stanford University at the official Collegiate GeoGuessr League! We'll be participating in both solo and doubles in weekly tournaments.
         </Paragraph>
-        <GeoguessrImage src="/geoguessr/fizz_post.png" alt="GeoGuessr Fizz Post" />
         <Paragraph>
           Join our discord server: <LinkComponent href="https://discord.gg/PG5RYScS">Stanford Geoguessr Discord</LinkComponent>. If you have any questions, feel free to contact us at <LinkComponent href="mailto:hinson@stanford.edu">hinson@stanford.edu</LinkComponent>.
         </Paragraph>
+        <GeoguessrImage src="/geoguessr/fizz_post.png" alt="GeoGuessr Fizz Post" />
       </Section>
       <Section id="board">
         <People title="Organizers" startShown={true} bigTitle>
