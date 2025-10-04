@@ -19,7 +19,6 @@ export default function Contact() {
           <Person name="Annie Lee" year={2027} position="Co-President" />
           <Person name="Suze van Adrichem" year={2027} position="Co-President" />
           <Person name="Tony Wang" year={2027} position="Co-President" />
-          <Person name="Sandra Yang" year={2028} position="Co-President" />
           <Person name="Elana Chen" year={2028} position="Financial Officer" />
           <Person name="Jamin Xie" year={2028} position="Financial Officer" />
           <Person name="Ryan Rong" year={2028} position="MLab Director" />
