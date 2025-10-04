@@ -124,6 +124,9 @@ export default function Navigation({ pageName }: { pageName: string }) {
         <NavigationLink selected={pageName === 'mlab'} href="/mlab">
           mlab
         </NavigationLink>
+        <NavigationLink selected={pageName === 'devlab'} href="/devlab">
+          devlab
+        </NavigationLink>
         <NavigationLink selected={pageName === 'proco'} href="/proco">
           proco
         </NavigationLink>
@@ -135,6 +138,9 @@ export default function Navigation({ pageName }: { pageName: string }) {
         </NavigationLink>
         <NavigationLink selected={pageName === 'quantGym'} href="/quantGym">
           quant gym
+        </NavigationLink>
+        <NavigationLink selected={pageName === 'geoguessr'} href="/geoguessr">
+          geoguessr
         </NavigationLink>
         <NavigationLink selected={pageName === 'aiClinic'} href="/aiClinic">
           ai clinic

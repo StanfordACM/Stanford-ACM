@@ -32,7 +32,10 @@ export default function Contact() {
           <Person name="Karolyn Cheng" year={2028} position="Puzzle Hunt Director" />
           <Person name="Kristie Park" year={2026} position="Puzzle Hunt Director" />
           <Person name="Nattaput (Gorn) Namchittai" year={2027} position="Webmaster" />
-          <Person name="Juli Huang" year={2028} position="Webmaster" />
+          <Person name="Juli Huang" year={2027} position="Webmaster" />
+          <Person name="Justin Gu" year={2027} position="Advisor" />
+          <Person name="Ryan Chi" year={2025} position="Advisor" />
+          <Person name="Nathan Chi" year={2026} position="Advisor" />
         </People>
 
         <Title>Previous Officers</Title>
