@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import Layout from '../components/layout';
 import { People, Person } from '../components/people';
-import { Paragraph, Section, Title } from '../components/section';
+import { LinkComponent, Paragraph, Section, Title } from '../components/section';
 import {
   SponsorRow,
   SponsorRowImage,
