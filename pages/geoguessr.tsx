@@ -21,18 +21,19 @@ export default function GeoGuessr() {
         <Paragraph>
           Starting this year, ACM GeoGuessr Club is participating as Stanford University at the official Collegiate GeoGuessr League! We'll be participating in both solo and doubles in weekly tournaments.
         </Paragraph>
+        <Paragraph>
+          Join our discord server: <LinkComponent href="https://discord.gg/PG5RYScS">Stanford Geoguessr Discord</LinkComponent>. If you have any questions, feel free to contact us at <LinkComponent href="mailto:hinson@stanford.edu">hinson@stanford.edu</LinkComponent>.
+        </Paragraph>
       </Section>
       <Section id="board">
         <People title="Organizers" startShown={true} bigTitle>
-          <Person name="Nathan Chi" year={2026} position="Co-Director" />
-          <Person name="Ryan Chi" year={2025} position="Co-Director" />
-          <Person name="Daniel Zamoshchin" year={2024} position="Co-Director" />
+          <Person name="Hinson Chan" year={2028} position="Director" />
         </People>
       </Section>
       <Section id="meetings">
         <Title>Meeting Information</Title>
         <Paragraph>
-          Time & Date: Hammarskjöld, Fridays 8PM
+          Time & Date: Hammarskjöld, Wednesdays 8PM (first meeting Wednesday, Oct 15th)
         </Paragraph>
       </Section>
       <Section id="sponsors">
