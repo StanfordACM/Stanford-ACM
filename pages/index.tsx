@@ -80,6 +80,19 @@ export default function About() {
           and ICLR. Alumni have gone on to Google AI, Stanford ML Group,
           Stanford NLP Group, and VMWare.
         </Paragraph>
+        <Paragraph>
+          <i>Weekly meetings: TBD</i>
+        </Paragraph>
+
+        <SectionTitle href="/devlab">DevLab</SectionTitle>
+        <Paragraph>
+          DevLab is Stanford&apos;s premier web development club. Its goal is
+          to teach students skills for full-stack development. You'll
+          get to work on real projects to add to your portfolio!
+        </Paragraph>
+        <Paragraph>
+          <i>Weekly meetings: TBD</i>
+        </Paragraph>
 
         <SectionTitle href="/proco">ProCo</SectionTitle>
         <Paragraph>
@@ -90,10 +103,10 @@ export default function About() {
           Saturday, March 1st.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Thursdays at 6pm</i>
+          <i>Weekly meetings: TBD</i>
         </Paragraph>
 
-        <SectionTitle href="/puzzleHunt">Puzzlehunt</SectionTitle>
+        <SectionTitle href="/puzzleHunt">Puzzle Hunt</SectionTitle>
         <Paragraph>
           ACM hosts a puzzle hunt open to all Stanford students. We invite you
           to solve puzzles as quickly as possible for prizes while having fun!
@@ -106,7 +119,7 @@ export default function About() {
           together to practice our skills and ACE the interviews 😤.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Fridays from 5-6pm at STLC 114</i>
+          <i>Weekly meetings: TBD</i>
         </Paragraph>
 
         <SectionTitle href="/aiClinic">AI Clinic</SectionTitle>
@@ -116,27 +129,27 @@ export default function About() {
           learning projects.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Thursdays at 7PM at Kimball Hall Lounge</i>
+          <i>Weekly meetings: Not Currently Offered this year</i>
         </Paragraph>
 
-        <h2>GeoGuessr</h2>
+        <SectionTitle href="/geoguessr">GeoGuessr</SectionTitle>
         <Paragraph>
           Join us for weekly GeoGuessr sessions — no experience necessary!
         </Paragraph>
         <Paragraph>
           <i>
-            Weekly meetings: Thursdays at 8:15pm at Hammarskjold (592 Alvarado
+            Weekly meetings: Wednesdays 8PM at Hammarskjöld (592 Alvarado
             Row)
           </i>
         </Paragraph>
 
-        <h2>Escape Room</h2>
+        <SectionTitle href="/escapeRoom">Escape Room</SectionTitle>
         <Paragraph>
           We&apos;re building an exciting escape room experience for Stanford
           students to be held in Spring quarter.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Fridays from 4-5pm at Huang Basement</i>
+          <i>Weekly meetings: TBD</i>
         </Paragraph>
       </Section>
     </Layout>
