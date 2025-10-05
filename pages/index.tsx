@@ -81,7 +81,7 @@ export default function About() {
           Stanford NLP Group, and VMWare.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: TBD</i>
+          <i>Weekly meetings: Thursdays 7:30PM - 9:00PM at CoDA B90</i>
         </Paragraph>
 
         <SectionTitle href="/devlab">DevLab</SectionTitle>

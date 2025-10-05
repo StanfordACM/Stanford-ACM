@@ -102,10 +102,10 @@ export default function Contact() {
       <Section id="meetings">
         <Title>Meeting Information</Title>
         <Paragraph>
-          Meeting Time: 7:30 - 9:00 p.m. Thursdays
+          Meeting Time: 7:30 - 9:00 p.m. Thursdays at CoDA B90.
         </Paragraph>
         <Paragraph>
-          First meeting this Thursday, Oct 9th! We'll usually meet in CoDA B90.
+          First meeting this Thursday, Oct 9th!
         </Paragraph>
         <Paragraph>
           Contact: Ryan Rong (ryanrong@stanford.edu), Sabrina Yen-Ko (syenko@stanford.edu)
