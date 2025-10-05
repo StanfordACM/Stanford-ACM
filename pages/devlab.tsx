@@ -58,10 +58,10 @@ export default function DevLab() {
       <Section id="meetings">
         <Title>Meeting Information</Title>
         <Paragraph>
-          Meeting Time: 7:00-8:00 p.m. Mondays
+          Meeting Time: TBD
         </Paragraph>
         <Paragraph>
-          First meeting this Monday, Oct 7th! Location Soon TBD
+          First meeting: TBD
         </Paragraph>
         <Paragraph>
           Contact: Eric Cui (ericcui@stanford.edu), Mao Yu Cheng (chengmao@stanford.edu)
