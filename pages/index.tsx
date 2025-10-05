@@ -129,7 +129,7 @@ export default function About() {
           learning projects.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Not Currently Offered this year</i>
+          <i>Weekly meetings: Not Currently Offered This Year</i>
         </Paragraph>
 
         <SectionTitle href="/geoguessr">GeoGuessr</SectionTitle>
