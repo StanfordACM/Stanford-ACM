@@ -36,7 +36,10 @@ export default function EscapeRoom() {
           to come to one of our drop in tour sessions!
         </Paragraph>
         <Paragraph>
-          This year's escape room is in the works. if you are interested in helping out, contact Sydney Yan and Samuel Chen: <LinkComponent href="mailto:syyan@stanford.edu">syyan@stanford.edu</LinkComponent> and <LinkComponent href="mailto:samchen2@stanford.edu">samchen2@stanford.edu</LinkComponent>.
+          Learn more about Stanford Escape here: <LinkComponent href="https://stanforddaily.com/2025/05/13/meet-stanford-escape-the-team-behind-stanfords-first-in-house-escape-room/">Stanford Daily Article</LinkComponent> and <LinkComponent href="https://www.instagram.com/stanford_acm/reel/DKAKZCBpSER/?hl=en">Video of Last Year's Escape Room</LinkComponent>.
+        </Paragraph>
+        <Paragraph>
+          This year's escape room is in the works. If you are interested in helping out, contact Sydney Yan and Samuel Chen: <LinkComponent href="mailto:syyan@stanford.edu">syyan@stanford.edu</LinkComponent> and <LinkComponent href="mailto:samchen2@stanford.edu">samchen2@stanford.edu</LinkComponent>.
         </Paragraph>
         {/* <Paragraph>
           <strong>Dates:</strong> May 1st - 12th.
