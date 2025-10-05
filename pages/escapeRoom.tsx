@@ -36,6 +36,9 @@ export default function EscapeRoom() {
           to come to one of our drop in tour sessions!
         </Paragraph>
         <Paragraph>
+          This year's escape room is in the works. if you are interested in helping out, contact Sydney Yan and Samuel Chen.
+        </Paragraph>
+        {/* <Paragraph>
           <strong>Dates:</strong> May 1st - 12th.
         </Paragraph>
         <Paragraph>
@@ -67,7 +70,7 @@ export default function EscapeRoom() {
           >
             RSVP
           </LinkComponent>
-        </Paragraph>
+        </Paragraph> */}
         <ImageContainer>
           <Image
             src="/escapeRoom/escapeGraphic.png"
