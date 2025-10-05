@@ -51,8 +51,8 @@ export default function DevLab() {
       </Section>
       <Section id="board">
         <People title="Board" startShown={true} bigTitle>
-          <Person name="Emily Han" year={2027} position="Director" />
-          <Person name="Ethan Boneh" year={2027} position="Director" />
+          <Person name="Eric Cui" year={2027} position="Director" />
+          <Person name="Mao Yu Cheng" year={2028} position="Director" />
         </People>
       </Section>
       <Section id="meetings">
@@ -64,7 +64,7 @@ export default function DevLab() {
           First meeting this Monday, Oct 7th! Location Soon TBD
         </Paragraph>
         <Paragraph>
-          Contact: Emily Han (emilyhyf@stanford.edu), Ethan Boneh (ethanbc@stanford.edu)
+          Contact: Eric Cui (ericcui@stanford.edu), Mao Yu Cheng (chengmao@stanford.edu)
         </Paragraph>
       </Section>
       <Section id="workshops">
