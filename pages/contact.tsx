@@ -20,10 +20,10 @@ export default function Contact() {
           To get in touch, send us an email at{' '}
           <LinkComponent href="mailto:suzeva@stanford.edu">
             suzeva@stanford.edu
-          </LinkComponent>{' '}, at{' '}
+          </LinkComponent>, at{' '}
           <LinkComponent href="mailto:annieee@stanford.edu">
           annieee@stanford.edu
-          </LinkComponent>{' '}, or at{' '}
+          </LinkComponent>, or at{' '}
           <LinkComponent href="mailto:wangtony@stanford.edu">
             wangtony@stanford.edu
           </LinkComponent>{' '}
