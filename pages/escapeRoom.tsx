@@ -36,7 +36,7 @@ export default function EscapeRoom() {
           to come to one of our drop in tour sessions!
         </Paragraph>
         <Paragraph>
-          This year's escape room is in the works. if you are interested in helping out, contact Sydney Yan and Samuel Chen.
+          This year's escape room is in the works. if you are interested in helping out, contact Sydney Yan and Samuel Chen: <LinkComponent href="mailto:syyan@stanford.edu">syyan@stanford.edu</LinkComponent> and <LinkComponent href="mailto:samchen2@stanford.edu">samchen2@stanford.edu</LinkComponent>.
         </Paragraph>
         {/* <Paragraph>
           <strong>Dates:</strong> May 1st - 12th.
