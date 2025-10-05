@@ -91,7 +91,7 @@ export default function About() {
           get to work on real projects to add to your portfolio!
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: TBD</i>
+          <i>Weekly meetings: Mondays 7PM - 8PM. Location: TBD</i>
         </Paragraph>
 
         <SectionTitle href="/proco">ProCo</SectionTitle>
@@ -119,7 +119,7 @@ export default function About() {
           together to practice our skills and ACE the interviews 😤.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: TBD</i>
+          <i>Weekly meetings: Fridays 5PM - 6PM. Location: TBD</i>
         </Paragraph>
 
         <SectionTitle href="/aiClinic">AI Clinic</SectionTitle>
