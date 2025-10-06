@@ -121,7 +121,7 @@ export function Person({
   return (
     <PersonContainer>
       <PersonName>{name}</PersonName>
-      {email && (
+      {email && !name.includes(email) && (
         <PersonEmail href={`mailto:${email}`}>
           {email}
         </PersonEmail>

@@ -28,7 +28,7 @@ export const Paragraph = styled.p`
   overflow-wrap: break-word;
 `;
 
-const LinkContent = styled.a`
+const LinkContent = styled.span`
   cursor: pointer;
   color: ${({ theme }) => theme.colors.red};
   &:hover {
@@ -54,9 +54,7 @@ export function LinkComponent({
 
   return (
     <Link href={href} passHref>
-      <LinkContent target={target} {...props}>
-        {children}
-      </LinkContent>
+      <LinkContent {...props}>{children}</LinkContent>
     </Link>
   );
 }
