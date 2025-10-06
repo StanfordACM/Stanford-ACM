@@ -29,6 +29,34 @@ export default function Archive() {
       </Section>
       
       <Section>
+        <Title>Stanford AI Clinic (Archived)</Title>
+        <Paragraph>
+          <em>Note: This is archived content from the Stanford AI Clinic.</em>
+        </Paragraph>
+        <Paragraph>
+          The Stanford AI Clinic is a student group that studies AI policy and
+          offers technical advice and policy recommendations for researchers and
+          developers in AI.
+        </Paragraph>
+        <Paragraph>
+          Please join our weekly meetings for technical workshops, policy
+          discussions, and to join our quarterly project. This quarter&apos;s
+          project is focused on improving people&apos;s access to AI services.
+        </Paragraph>
+        <Paragraph>
+          Where: Kimball Hall Lounge | When: Thursdays @ 7PM
+        </Paragraph>
+        <Paragraph>
+          (If you are interested in scheduling a pro bono advisory session or
+          partnering with us, please email{' '}
+          <LinkComponent href="mailto:jk23541@stanford.edu">
+            jk23541@stanford.edu
+          </LinkComponent>{' '}
+          to discuss details.)
+        </Paragraph>
+      </Section>
+      
+      <Section>
         <Title>AI Clinic Workshop Notes</Title>
         <Paragraph>
           <em>Note: These are archived workshop notes from previous AI Clinic activities.</em>

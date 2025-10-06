@@ -122,16 +122,6 @@ export default function About() {
           <i>Weekly meetings: Fridays 5PM - 6PM. Location: TBD</i>
         </Paragraph>
 
-        <SectionTitle href="/aiClinic">AI Clinic</SectionTitle>
-        <Paragraph>
-          The Stanford AI Clinic hosts discussions on AI Policy and ethics, and
-          provides technical consultation from AI researchers on machine
-          learning projects.
-        </Paragraph>
-        <Paragraph>
-          <i>Weekly meetings: Not Currently Offered This Year</i>
-        </Paragraph>
-
         <SectionTitle href="/geoguessr">GeoGuessr</SectionTitle>
         <Paragraph>
           Join us for weekly GeoGuessr sessions — no experience necessary!
