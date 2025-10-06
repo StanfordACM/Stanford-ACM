@@ -148,6 +148,9 @@ export default function Navigation({ pageName }: { pageName: string }) {
         <NavigationLink selected={pageName === 'escapeRoom'} href="/escapeRoom">
           escape room
         </NavigationLink>
+        <NavigationLink selected={pageName === 'archive'} href="/archive">
+          archive
+        </NavigationLink>
       </Links>
     </Sidebar>
   );

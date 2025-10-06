@@ -45,35 +45,6 @@ export default function AiClinic() {
           to discuss details.)
         </Paragraph>
       </Section>
-      <Section>
-        <Title>Workshop Notes</Title>
-        <Paragraph>We have compiled notes from selected workshops:</Paragraph>
-
-        <SectionTitle href="/aiClinic/s1">
-          Reasoning with the s1 method
-        </SectionTitle>
-        <Paragraph>
-          The s1 paper develops reasoning capabilities in a large language model
-          for just $50. In this workshop, we discussed the paper, how to run a
-          similar experiment for free on Google Colab (or for $5 on Vast.ai, a
-          GPU rental service), the HuggingFace library, and techniques to make
-          the most of a limited GPU.
-        </Paragraph>
-        <Paragraph>
-          Beyond the technical notes, the most interesting discussion question
-          was whether future deep learning advances will be driven by better
-          data sources (like s1 curating a high-quality reasoning dataset and
-          DeepSeek) or by even larger datasets. It opens related questions to
-          whether the model providers need to continue scraping so much data,
-          without permission even. We will continue discussing these questions
-          and identifying solutions!
-        </Paragraph>
-        <Paragraph>
-          <LinkComponent href="/aiClinic/s1">
-            Further notes and code can be found here.
-          </LinkComponent>
-        </Paragraph>
-      </Section>
     </Layout>
   );
 }
