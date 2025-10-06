@@ -72,6 +72,19 @@ const PersonTitle = styled.p`
   line-height: 1.5em;
 `;
 
+const PersonEmail = styled.a`
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 14px;
+  color: ${({ theme }) => theme.colors.highlight || '#0066cc'};
+  text-decoration: none;
+  display: block;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 function SectionTitle({
   children,
   bigTitle,
@@ -107,12 +120,11 @@ export function Person({
 }) {
   return (
     <PersonContainer>
-      {email ? (
-        <PersonEmailLink href={`mailto:${email}`}>
-          {name}
-        </PersonEmailLink>
-      ) : (
-        <PersonName>{name}</PersonName>
+      <PersonName>{name}</PersonName>
+      {email && (
+        <PersonEmail href={`mailto:${email}`}>
+          {email}
+        </PersonEmail>
       )}
       {year && <PersonYear>{year}</PersonYear>}
       {position && <PersonTitle>{position}</PersonTitle>}
