@@ -55,10 +55,10 @@ const PersonEmailLink = styled.a`
   font-weight: bold;
   font-size: 17px;
   line-height: 1.5em;
-  
+
   &:hover {
     text-decoration: underline;
-    color: ${({ theme }) => theme.colors.highlight};
+    color: ${({ theme }) => theme.colors.red};
   }
 `;
 
@@ -76,10 +76,10 @@ const PersonEmail = styled.a`
   margin: 0;
   line-height: 1.5em;
   font-size: 14px;
-  color: ${({ theme }) => theme.colors.highlight || '#0066cc'};
+  color: ${({ theme }) => theme.colors.red};
   text-decoration: none;
   display: block;
-  
+
   &:hover {
     text-decoration: underline;
   }

@@ -28,7 +28,7 @@ export const Paragraph = styled.p`
   overflow-wrap: break-word;
 `;
 
-const LinkContent = styled.span`
+const LinkContent = styled.a`
   cursor: pointer;
   color: ${({ theme }) => theme.colors.red};
   &:hover {
@@ -46,15 +46,18 @@ export function LinkComponent({
   {
     href?: string;
     target?: HTMLAttributeAnchorTarget;
-  } & React.HTMLAttributes<HTMLElement>
+  } & React.HTMLAttributes<HTMLAnchorElement>
 >) {
   if (!href) {
-    return <LinkContent {...props}>{children}</LinkContent>;
+    // Render a span fallback if no href
+    return <span {...props}>{children}</span>;
   }
 
   return (
-    <Link href={href} passHref>
-      <LinkContent {...props}>{children}</LinkContent>
+    <Link href={href} legacyBehavior>
+      <LinkContent target={target} {...props} href={href}>
+        {children}
+      </LinkContent>
     </Link>
   );
 }

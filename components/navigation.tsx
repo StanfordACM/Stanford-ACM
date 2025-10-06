@@ -75,8 +75,8 @@ function NavigationLink({
   selected
 }: React.PropsWithChildren<{ href: string; selected: boolean }>) {
   return (
-    <Link href={href} passHref>
-      <NavigationLinkContent selected={selected}>
+    <Link href={href} legacyBehavior>
+      <NavigationLinkContent selected={selected} href={href}>
         {children}
       </NavigationLinkContent>
     </Link>
