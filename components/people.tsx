@@ -49,6 +49,19 @@ const PersonName = styled.p`
   line-height: 1.5em;
 `;
 
+const PersonEmailLink = styled.a`
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.5em;
+  
+  &:hover {
+    text-decoration: underline;
+    color: ${({ theme }) => theme.colors.highlight};
+  }
+`;
+
 const PersonYear = styled.p`
   margin: 0;
   line-height: 1.5em;
@@ -84,15 +97,23 @@ function SectionTitle({
 export function Person({
   name,
   year,
-  position
+  position,
+  email
 }: {
   name: string;
   year?: number;
   position?: ReactNode;
+  email?: string;
 }) {
   return (
     <PersonContainer>
-      <PersonName>{name}</PersonName>
+      {email ? (
+        <PersonEmailLink href={`mailto:${email}`}>
+          {name}
+        </PersonEmailLink>
+      ) : (
+        <PersonName>{name}</PersonName>
+      )}
       {year && <PersonYear>{year}</PersonYear>}
       {position && <PersonTitle>{position}</PersonTitle>}
     </PersonContainer>

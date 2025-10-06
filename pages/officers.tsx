@@ -16,37 +16,38 @@ export default function Contact() {
 
         {/* Active officers */}
         <People title="2025-2026" startShown={true}>
-          <Person name="Annie Lee" year={2027} position="Co-President" />
-          <Person name="Suze van Adrichem" year={2027} position="Co-President" />
-          <Person name="Tony Wang" year={2027} position="Co-President" />
-          <Person name="Elana Chen" year={2028} position="Financial Officer" />
-          <Person name="Jamin Xie" year={2028} position="Financial Officer" />
-          <Person name="Ryan Rong" year={2028} position="MLab Director" />
-          <Person name="Sabrina Yen-Ko" year={2028} position="MLab Director" />
-          <Person name="Eric Cui" year={2027} position="DevLab Director" />
-          <Person name="Mao Yu Cheng" year={2028} position="DevLab Director" />
-          <Person name="Sheryl Chen" year={2028} position="ProCo Director" />
-          <Person name="Jadelyn Tran" year={2028} position="Social Chair" />
-          <Person name="Alexandra Kim" year={2028} position="Social Chair" />
-          <Person name="Karolyn Cheng" year={2028} position="Puzzle Hunt Director" />
-          <Person name="Kristie Park" year={2026} position="Puzzle Hunt Director" />
-          <Person name="Nattaput (Gorn) Namchittai" year={2027} position="Webmaster" />
-          <Person name="Juli Huang" year={2027} position="Webmaster" />
-          <Person name="Justin Gu" year={2027} position="Advisor" />
+          <Person name="Annie Lee" year={2027} position="Co-President" email="annieee@stanford.edu" />
+          <Person name="Suze van Adrichem" year={2027} position="Co-President" email="suzeva@stanford.edu" />
+          <Person name="Tony Wang" year={2027} position="Co-President" email="wangtony@stanford.edu" />
+          <Person name="Elana Chen" year={2028} position="Financial Officer" email="elanac25@stanford.edu" />
+          <Person name="Jamin Xie" year={2028} position="Financial Officer" email="jmx@stanford.edu" />
+          <Person name="Ryan Rong" year={2028} position="MLab Director" email="ryanrong@stanford.edu" />
+          <Person name="Sabrina Yen-Ko" year={2028} position="MLab Director" email="syenko@stanford.edu" />
+          <Person name="Eric Cui" year={2027} position="DevLab Director" email="ericcui@stanford.edu" />
+          <Person name="Mao Yu Cheng" year={2028} position="DevLab Director" email="chengmao@stanford.edu" />
+          <Person name="Sheryl Chen" year={2028} position="ProCo Director" email="sherylch@stanford.edu" />
+          <Person name="Jadelyn Tran" year={2028} position="Social Chair" email="jadelyn@stanford.edu" />
+          <Person name="Alexandra Kim" year={2028} position="Social Chair" email="alexskim@stanford.edu" />
+          <Person name="Karolyn Cheng" year={2028} position="Puzzle Hunt Director" email="karolync@stanford.edu" />
+          <Person name="Kristie Park" year={2026} position="Puzzle Hunt Director" email="kristie.park@stanford.edu" />
+          <Person name="Nattaput (Gorn) Namchittai" year={2027} position="Webmaster" email="gorn@stanford.edu" />
+          <Person name="Juli Huang" year={2027} position="Webmaster" email="julih@stanford.edu" />
+          <Person name="Justin Gu" year={2027} position="Advisor" email="justingu@stanford.edu" />
           <Person name="Ryan Chi" year={2025} position="Advisor" />
-          <Person name="Nathan Chi" year={2026} position="Advisor" />
+          <Person name="Nathan Chi" year={2026} position="Advisor" email="nchi1@stanford.edu" />
         </People>
 
         <Title>Previous Officers</Title>
 
         {/* Previous officers */}
         <People title="2024-2025" startShown={false}>
-          <Person name="Justin Gu" year={2027} position="Co-President" />
-          <Person name="Sydney Yan" year={2025} position="Co-President" />
+          <Person name="Justin Gu" year={2027} position="Co-President" email="justingu@stanford.edu" />
+          <Person name="Sydney Yan" year={2025} position="Co-President" email="syyan@stanford.edu" />
           <Person
             name="Suze van Adrichem"
             year={2027}
             position="Financial Officer"
+            email="suzeva@stanford.edu"
           />
           <Person name="Elijah Song" year={2026} position="Financial Officer" />
           <Person name="Alden Eberts" year={2027} position="MLab Co-Director" />
@@ -70,6 +71,7 @@ export default function Contact() {
                 Quant Gym/GeoGuessr Co-Director
               </>
             }
+            email="nchi1@stanford.edu"
           />
           <Person
             name="Ryan Chi"
@@ -86,12 +88,13 @@ export default function Contact() {
             year={2026}
             position="Quant Gym Co-Director"
           />
-          <Person name="Tony Wang" year={2027} position="ProCo Co-Director" />
-          <Person name="Sandra Yang" year={2028} position="ProCo Co-Director" />
+          <Person name="Tony Wang" year={2027} position="ProCo Co-Director" email="wangtony@stanford.edu" />
+          <Person name="Sandra Yang" year={2028} position="ProCo Co-Director" email="aleyang@stanford.edu" />
           <Person
             name="Kristie Park"
             year={2026}
             position="PuzzleHunt Co-Director"
+            email="kristie.park@stanford.edu"
           />
           <Person
             name="Daniel Sun"
@@ -99,15 +102,15 @@ export default function Contact() {
             position="PuzzleHunt Co-Director"
           />
           <Person name="Tesvara Jiang" year={2027} position="Social Co-Chair" />
-          <Person name="Annie Lee" year={2027} position="Social Co-Chair" />
+          <Person name="Annie Lee" year={2027} position="Social Co-Chair" email="annieee@stanford.edu" />
           <Person
             name="Daniel Zamoshchin"
             year={2024}
             position="GeoGuessr Co-Director"
           />
-          <Person name="Eric Cui" year={2027} position="Webmaster" />
-          <Person name="Sabrina Yen-Ko" year={2028} position="Webmaster" />
-          <Person name="Scott Hickman" year={2025} position="Advisor" />
+          <Person name="Eric Cui" year={2027} position="Webmaster" email="ericcui@stanford.edu" />
+          <Person name="Sabrina Yen-Ko" year={2028} position="Webmaster" email="syenko@stanford.edu" />
+          <Person name="Scott Hickman" year={2025} position="Advisor" email="hinson@stanford.edu" />
         </People>
 
         {/* Alumni */}
