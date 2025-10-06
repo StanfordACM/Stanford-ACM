@@ -16,25 +16,25 @@ export default function Contact() {
 
         {/* Active officers */}
         <People title="2025-2026" startShown={true}>
-          <Person name="Annie Lee" year={2027} position="Co-President" email="annieee@stanford.edu" />
-          <Person name="Suze van Adrichem" year={2027} position="Co-President" email="suzeva@stanford.edu" />
-          <Person name="Tony Wang" year={2027} position="Co-President" email="wangtony@stanford.edu" />
-          <Person name="Elana Chen" year={2028} position="Financial Officer" email="elanac25@stanford.edu" />
-          <Person name="Jamin Xie" year={2028} position="Financial Officer" email="jmx@stanford.edu" />
-          <Person name="Ryan Rong" year={2028} position="MLab Director" email="ryanrong@stanford.edu" />
-          <Person name="Sabrina Yen-Ko" year={2028} position="MLab Director" email="syenko@stanford.edu" />
-          <Person name="Eric Cui" year={2027} position="DevLab Director" email="ericcui@stanford.edu" />
-          <Person name="Mao Yu Cheng" year={2028} position="DevLab Director" email="chengmao@stanford.edu" />
-          <Person name="Sheryl Chen" year={2028} position="ProCo Director" email="sherylch@stanford.edu" />
-          <Person name="Jadelyn Tran" year={2028} position="Social Chair" email="jadelyn@stanford.edu" />
-          <Person name="Alexandra Kim" year={2028} position="Social Chair" email="alexskim@stanford.edu" />
-          <Person name="Karolyn Cheng" year={2028} position="Puzzle Hunt Director" email="karolync@stanford.edu" />
-          <Person name="Kristie Park" year={2026} position="Puzzle Hunt Director" email="kristie.park@stanford.edu" />
-          <Person name="Nattaput (Gorn) Namchittai" year={2027} position="Webmaster" email="gorn@stanford.edu" />
-          <Person name="Juli Huang" year={2027} position="Webmaster" email="julih@stanford.edu" />
-          <Person name="Justin Gu" year={2027} position="Advisor" email="justingu@stanford.edu" />
+          <Person name="Annie Lee (annieee@stanford.edu)" year={2027} position="Co-President" />
+          <Person name="Suze van Adrichem (suzeva@stanford.edu)" year={2027} position="Co-President" />
+          <Person name="Tony Wang (wangtony@stanford.edu)" year={2027} position="Co-President" />
+          <Person name="Elana Chen (elanac25@stanford.edu)" year={2028} position="Financial Officer" />
+          <Person name="Jamin Xie (jmx@stanford.edu)" year={2028} position="Financial Officer" />
+          <Person name="Ryan Rong (ryanrong@stanford.edu)" year={2028} position="MLab Director" />
+          <Person name="Sabrina Yen-Ko (syenko@stanford.edu)" year={2028} position="MLab Director" />
+          <Person name="Eric Cui (ericcui@stanford.edu)" year={2027} position="DevLab Director" />
+          <Person name="Mao Yu Cheng (chengmao@stanford.edu)" year={2028} position="DevLab Director" />
+          <Person name="Sheryl Chen (sherylch@stanford.edu)" year={2028} position="ProCo Director" />
+          <Person name="Jadelyn Tran (jadelyn@stanford.edu)" year={2028} position="Social Chair" />
+          <Person name="Alexandra Kim (alexskim@stanford.edu)" year={2028} position="Social Chair" />
+          <Person name="Karolyn Cheng (karolync@stanford.edu)" year={2028} position="Puzzle Hunt Director" />
+          <Person name="Kristie Park (kristie.park@stanford.edu)" year={2026} position="Puzzle Hunt Director" />
+          <Person name="Nattaput (Gorn) Namchittai (gorn@stanford.edu)" year={2027} position="Webmaster" />
+          <Person name="Juli Huang (julih@stanford.edu)" year={2027} position="Webmaster" />
+          <Person name="Justin Gu (justingu@stanford.edu)" year={2027} position="Advisor" />
           <Person name="Ryan Chi" year={2025} position="Advisor" />
-          <Person name="Nathan Chi" year={2026} position="Advisor" email="nchi1@stanford.edu" />
+          <Person name="Nathan Chi (nchi1@stanford.edu)" year={2026} position="Advisor" />
         </People>
 
         <Title>Previous Officers</Title>
