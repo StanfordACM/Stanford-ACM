@@ -57,14 +57,11 @@ export default function DevLab() {
       </Section>
       <Section id="meetings">
         <Title>Meeting Information</Title>
+        <Paragraph>Meeting Time: Mondays 7PM - 8PM. Location: TBD</Paragraph>
+        <Paragraph>First meeting: Oct 7th.</Paragraph>
         <Paragraph>
-          Meeting Time: Mondays 7PM - 8PM. Location: TBD
-        </Paragraph>
-        <Paragraph>
-          First meeting: Oct 7th.
-        </Paragraph>
-        <Paragraph>
-          Contact: Eric Cui (ericcui@stanford.edu), Mao Yu Cheng (chengmao@stanford.edu)
+          Contact: Eric Cui (ericcui@stanford.edu), Mao Yu Cheng
+          (chengmao@stanford.edu)
         </Paragraph>
       </Section>
       <Section id="workshops">

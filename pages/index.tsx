@@ -62,9 +62,15 @@ export default function About() {
           challenging technical and social problems.
         </Paragraph>
         <Paragraph>
-          We'd love for you to join ACM! Signup form link: <LinkComponent href="https://tinyurl.com/stanfordacm2025">https://tinyurl.com/stanfordacm2025</LinkComponent>
+          We'd love for you to join ACM! Signup form link:{' '}
+          <LinkComponent href="https://tinyurl.com/stanfordacm2025">
+            https://tinyurl.com/stanfordacm2025
+          </LinkComponent>
         </Paragraph>
-        <IndexImage src="/index/Stanford_ACM_Poster_2025.png" alt="Stanford ACM 2025 Poster" />
+        <IndexImage
+          src="/index/Stanford_ACM_Poster_2025.png"
+          alt="Stanford ACM 2025 Poster"
+        />
       </Section>
 
       <Section id="activities">
@@ -86,9 +92,9 @@ export default function About() {
 
         <SectionTitle href="/devlab">DevLab</SectionTitle>
         <Paragraph>
-          DevLab is Stanford&apos;s premier web development club. Its goal is
-          to teach students skills for full-stack development. You'll
-          get to work on real projects to add to your portfolio!
+          DevLab is Stanford&apos;s premier web development club. Its goal is to
+          teach students skills for full-stack development. You'll get to work
+          on real projects to add to your portfolio!
         </Paragraph>
         <Paragraph>
           <i>Weekly meetings: Mondays 7PM - 8PM. Location: TBD</i>
@@ -128,8 +134,7 @@ export default function About() {
         </Paragraph>
         <Paragraph>
           <i>
-            Weekly meetings: Wednesdays 8PM at Hammarskjöld (592 Alvarado
-            Row)
+            Weekly meetings: Wednesdays 8PM at Hammarskjöld (592 Alvarado Row)
           </i>
         </Paragraph>
 

@@ -13,14 +13,25 @@ export default function Contact() {
     <Layout title="Officers" pageName="officers">
       <Container>
         <Title>Meet the ACM Officers!</Title>
-        <Paragraph style={{ textAlign: 'center', fontStyle: 'italic', marginTop: '-20px' }}>
-          Officer email addresses are listed on the <LinkComponent href="/contact">contact page</LinkComponent>.
+        <Paragraph
+          style={{
+            textAlign: 'center',
+            fontStyle: 'italic',
+            marginTop: '-20px'
+          }}
+        >
+          Officer email addresses are listed on the{' '}
+          <LinkComponent href="/contact">contact page</LinkComponent>.
         </Paragraph>
 
         {/* Active officers */}
         <People title="2025-2026" startShown={true}>
           <Person name="Annie Lee" year={2027} position="Co-President" />
-          <Person name="Suze van Adrichem" year={2027} position="Co-President" />
+          <Person
+            name="Suze van Adrichem"
+            year={2027}
+            position="Co-President"
+          />
           <Person name="Tony Wang" year={2027} position="Co-President" />
           <Person name="Elana Chen" year={2028} position="Financial Officer" />
           <Person name="Jamin Xie" year={2028} position="Financial Officer" />
@@ -31,9 +42,21 @@ export default function Contact() {
           <Person name="Sheryl Chen" year={2028} position="ProCo Director" />
           <Person name="Jadelyn Tran" year={2028} position="Social Chair" />
           <Person name="Alexandra Kim" year={2028} position="Social Chair" />
-          <Person name="Karolyn Cheng" year={2028} position="Puzzle Hunt Director" />
-          <Person name="Kristie Park" year={2026} position="Puzzle Hunt Director" />
-          <Person name="Nattaput (Gorn) Namchittai" year={2027} position="Webmaster" />
+          <Person
+            name="Karolyn Cheng"
+            year={2028}
+            position="Puzzle Hunt Director"
+          />
+          <Person
+            name="Kristie Park"
+            year={2026}
+            position="Puzzle Hunt Director"
+          />
+          <Person
+            name="Nattaput (Gorn) Namchittai"
+            year={2027}
+            position="Webmaster"
+          />
           <Person name="Juli Huang" year={2027} position="Webmaster" />
           <Person name="Justin Gu" year={2027} position="Advisor" />
           <Person name="Ryan Chi" year={2025} position="Advisor" />
@@ -44,8 +67,18 @@ export default function Contact() {
 
         {/* Previous officers */}
         <People title="2024-2025" startShown={false}>
-          <Person name="Justin Gu" year={2027} position="Co-President" email="justingu@stanford.edu" />
-          <Person name="Sydney Yan" year={2025} position="Co-President" email="syyan@stanford.edu" />
+          <Person
+            name="Justin Gu"
+            year={2027}
+            position="Co-President"
+            email="justingu@stanford.edu"
+          />
+          <Person
+            name="Sydney Yan"
+            year={2025}
+            position="Co-President"
+            email="syyan@stanford.edu"
+          />
           <Person
             name="Suze van Adrichem"
             year={2027}
@@ -91,8 +124,18 @@ export default function Contact() {
             year={2026}
             position="Quant Gym Co-Director"
           />
-          <Person name="Tony Wang" year={2027} position="ProCo Co-Director" email="wangtony@stanford.edu" />
-          <Person name="Sandra Yang" year={2028} position="ProCo Co-Director" email="aleyang@stanford.edu" />
+          <Person
+            name="Tony Wang"
+            year={2027}
+            position="ProCo Co-Director"
+            email="wangtony@stanford.edu"
+          />
+          <Person
+            name="Sandra Yang"
+            year={2028}
+            position="ProCo Co-Director"
+            email="aleyang@stanford.edu"
+          />
           <Person
             name="Kristie Park"
             year={2026}
@@ -105,15 +148,35 @@ export default function Contact() {
             position="PuzzleHunt Co-Director"
           />
           <Person name="Tesvara Jiang" year={2027} position="Social Co-Chair" />
-          <Person name="Annie Lee" year={2027} position="Social Co-Chair" email="annieee@stanford.edu" />
+          <Person
+            name="Annie Lee"
+            year={2027}
+            position="Social Co-Chair"
+            email="annieee@stanford.edu"
+          />
           <Person
             name="Daniel Zamoshchin"
             year={2024}
             position="GeoGuessr Co-Director"
           />
-          <Person name="Eric Cui" year={2027} position="Webmaster" email="ericcui@stanford.edu" />
-          <Person name="Sabrina Yen-Ko" year={2028} position="Webmaster" email="syenko@stanford.edu" />
-          <Person name="Scott Hickman" year={2025} position="Advisor" email="hinson@stanford.edu" />
+          <Person
+            name="Eric Cui"
+            year={2027}
+            position="Webmaster"
+            email="ericcui@stanford.edu"
+          />
+          <Person
+            name="Sabrina Yen-Ko"
+            year={2028}
+            position="Webmaster"
+            email="syenko@stanford.edu"
+          />
+          <Person
+            name="Scott Hickman"
+            year={2025}
+            position="Advisor"
+            email="hinson@stanford.edu"
+          />
         </People>
 
         {/* Alumni */}

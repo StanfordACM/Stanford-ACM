@@ -18,9 +18,9 @@ export default function PokerTournament() {
       <Section>
         <PokerTitle />
         <Paragraph>
-          This spring quarter May 2026, Stanford ACM is hosting Stanford&apos;s annual{' '}
-          <b>Poker Tournament</b>, sponsored by the premier trading firms in the
-          nation.
+          This spring quarter May 2026, Stanford ACM is hosting Stanford&apos;s
+          annual <b>Poker Tournament</b>, sponsored by the premier trading firms
+          in the nation.
         </Paragraph>
         <Paragraph>
           Think you might be the best poker player on campus? Or just looking
@@ -42,9 +42,7 @@ export default function PokerTournament() {
       </Section>
       <Section id="sponsors">
         <Title>Sponsors</Title>
-        <Paragraph>
-          Sponsors TBD
-        </Paragraph>
+        <Paragraph>Sponsors TBD</Paragraph>
         {/* 
         <SponsorsRow>
           <SponsorRow>

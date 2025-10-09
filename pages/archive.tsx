@@ -23,11 +23,12 @@ export default function Archive() {
       <Section>
         <Title>Archive</Title>
         <Paragraph>
-          This page contains archived content from previous Stanford ACM activities and workshops. 
-          This content is preserved for historical reference but may no longer be current or active.
+          This page contains archived content from previous Stanford ACM
+          activities and workshops. This content is preserved for historical
+          reference but may no longer be current or active.
         </Paragraph>
       </Section>
-      
+
       <Section>
         <Title>Stanford AI Clinic (Archived)</Title>
         <Paragraph>
@@ -55,11 +56,14 @@ export default function Archive() {
           to discuss details.)
         </Paragraph>
       </Section>
-      
+
       <Section>
         <Title>AI Clinic Workshop Notes</Title>
         <Paragraph>
-          <em>Note: These are archived workshop notes from previous AI Clinic activities.</em>
+          <em>
+            Note: These are archived workshop notes from previous AI Clinic
+            activities.
+          </em>
         </Paragraph>
 
         <SectionTitle href="/aiClinic/s1">

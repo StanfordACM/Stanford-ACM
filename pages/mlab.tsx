@@ -104,11 +104,10 @@ export default function Contact() {
         <Paragraph>
           Meeting Time: 7:30 - 9:00 p.m. Thursdays at CoDA B90.
         </Paragraph>
+        <Paragraph>First meeting this Thursday, Oct 9th!</Paragraph>
         <Paragraph>
-          First meeting this Thursday, Oct 9th!
-        </Paragraph>
-        <Paragraph>
-          Contact: Ryan Rong (ryanrong@stanford.edu), Sabrina Yen-Ko (syenko@stanford.edu)
+          Contact: Ryan Rong (ryanrong@stanford.edu), Sabrina Yen-Ko
+          (syenko@stanford.edu)
         </Paragraph>
       </Section>
       <Section id="project">

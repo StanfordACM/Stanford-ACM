@@ -9,11 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.5.4",
+    "next": "^14.2.33",
     "polished": "^4.2.2",
+    "prismjs": "^1.30.0",
     "react": "^18.2.0",
     "react-dom": "^18.1.0",
-    "react-syntax-highlighter": "^5.8.0",
+    "react-syntax-highlighter": "^15.6.6",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
