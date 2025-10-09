@@ -62,16 +62,12 @@ export default function Contact() {
                 <td style={{ border: '1px solid black', padding: '8px' }}>elanac25@stanford.edu</td>
               </tr>
               <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Jamin Xie</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>jmx@stanford.edu</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Nattaput (Gorn) Namchittai</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>gorn@stanford.edu</td>
               </tr>
               <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Ryan Rong</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>ryanrong@stanford.edu</td>
-              </tr>
-              <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Sabrina Yen-Ko</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>syenko@stanford.edu</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Jadelyn Tran</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>jadelyn@stanford.edu</td>
               </tr>
               <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>Eric Cui</td>
@@ -82,44 +78,64 @@ export default function Contact() {
                 <td style={{ border: '1px solid black', padding: '8px' }}>chengmao@stanford.edu</td>
               </tr>
               <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Sheryl Chen</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>sherylch@stanford.edu</td>
-              </tr>
-              <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Jadelyn Tran</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>jadelyn@stanford.edu</td>
-              </tr>
-              <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>Alexandra Kim</td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>alexskim@stanford.edu</td>
               </tr>
               <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Karolyn Cheng</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>karolync@stanford.edu</td>
-              </tr>
-              <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Kristie Park</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>kristie.park@stanford.edu</td>
-              </tr>
-              <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Nattaput (Gorn) Namchittai</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>gorn@stanford.edu</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Sheryl Chen</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>sherylch@stanford.edu</td>
               </tr>
               <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>Juli Huang</td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>julih@stanford.edu</td>
               </tr>
               <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Karolyn Cheng</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>karolync@stanford.edu</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Ryan Rong</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>ryanrong@stanford.edu</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Jamin Xie</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>jmx@stanford.edu</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Kristie Park</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>kristie.park@stanford.edu</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Sandra Yang</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>aleyang@stanford.edu</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Sabrina Yen-Ko</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>syenko@stanford.edu</td>
+              </tr>
+              <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>Justin Gu</td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>justingu@stanford.edu</td>
               </tr>
               <tr>
-                <td style={{ border: '1px solid black', padding: '8px' }}>Ryan Chi</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>N/A</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Stanley Yan</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>syyan@stanford.edu</td>
               </tr>
               <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>Nathan Chi</td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>nchi1@stanford.edu</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Isaac Lee</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>leeij@stanford.edu</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Alex Bloom</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>apbloom@stanford.edu</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>Hinson</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>hinson@stanford.edu</td>
               </tr>
             </tbody>
           </table>
