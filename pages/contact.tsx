@@ -234,7 +234,7 @@ export default function Contact() {
               </tr>
               <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
-                  Stanley Yan
+                  Sydney Yan
                 </td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
                   syyan@stanford.edu
@@ -250,7 +250,7 @@ export default function Contact() {
               </tr>
               <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
-                  Isaac Lee
+                  Isabella Lee
                 </td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
                   leeij@stanford.edu
@@ -266,7 +266,7 @@ export default function Contact() {
               </tr>
               <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
-                  Hinson
+                  Hinson Chan
                 </td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
                   hinson@stanford.edu
