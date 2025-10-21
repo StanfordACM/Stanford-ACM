@@ -125,7 +125,7 @@ export default function About() {
           together to practice our skills and ACE the interviews 😤.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Fridays 5PM - 6PM. Location: TBD</i>
+          <i>Weekly meetings: Fridays 5PM - 6PM. Location: CoDa B60</i>
         </Paragraph>
 
         <SectionTitle href="/geoguessr">GeoGuessr</SectionTitle>
