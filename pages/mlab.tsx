@@ -102,53 +102,144 @@ export default function Contact() {
       <Section id="tas">
         <Title>Teaching Assistants</Title>
         
-        <div style={{ marginBottom: '30px' }}>
-          <h3 style={{ fontWeight: 'bold', marginBottom: '10px' }}>Arpandeep Khatua</h3>
-          <Paragraph>
-            Arpandeep Khatua is an MSCS student at Stanford interested in large language model reasoning, alignment, and evaluation, particularly in mid- and post-training analysis, adversarial behavior, and inconsistency detection.
-          </Paragraph>
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
+            src="/TAs/arpandeep_khatua.jpeg" 
+            alt="Arpandeep Khatua" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>Arpandeep Khatua</h3>
+            <Paragraph>
+              Arpandeep Khatua is an MSCS student at Stanford interested in large language model reasoning, alignment, and evaluation, particularly in mid- and post-training analysis, adversarial behavior, and inconsistency detection.
+            </Paragraph>
+          </div>
         </div>
 
-        <div style={{ marginBottom: '30px' }}>
-          <h3 style={{ fontWeight: 'bold', marginBottom: '10px' }}>Baani Kaur</h3>
-          <Paragraph>
-            {/* Description for Baani Kaur - to be added when provided */}
-          </Paragraph>
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
+            src="/TAs/baani_kaur.png" 
+            alt="Baani Kaur" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>Baani Kaur</h3>
+            <Paragraph>
+              {/* Description for Baani Kaur - to be added when provided */}
+            </Paragraph>
+          </div>
         </div>
 
-        <div style={{ marginBottom: '30px' }}>
-          <h3 style={{ fontWeight: 'bold', marginBottom: '10px' }}>Kaitlyn Wang</h3>
-          <Paragraph>
-            Kaitlyn is a sophomore studying Math/CS and Art History. She's worked on ML/astrophysics, open-source projects at SAIL, and is currently at Stanford NLP studying pretraining-time interventions to shape RL reasoning behavior in LLMs.
-          </Paragraph>
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
+            src="/TAs/kaitlyn_wang.png" 
+            alt="Kaitlyn Wang" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>Kaitlyn Wang</h3>
+            <Paragraph>
+              Kaitlyn is a sophomore studying Math/CS and Art History. She's worked on ML/astrophysics, open-source projects at SAIL, and is currently at Stanford NLP studying pretraining-time interventions to shape RL reasoning behavior in LLMs.
+            </Paragraph>
+          </div>
         </div>
 
-        <div style={{ marginBottom: '30px' }}>
-          <h3 style={{ fontWeight: 'bold', marginBottom: '10px' }}>Mark Athiri</h3>
-          <Paragraph>
-            Mark Athiri is a senior at Stanford studying Computer Science (AI, Systems). He researches security AI under Profs. Boneh, Liang, and Ho, building RL training infrastructure for LLM agents. His work spans ML systems deployment, security research, and infrastructure engineering across multiple companies.
-          </Paragraph>
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
+            src="/TAs/mark_athiri.png" 
+            alt="Mark Athiri" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>Mark Athiri</h3>
+            <Paragraph>
+              Mark Athiri is a senior at Stanford studying Computer Science (AI, Systems). He researches security AI under Profs. Boneh, Liang, and Ho, building RL training infrastructure for LLM agents. His work spans ML systems deployment, security research, and infrastructure engineering across multiple companies.
+            </Paragraph>
+          </div>
         </div>
 
-        <div style={{ marginBottom: '30px' }}>
-          <h3 style={{ fontWeight: 'bold', marginBottom: '10px' }}> Rany Stephan</h3>
-          <Paragraph>
-            Rany is an M.S. student in Mathematical and Computational Engineering @ Stanford. He works on convex optimization-driven portfolio models, HJB models for fixed-income microstructure, and machine learning models for computational pathology. He is excited to help turn ideas into well-scoped, clear and reproducible ML projects.
-          </Paragraph>
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
+            src="/TAs/rany_stephan.jpg" 
+            alt="Stephan Rany" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>Stephan Rany</h3>
+            <Paragraph>
+              Rany is an M.S. student in Mathematical and Computational Engineering @ Stanford. He works on convex optimization-driven portfolio models, HJB models for fixed-income microstructure, and machine learning models for computational pathology. He is excited to help turn ideas into well-scoped, clear and reproducible ML projects.
+            </Paragraph>
+          </div>
         </div>
 
-        <div style={{ marginBottom: '30px' }}>
-          <h3 style={{ fontWeight: 'bold', marginBottom: '10px' }}>Rydham Goyal</h3>
-          <Paragraph>
-            Rydham is a junior studying computer science and statistics with a focus on AI and data science. He is passionate about applying machine learning to solve real-world problems in healthcare, finance, and automation.
-          </Paragraph>
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
+            src="/TAs/rydham_goyal.jpg" 
+            alt="Rydham Goyal" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>Rydham Goyal</h3>
+            <Paragraph>
+              Rydham is a junior studying computer science and statistics with a focus on AI and data science. He is passionate about applying machine learning to solve real-world problems in healthcare, finance, and automation.
+            </Paragraph>
+          </div>
         </div>
 
-        <div style={{ marginBottom: '30px' }}>
-          <h3 style={{ fontWeight: 'bold', marginBottom: '10px' }}>Vidur Gupta</h3>
-          <Paragraph>
-            Vidur is a second year masters student studying electrical engineering and computer science at Stanford, working on the intersection of AI/ML, natural language, and embedded systems. He is interested in working on real-world problems to use natural language to control real world physical devices in a secure and private way.
-          </Paragraph>
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
+            src="/TAs/vidur_gupta.png" 
+            alt="Vidur Gupta" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>Vidur Gupta</h3>
+            <Paragraph>
+              Vidur is a second year masters student studying electrical engineering and computer science at Stanford, working on the intersection of AI/ML, natural language, and embedded systems. He is interested in working on real-world problems to use natural language to control real world physical devices in a secure and private way.
+            </Paragraph>
+          </div>
         </div>
       </Section>
       <Section id="meetings">
