@@ -34,13 +34,16 @@ export default function Contact() {
             <img src="/logos/janestreet.png" alt="Jane Street" />
           </Sponsor>
           <Sponsor>
+            <img src="/logos/latticework.png" alt="LatticeWork" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/deshaw.png" alt="DE Shaw" />
+          </Sponsor>
+          <Sponsor>
             <img src="/logos/sig.png" alt="Sig" />
           </Sponsor>
           <Sponsor>
             <img src="/logos/verkada.png" alt="Verkada" />
-          </Sponsor>
-          <Sponsor>
-            <img src="/logos/latticework.png" alt="LatticeWork" />
           </Sponsor>
           <Sponsor>
             <img src="/logos/unifyid.png" alt="UnifyID" />
