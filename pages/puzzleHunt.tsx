@@ -212,10 +212,6 @@ export default function PuzzleHunt() {
               <LinkComponent href="mailto:kristiep@stanford.edu">
                 kristiep@stanford.edu
               </LinkComponent>{' '}
-              and{' '}
-              <LinkComponent href="mailto:dansun@stanford.edu">
-                dansun@stanford.edu
-              </LinkComponent>{' '}
               if you have any further questions! Puzzle hunt is run by{' '}
               <LinkComponent href="/">Stanford ACM</LinkComponent>&apos;s Puzzle
               Hunt Committee!
