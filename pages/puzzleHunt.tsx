@@ -110,8 +110,7 @@ export default function PuzzleHunt() {
             />
           </div>
           <Header>
-            Sign up for our fall 2025 Puzzle Hunt <LinkComponent href="https://docs.google.com/document/d/13hYbkdLzrnTYu1iAT-Av50fLd4c2WH5o/edit">here</LinkComponent>
-            Read more about our 2024 Puzzle Hunt{' '}
+            Sign up for our fall 2025 Puzzle Hunt <LinkComponent href="https://docs.google.com/forms/d/e/1FAIpQLSfcOPNIxgZCOr2jR07b2UWvj4lOUs_aQ8oKKtU1XuAvAa7TnQ/viewform">here</LinkComponent> and read the fall 2025 Introduction Document <LinkComponent href="https://docs.google.com/document/d/13hYbkdLzrnTYu1iAT-Av50fLd4c2WH5o/edit">here</LinkComponent>. Read more about our 2024 Puzzle Hunt{' '}
             <LinkComponent href="https://news.stanford.edu/stories/2024/11/annual-puzzle-hunt-brings-together-hundreds-of-student-solvers">
               (featured in the Stanford Report)
             </LinkComponent>
