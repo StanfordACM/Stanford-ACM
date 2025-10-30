@@ -164,6 +164,26 @@ export default function Contact() {
 
         <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
           <img 
+            src="/TAs/john_salvi.png" 
+            alt="John Salvi" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>John Salvi</h3>
+            <Paragraph>
+            John is a computer-vision-focused AI researcher building practical, user-facing models for safety and reliability in consumer applications. John thoroughly enjoys problem solving.
+            </Paragraph>
+          </div>
+        </div>
+
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
             src="/TAs/kaitlyn_wang.png" 
             alt="Kaitlyn Wang" 
             style={{ 
