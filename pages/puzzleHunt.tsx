@@ -116,6 +116,14 @@ export default function PuzzleHunt() {
             </LinkComponent>
             !
           </Header>
+          <div>
+            <Image
+              src="/puzzleHunt/2025/2025.jpg"
+              alt="Puzzle Hunt 2025"
+              width={1890}
+              height={3800}
+            />
+          </div>
           <Paragraph>
             Check out{' '}
             <LinkComponent href="/puzzleHunt/2024">
