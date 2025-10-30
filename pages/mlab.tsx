@@ -104,6 +104,26 @@ export default function Contact() {
         
         <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
           <img 
+            src="/TAs/anshika_agarwal.JPG" 
+            alt="Anshika Agarwal" 
+            style={{ 
+              width: '150px', 
+              height: '150px', 
+              objectFit: 'cover', 
+              borderRadius: '8px',
+              flexShrink: 0
+            }} 
+          />
+          <div>
+            <h3 style={{ fontWeight: 'bold', marginBottom: '10px', marginTop: '0' }}>Anshika Agarwal</h3>
+            <Paragraph>
+            Anshika is a coterminal BS/MS student in Computer Science at Stanford. Her research interests include social NLP, multimodal systems, and model evaluation.
+            </Paragraph>
+          </div>
+        </div>
+
+        <div style={{ marginBottom: '30px', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+          <img 
             src="/TAs/arpandeep_khatua.jpeg" 
             alt="Arpandeep Khatua" 
             style={{ 
