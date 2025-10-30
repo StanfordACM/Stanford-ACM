@@ -123,8 +123,8 @@ export default function PuzzleHunt() {
             <Image
               src="/puzzleHunt/2025/2025.jpg"
               alt="Puzzle Hunt 2025"
-              width={500}
-              height={336}
+              width={800}
+              height={533}
             />
           </div>
           <Paragraph>
