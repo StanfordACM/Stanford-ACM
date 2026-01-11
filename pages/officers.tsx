@@ -36,6 +36,7 @@ export default function Contact() {
           <Person name="Elana Chen" year={2028} position="Financial Officer" />
           <Person name="Jamin Xie" year={2028} position="Financial Officer" />
           <Person name="Karthik Vedula" year={2029} position="MLab Director" />
+          <Person name="Ryan Rong" year={2028} position="MLab Director" />
           <Person name="Sabrina Yen-Ko" year={2028} position="MLab Director" />
           <Person name="Eric Cui" year={2027} position="DevLab Director" />
           <Person name="Mao Yu Cheng" year={2028} position="DevLab Director" />

@@ -194,6 +194,14 @@ export default function Contact() {
               </tr>
               <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
+                  Karthik Vedula
+                </td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  ksvedula@stanford.edu
+                </td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
                   Jamin Xie
                 </td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
