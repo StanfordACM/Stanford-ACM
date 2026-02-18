@@ -53,7 +53,7 @@ export default function Contact() {
             and engaging opportunity for high school students in the Bay Area to
             explore their passion in computer science.
           </Paragraph>
-          <ProcoImage src="/proco/poster.png" />
+          <ProcoImage src="/proco/Stanford%20ProCo%20Flyer.jpg" />
         </Introduction>
       </Section>
       <Paragraph>
