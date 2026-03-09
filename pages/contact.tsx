@@ -77,22 +77,10 @@ export default function Contact() {
             </thead>
             <tbody>
               <tr>
-                <td
-                  style={{
-                    border: '1px solid #333',
-                    padding: '10px',
-                    fontSize: '14px'
-                  }}
-                >
+                <td style={{ border: '1px solid black', padding: '8px' }}>
                   Annie Lee
                 </td>
-                <td
-                  style={{
-                    border: '1px solid #333',
-                    padding: '10px',
-                    fontSize: '14px'
-                  }}
-                >
+                <td style={{ border: '1px solid black', padding: '8px' }}>
                   annieee@stanford.edu
                 </td>
               </tr>
