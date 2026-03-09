@@ -280,6 +280,22 @@ export default function Contact() {
                   hinson@stanford.edu
                 </td>
               </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  KuoKuo Li
+                </td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  kuokuoli@stanford.edu
+                </td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  Zara Zong
+                </td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  zaraz@stanford.edu
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
