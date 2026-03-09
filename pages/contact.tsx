@@ -262,6 +262,14 @@ export default function Contact() {
               </tr>
               <tr>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
+                  Steve Mendeleev
+                </td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  steveroy@stanford.edu
+                </td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
                   Hinson Chan
                 </td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
