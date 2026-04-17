@@ -59,14 +59,15 @@ export default function GeoGuessr() {
       </Section>
       <Section id="board">
         <People title="Organizers" startShown={true} bigTitle>
-          <Person name="Hinson Chan" year={2028} position="Director" />
+          <Person name="KuoKuo Li" year={2029} position="Co-President" />
+          <Person name="Zara Zong" year={2028} position="Co-President" />
+          <Person name="Hinson Chan" year={2027} position="Co-Director" />
         </People>
       </Section>
       <Section id="meetings">
         <Title>Meeting Information</Title>
         <Paragraph>
-          Time & Date: Hammarskjöld, Wednesdays 8PM (first meeting Wednesday,
-          Oct 15th)
+          Time & Date: Lathrop 282, Wednesdays 7–8:30PM
         </Paragraph>
       </Section>
       <Section id="sponsors">
