@@ -70,6 +70,21 @@ export default function GeoGuessr() {
           Time & Date: Lathrop 282, Wednesdays 7–8:30PM
         </Paragraph>
       </Section>
+      <Section id="accomplishments">
+        <Title>Accomplishments</Title>
+        <Paragraph>
+          <strong>3rd Place — Collegiate GeoGuessr League (CGL)</strong>
+          <br />
+          Stanford placed 3rd in the Intercollegiate GeoGuessr Tournament, the
+          premier collegiate GeoGuessr competition.
+        </Paragraph>
+        <Paragraph>
+          <strong>Winners — Maps x Matcha Tournament</strong>
+          <br />
+          Congratulations to Neil, Henry, Kian, Benji, and KuoKuo for winning
+          the Maps x Matcha tournament!
+        </Paragraph>
+      </Section>
       <Section id="sponsors">
         <Title>Sponsors</Title>
         <Paragraph>Sponsored by TBD</Paragraph>
