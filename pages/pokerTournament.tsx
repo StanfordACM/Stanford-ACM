@@ -29,49 +29,46 @@ export default function PokerTournament() {
           All skill levels are welcome. There will be boba, swag, and prizes.
         </Paragraph>
         <Paragraph>
-          <b>Date:</b> TBD
+          <b>Date:</b> Saturday, May 9th, 2026
           <br />
-          <b>Time:</b> TBD
-          <br />
-          <b>Location:</b> TBD
+          <b>Location:</b> Lathrop 282
           <br />
           (We expect the preliminary rounds will last several hours, with one
           final table to conclude the event. We will also have tables /
           slideshows from our sponsors.)
         </Paragraph>
+        <Paragraph>
+          <b>Sign up here: </b>
+          <LinkComponent href="https://bit.ly/acmpokertournament2026">
+            bit.ly/acmpokertournament2026
+          </LinkComponent>
+        </Paragraph>
       </Section>
       <Section id="sponsors">
         <Title>Sponsors</Title>
-        <Paragraph>Sponsors TBD</Paragraph>
-        {/* 
         <SponsorsRow>
           <SponsorRow>
-            <SponsorRowImage src="/logos/hrt.png" alt="Hudston River Trading" />
+            <SponsorRowImage src="/logos/deshaw.png" alt="D.E. Shaw & Co" />
           </SponsorRow>
           <SponsorRow>
-            <SponsorRowImage src="/logos/citadel.png" alt="Citadel" />
+            <SponsorRowImage src="/logos/hrt.png" alt="Hudson River Trading" />
           </SponsorRow>
           <SponsorRow>
             <SponsorRowImage src="/logos/janestreet.png" alt="Jane Street" />
           </SponsorRow>
           <SponsorRow>
-            <SponsorRowImage src="/logos/deshaw.png" alt="DE Shaw" />
+            <SponsorRowImage src="/logos/walleye.jpg" alt="Walleye" />
           </SponsorRow>
           <SponsorRow>
-            <SponsorRowImage src="/logos/walleye.jpg" alt="Walleye" />
+            <SponsorRowImage src="/logos/sig.png" alt="Susquehanna" />
           </SponsorRow>
           <SponsorRow>
             <SponsorRowImage src="/logos/jump.png" alt="Jump Trading" />
           </SponsorRow>
           <SponsorRow>
-            <SponsorRowImage
-              src="/logos/sig.png"
-              alt="SIG"
-              style={{ width: '400px', height: 'auto' }}
-            />
+            <SponsorRowImage src="/logos/citadel.png" alt="Citadel" />
           </SponsorRow>
         </SponsorsRow>
-        */}
         <Paragraph>
           If you are interested in partnering with us, please email{' '}
           <LinkComponent href="mailto:stanfordpokertournament@gmail.com">
