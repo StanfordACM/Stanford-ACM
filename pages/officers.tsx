@@ -25,7 +25,27 @@ export default function Contact() {
         </Paragraph>
 
         {/* Active officers */}
-        <People title="2025-2026" startShown={true}>
+        <People title="2026-2027" startShown={true}>
+          <Person name="Alex Bloom" year={2027} position="Co-President" />
+          <Person name="Sheryl Chen" year={2028} position="Co-President" />
+          <Person name="Karthik Vedula" year={2029} position="Co-President" />
+          <Person name="Gorn Namchittai" year={2027} position="Co-President" />
+          <Person name="Cheney Sang" position="Financial Officer" />
+          <Person name="Kaitlyn Wang" position="Financial Officer" />
+          <Person name="James Liu" position="MLab Director" />
+          <Person name="Maleeka Raddygala" position="MLab Director" />
+          <Person name="Ria Garg" position="MLab Director" />
+          <Person name="Mao Yu Cheng" year={2028} position="DevLab Director" />
+          <Person name="Victor Chen" position="Social Chair" />
+          <Person name="Dylan Khangsar" position="Social Chair" />
+          <Person name="Ritwin Narra" position="ProCo Director" />
+          <Person name="Juli Huang" year={2027} position="Webmaster" />
+        </People>
+
+        <Title>Previous Officers</Title>
+
+        {/* Previous officers */}
+        <People title="2025-2026" startShown={false}>
           <Person name="Annie Lee" year={2027} position="Co-President" />
           <Person
             name="Suze van Adrichem"
@@ -72,9 +92,6 @@ export default function Contact() {
           <Person name="Nathan Chi" year={2026} position="Advisor" />
         </People>
 
-        <Title>Previous Officers</Title>
-
-        {/* Previous officers */}
         <People title="2024-2025" startShown={false}>
           <Person
             name="Justin Gu"
