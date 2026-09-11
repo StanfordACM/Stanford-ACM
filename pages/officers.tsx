@@ -39,6 +39,11 @@ export default function Contact() {
           <Person name="Victor Chen" position="Social Chair" />
           <Person name="Dylan Khangsar" position="Social Chair" />
           <Person name="Ritwin Narra" position="ProCo Director" />
+          <Person name="Nanxi Jiang" position="Puzzle Hunt Director" />
+          <Person
+            name="Justin Ji-Ming Lee"
+            position="Puzzle Hunt Director"
+          />
           <Person name="Juli Huang" year={2027} position="Webmaster" />
         </People>
 

@@ -109,9 +109,7 @@ export default function PuzzleHunt() {
               height={336}
             />
           </div>
-          <Header>
-            Sign up for our fall 2025 Puzzle Hunt <LinkComponent href="https://docs.google.com/forms/d/e/1FAIpQLSfcOPNIxgZCOr2jR07b2UWvj4lOUs_aQ8oKKtU1XuAvAa7TnQ/viewform">here</LinkComponent> and read the fall 2025 Introduction Document <LinkComponent href="https://docs.google.com/document/d/13hYbkdLzrnTYu1iAT-Av50fLd4c2WH5o/edit">here</LinkComponent>.
-          </Header>
+          <Header>Details for our fall 2026 Puzzle Hunt coming soon!</Header>
           <Header>
             Read more about our 2024 Puzzle Hunt{' '}
             <LinkComponent href="https://news.stanford.edu/stories/2024/11/annual-puzzle-hunt-brings-together-hundreds-of-student-solvers">
@@ -121,12 +119,19 @@ export default function PuzzleHunt() {
           </Header>
           <div>
             <Image
-              src="/puzzleHunt/2025/2025.jpg"
-              alt="Puzzle Hunt 2025"
-              width={500}
-              height={336}
+              src="/puzzleHunt/2026/temp-puzzlehunt-poster.png"
+              alt="Puzzle Hunt 2026"
+              width={400}
+              height={500}
             />
           </div>
+          <Paragraph>
+            Check out{' '}
+            <LinkComponent href="/puzzleHunt/2025/2025-puzzles-and-solutions.pdf">
+              puzzles and solutions
+            </LinkComponent>{' '}
+            from 2025!
+          </Paragraph>
           <Paragraph>
             Check out{' '}
             <LinkComponent href="/puzzleHunt/2024">
@@ -208,9 +213,13 @@ export default function PuzzleHunt() {
           <Right>
             <SectionTitle>Questions?</SectionTitle>
             <Paragraph>
-              Reach out to us at{' '}
-              <LinkComponent href="mailto:kristiep@stanford.edu">
-                kristiep@stanford.edu
+              Reach out to us at either{' '}
+              <LinkComponent href="mailto:nanxi@stanford.edu">
+                nanxi@stanford.edu
+              </LinkComponent>{' '}
+              or{' '}
+              <LinkComponent href="mailto:leejj@stanford.edu">
+                leejj@stanford.edu
               </LinkComponent>{' '}
               if you have any further questions! Puzzle hunt is run by{' '}
               <LinkComponent href="/">Stanford ACM</LinkComponent>&apos;s Puzzle
