@@ -62,14 +62,15 @@ export default function About() {
           challenging technical and social problems.
         </Paragraph>
         <Paragraph>
-          We'd love for you to join ACM! Signup form link:{' '}
-          <LinkComponent href="https://tinyurl.com/stanfordacm2025">
-            https://tinyurl.com/stanfordacm2025
+          We'd love for you to join ACM! Fill out our{' '}
+          <LinkComponent href="https://docs.google.com/forms/d/e/1FAIpQLSd9ZxXx6L5gAJarGDa_UjbfHVtZjhaKKgCPJfQLbsuprcGDSA/viewform">
+            Stanford ACM 2026 Interest Form
           </LinkComponent>
+          .
         </Paragraph>
         <IndexImage
-          src="/index/Stanford_ACM_Poster_2025.png"
-          alt="Stanford ACM 2025 Poster"
+          src="/index/Stanford_ACM_poster_2026.png"
+          alt="Stanford ACM 2026 Poster"
         />
       </Section>
 
