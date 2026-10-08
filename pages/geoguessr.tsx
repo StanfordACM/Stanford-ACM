@@ -43,12 +43,16 @@ export default function GeoGuessr() {
         </Paragraph>
         <Paragraph>
           Join our discord server:{' '}
-          <LinkComponent href="https://discord.gg/PG5RYScS">
+          <LinkComponent href="https://discord.gg/zxaHrWPrRP">
             Stanford Geoguessr Discord
           </LinkComponent>
           . If you have any questions, feel free to contact us at{' '}
-          <LinkComponent href="mailto:hinson@stanford.edu">
-            hinson@stanford.edu
+          <LinkComponent href="mailto:kuokuoli@stanford.edu">
+            kuokuoli@stanford.edu
+          </LinkComponent>{' '}
+          or{' '}
+          <LinkComponent href="mailto:zaraz@stanford.edu">
+            zaraz@stanford.edu
           </LinkComponent>
           .
         </Paragraph>
@@ -61,14 +65,15 @@ export default function GeoGuessr() {
         <People title="Organizers" startShown={true} bigTitle>
           <Person name="KuoKuo Li" year={2029} position="Co-President" />
           <Person name="Zara Zong" year={2028} position="Co-President" />
-          <Person name="Hinson Chan" year={2027} position="Co-Director" />
         </People>
       </Section>
       <Section id="meetings">
         <Title>Meeting Information</Title>
         <Paragraph>
-          Time & Date: Lathrop 282, Wednesdays 7–8:30PM
+          First meeting: Monday, Oct 12, with a special guest: the creator of
+          PlonkIt!
         </Paragraph>
+        <Paragraph>Location: TBD (Lathrop or Adams Tower)</Paragraph>
       </Section>
       <Section id="accomplishments">
         <Title>Accomplishments</Title>
