@@ -29,7 +29,7 @@ export default function PokerTournament() {
           All skill levels are welcome. There will be boba, swag, and prizes.
         </Paragraph>
         <Paragraph>
-          <b>Date:</b> Saturday, May 9th, 2026
+          <b>Date:</b> Mid-Spring Quarter (exact date TBA)
           <br />
           <b>Location:</b> Lathrop 282
           <br />

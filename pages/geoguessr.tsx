@@ -73,7 +73,7 @@ export default function GeoGuessr() {
           First meeting: Monday, Oct 12, with a special guest: the creator of
           PlonkIt!
         </Paragraph>
-        <Paragraph>Location: TBD (Lathrop or Adams Tower)</Paragraph>
+        <Paragraph>Location: Lathrop</Paragraph>
       </Section>
       <Section id="accomplishments">
         <Title>Accomplishments</Title>
