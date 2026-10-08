@@ -23,32 +23,26 @@ export default function Contact() {
           for more information.
         </Paragraph>
         <Title>2026-2027 Sponsors</Title>
-        <Sponsors>
-          <Sponsor>
-            <img src="/logos/jump.png" alt="Jump Trading" />
-          </Sponsor>
-          <Sponsor>
-            <img src="/logos/walleye.jpg" alt="Walleye" />
-          </Sponsor>
-          <Sponsor>
-            <img src="/logos/hrt.png" alt="HRT" width={140} />
-          </Sponsor>
-          <Sponsor>
-            <img src="/logos/citadel.png" alt="Citadel" />
-          </Sponsor>
-          <Sponsor>
-            <img src="/logos/deshaw.png" alt="DE Shaw" />
-          </Sponsor>
-          <Sponsor>
-            <img src="/logos/sig.png" alt="Susquehanna" />
-          </Sponsor>
-          <Sponsor>
-            <img src="/logos/janestreet.png" alt="Jane Street" />
-          </Sponsor>
-        </Sponsors>
+        <ul style={{ columnCount: 2 }}>
+          <li>Citadel</li>
+          <li>Jane Street</li>
+          <li>DRW</li>
+          <li>DE Shaw</li>
+          <li>Walleye</li>
+          <li>Crusoe</li>
+          <li>HRT</li>
+          <li>Pathway</li>
+          <li>Amazon</li>
+          <li>Seven Research</li>
+          <li>Perplexity</li>
+          <li>Jump</li>
+        </ul>
         <br />
         <Title>Past Sponsors</Title>
         <Sponsors>
+          <Sponsor>
+            <img src="/logos/sig.png" alt="Susquehanna" />
+          </Sponsor>
           <Sponsor>
             <img src="/logos/latticework.png" alt="LatticeWork" />
           </Sponsor>
