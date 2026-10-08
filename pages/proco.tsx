@@ -66,8 +66,12 @@ export default function Contact() {
       <Section id="about">
         <Title>About ProCo</Title>
         <Paragraph>
-          ProCo 2025 was just hosted on March 1st, 2025 by Stanford ACM. Keep in
-          touch for the next one!
+          ProCo 2026 will be held in Winter, in-person at STLC. Contact our
+          director, Ritwin Narra, at{' '}
+          <LinkComponent href="mailto:ritwin@stanford.edu">
+            ritwin@stanford.edu
+          </LinkComponent>
+          .
         </Paragraph>
         <Paragraph>
           Students compete in teams of up to three to compete in solving

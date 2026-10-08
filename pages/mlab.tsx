@@ -95,8 +95,9 @@ export default function Contact() {
       </Section>
       <Section id="board">
         <People title="Board" startShown={true} bigTitle>
-          <Person name="Ryan Rong" year={2028} position="Director" />
-          <Person name="Sabrina Yen-Ko" year={2028} position="Director" />
+          <Person name="James Liu" position="Director" />
+          <Person name="Maleeka Raddygala" position="Director" />
+          <Person name="Ria Garg" position="Director" />
         </People>
       </Section>
       <Section id="tas">
@@ -287,10 +288,10 @@ export default function Contact() {
         <Paragraph>
           Meeting Time: 7:30 - 9:00 p.m. Thursdays at CoDA B90.
         </Paragraph>
-        <Paragraph>First meeting this Thursday, Oct 9th!</Paragraph>
+        <Paragraph>First meeting: Thursday, Oct 15, CoDA B90!</Paragraph>
         <Paragraph>
-          Contact: Ryan Rong (ryanrong@stanford.edu), Sabrina Yen-Ko
-          (syenko@stanford.edu)
+          Contact: Ria Garg (riagarg@stanford.edu), James Liu
+          (jihaoliu@stanford.edu), Maleeka Raddygala (maleeka@stanford.edu)
         </Paragraph>
       </Section>
       <Section id="project">

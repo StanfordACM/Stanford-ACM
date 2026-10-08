@@ -51,29 +51,23 @@ export default function DevLab() {
       </Section>
       <Section id="board">
         <People title="Board" startShown={true} bigTitle>
-          <Person name="Eric Cui" year={2027} position="Director" />
           <Person name="Mao Yu Cheng" year={2028} position="Director" />
         </People>
       </Section>
       <Section id="meetings">
         <Title>Meeting Information</Title>
-        <Paragraph>Meeting Time: Mondays 7PM - 8PM. Location: TBD</Paragraph>
-        <Paragraph>First meeting: Oct 7th.</Paragraph>
-        <Paragraph>
-          Contact: Eric Cui (ericcui@stanford.edu), Mao Yu Cheng
-          (chengmao@stanford.edu)
-        </Paragraph>
+        <Paragraph>Meeting Time: TBD</Paragraph>
+        <Paragraph>Contact: Mao Yu Cheng (chengmao@stanford.edu)</Paragraph>
       </Section>
       <Section id="workshops">
         <Title>Workshops</Title>
-        <Workshop week="Week 3:" title="HTML and React Components" />
-        <Workshop week="Week 4:" title="Styling and Deployment" />
-        <Workshop week="Week 5:" title="React Hooks" />
-        <Workshop week="Week 6:" title="Web APIs and GPT 4" />
-        <Workshop week="Week 7:" title="Databases" />
-        <Workshop week="Week 8:" title="Routing and Authentication" />
-        <Workshop week="Week 9:" title="Thanksgiving" />
-        <Workshop week="Week 10:" title="Demos and Social" />
+        <Workshop week="Week 4:" title="Web Fundamentals, Tools/Workflows" />
+        <Workshop week="Week 5:" title="HTML, CSS & Styling" />
+        <Workshop week="Week 6:" title="JavaScript & React Fundamentals" />
+        <Workshop week="Week 7:" title="Server & Client Components" />
+        <Workshop week="Week 8:" title="Databases + REST APIs" />
+        <Workshop week="Week 9:" title="Database Integration" />
+        <Workshop week="Week 10:" title="Deployment and DevOps" />
       </Section>
     </Layout>
   );
