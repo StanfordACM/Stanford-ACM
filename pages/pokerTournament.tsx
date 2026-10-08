@@ -31,7 +31,7 @@ export default function PokerTournament() {
         <Paragraph>
           <b>Date:</b> Mid-Spring Quarter (exact date TBA)
           <br />
-          <b>Location:</b> Lathrop 282
+          <b>Location:</b> TBA
           <br />
           (We expect the preliminary rounds will last several hours, with one
           final table to conclude the event. We will also have tables /
