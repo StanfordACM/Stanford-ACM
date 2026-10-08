@@ -142,7 +142,7 @@ export default function About() {
           Join us for weekly GeoGuessr sessions — no experience necessary!
         </Paragraph>
         <Paragraph>
-          <i>First meeting: Monday, Oct 12. Location: Lathrop</i>
+          <i>First meeting: Monday, Oct 12. Location: Adams Tower</i>
         </Paragraph>
 
         <SectionTitle href="/escapeRoom">Escape Room</SectionTitle>
