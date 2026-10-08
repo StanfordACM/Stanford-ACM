@@ -87,7 +87,10 @@ export default function About() {
           Stanford NLP Group, and VMWare.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Thursdays 7:30PM - 9:00PM at CoDA B90</i>
+          <i>
+            Weekly meetings: Thursdays 7:30PM - 9:00PM at CoDA B90. First
+            meeting: Thursday, Oct 15!
+          </i>
         </Paragraph>
 
         <SectionTitle href="/devlab">DevLab</SectionTitle>
@@ -97,7 +100,7 @@ export default function About() {
           on real projects to add to your portfolio!
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Mondays 7PM - 8PM. Location: TBD</i>
+          <i>Weekly meetings: TBD</i>
         </Paragraph>
 
         <SectionTitle href="/proco">ProCo</SectionTitle>
@@ -105,17 +108,22 @@ export default function About() {
           ProCo is a computer programming contest for high school students in
           the style of the college-level ACM-ICPC. ProCo aims to provide a fun
           and engaging opportunity for high school students in the Bay Area to
-          explore their passion in computer science. The contest will be held on
-          Saturday, March 1st.
+          explore their passion in computer science.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: TBD</i>
+          <i>Held in Winter for high school students, in-person at STLC.</i>
         </Paragraph>
 
         <SectionTitle href="/puzzleHunt">Puzzle Hunt</SectionTitle>
         <Paragraph>
           ACM hosts a puzzle hunt open to all Stanford students. We invite you
           to solve puzzles as quickly as possible for prizes while having fun!
+        </Paragraph>
+        <Paragraph>
+          <i>
+            Sunday, Nov 15. Teams of up to 4, no CS experience needed, free
+            boba!
+          </i>
         </Paragraph>
 
         <SectionTitle href="/quantGym">Quant Gym</SectionTitle>
@@ -125,7 +133,7 @@ export default function About() {
           together to practice our skills and ACE the interviews 😤.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: Fridays 5PM - 6PM. Location: CoDa B60</i>
+          <i>Weekly meetings: Fridays 5PM - 6PM. Location: CoDA B90</i>
         </Paragraph>
 
         <SectionTitle href="/geoguessr">GeoGuessr</SectionTitle>
@@ -134,7 +142,8 @@ export default function About() {
         </Paragraph>
         <Paragraph>
           <i>
-            Weekly meetings: Wednesdays 8PM at Hammarskjöld (592 Alvarado Row)
+            First meeting: Monday, Oct 12. Location: TBD (Lathrop or Adams
+            Tower)
           </i>
         </Paragraph>
 
@@ -144,7 +153,35 @@ export default function About() {
           students to be held in Spring quarter.
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: TBD</i>
+          <i>Operations start in Spring.</i>
+        </Paragraph>
+
+        <h2>Social Events</h2>
+        <Paragraph>
+          Fun social events throughout the year: board games, poker nights,
+          snacks + boba, and much more!
+        </Paragraph>
+        <Paragraph>
+          <i>
+            First social: Estimathon Kickoff, Wednesday 10/21 at 7:30PM.
+            Location: TBD.{' '}
+            <LinkComponent href="https://forms.gle/Pa23oJUbV8Yjr2XR9">
+              RSVP here
+            </LinkComponent>
+            . Contacts: Victor Chen (victor36@stanford.edu), Dylan Khangsar
+            (dylankh@stanford.edu)
+          </i>
+        </Paragraph>
+
+        <SectionTitle href="/pokerTournament">
+          Social Game Day (Poker Tournament)
+        </SectionTitle>
+        <Paragraph>
+          A No-Limit Texas Hold&apos;em multi-table tournament with no entrance
+          fee, open to all skill levels. No experience required!
+        </Paragraph>
+        <Paragraph>
+          <i>Mid-Spring Quarter.</i>
         </Paragraph>
       </Section>
     </Layout>

@@ -39,7 +39,7 @@ export default function QuantGym() {
           modeling challenges.
         </Paragraph>
         <Paragraph>
-          <b>Where: </b> CoDa B60 <br />
+          <b>Where: </b> CoDA B90 <br />
           <b>When: </b> Fridays @ 5PM <br />
         </Paragraph>
         <Paragraph>
