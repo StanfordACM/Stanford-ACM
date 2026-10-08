@@ -40,11 +40,21 @@ export default function Contact() {
           <Person name="Dylan Khangsar" position="Social Chair" />
           <Person name="Ritwin Narra" position="ProCo Director" />
           <Person name="Nanxi Jiang" position="Puzzle Hunt Director" />
-          <Person
-            name="Justin Ji-Ming Lee"
-            position="Puzzle Hunt Director"
-          />
+          <Person name="Justin Ji-Ming Lee" position="Puzzle Hunt Director" />
           <Person name="Juli Huang" year={2027} position="Webmaster" />
+        </People>
+
+        {/* Advisors */}
+        <People title="2026-2027 Advisors" startShown={true}>
+          <Person name="Sydney Yan" position="Advisor" />
+          <Person name="Justin Gu" position="Advisor" />
+          <Person name="Ryan Chi" position="Advisor" />
+          <Person name="Nathan Chi" position="Advisor" />
+          <Person name="Isabella Lee" position="Advisor" />
+          <Person name="Hinson Chan" position="Advisor" />
+          <Person name="Alexandra Kim" position="Advisor" />
+          <Person name="Jadelyn Tran" position="Advisor" />
+          <Person name="Eric Cui" position="Advisor" />
         </People>
 
         <Title>Previous Officers</Title>
@@ -87,9 +97,21 @@ export default function Contact() {
           <Person name="Alex Bloom" year={2027} position="Quant Gym Director" />
           <Person name="Steve Mendeleev" year={2027} position="GTO Director" />
           <Person name="Sandra Yang" year={2028} position="ProCo Director" />
-          <Person name="Hinson Chan" year={2027} position="GeoGuessr Co-Director" />
-          <Person name="KuoKuo Li" year={2029} position="GeoGuessr Co-President" />
-          <Person name="Zara Zong" year={2028} position="GeoGuessr Co-President" />
+          <Person
+            name="Hinson Chan"
+            year={2027}
+            position="GeoGuessr Co-Director"
+          />
+          <Person
+            name="KuoKuo Li"
+            year={2029}
+            position="GeoGuessr Co-President"
+          />
+          <Person
+            name="Zara Zong"
+            year={2028}
+            position="GeoGuessr Co-President"
+          />
           <Person name="Justin Gu" year={2027} position="Advisor" />
           <Person name="Sydney Yan" year={2025} position="Advisor" />
           <Person name="Isabella Lee" year={2026} position="Advisor" />
