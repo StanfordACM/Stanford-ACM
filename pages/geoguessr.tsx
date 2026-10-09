@@ -46,6 +46,10 @@ export default function GeoGuessr() {
           <LinkComponent href="https://discord.gg/zxaHrWPrRP">
             Stanford Geoguessr Discord
           </LinkComponent>
+          , and join our club on GeoGuessr:{' '}
+          <LinkComponent href="https://www.geoguessr.com/clubs/94bc351f-9bb9-4938-9e48-c7d29d103c27">
+            Stanford GeoGuessr Club
+          </LinkComponent>
           . If you have any questions, feel free to contact us at{' '}
           <LinkComponent href="mailto:kuokuoli@stanford.edu">
             kuokuoli@stanford.edu

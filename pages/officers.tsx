@@ -41,6 +41,16 @@ export default function Contact() {
           <Person name="Ritwin Narra" position="ProCo Director" />
           <Person name="Nanxi Jiang" position="Puzzle Hunt Director" />
           <Person name="Justin Ji-Ming Lee" position="Puzzle Hunt Director" />
+          <Person
+            name="KuoKuo Li"
+            year={2029}
+            position="GeoGuessr Co-President"
+          />
+          <Person
+            name="Zara Zong"
+            year={2028}
+            position="GeoGuessr Co-President"
+          />
           <Person name="Juli Huang" year={2027} position="Webmaster" />
         </People>
 
