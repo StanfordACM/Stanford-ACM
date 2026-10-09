@@ -23,20 +23,44 @@ export default function Contact() {
           for more information.
         </Paragraph>
         <Title>2026-2027 Sponsors</Title>
-        <ul style={{ columnCount: 2 }}>
-          <li>Citadel</li>
-          <li>Jane Street</li>
-          <li>DRW</li>
-          <li>DE Shaw</li>
-          <li>Walleye</li>
-          <li>Crusoe</li>
-          <li>HRT</li>
-          <li>Pathway</li>
-          <li>Amazon</li>
-          <li>Seven Research</li>
-          <li>Perplexity</li>
-          <li>Jump</li>
-        </ul>
+        <Sponsors>
+          <Sponsor>
+            <img src="/logos/citadel.png" alt="Citadel" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/janestreet.png" alt="Jane Street" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/drw.png" alt="DRW" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/deshaw.png" alt="DE Shaw" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/walleye.jpg" alt="Walleye" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/crusoe.png" alt="Crusoe" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/hrt.png" alt="HRT" width={140} />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/pathway.png" alt="Pathway" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/amazon.png" alt="Amazon" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/sevenresearch.png" alt="Seven Research" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/perplexity.png" alt="Perplexity" />
+          </Sponsor>
+          <Sponsor>
+            <img src="/logos/jump.png" alt="Jump Trading" />
+          </Sponsor>
+        </Sponsors>
         <br />
         <Title>Past Sponsors</Title>
         <Sponsors>
