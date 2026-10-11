@@ -48,13 +48,13 @@ export default function EscapeRoom() {
         </Paragraph>
         <Paragraph>
           This year's escape room is in the works. If you are interested in
-          helping out, contact Sydney Yan and Samuel Chen:{' '}
-          <LinkComponent href="mailto:syyan@stanford.edu">
-            syyan@stanford.edu
+          helping out, contact Madison Lee and Sabrina Yen-Ko:{' '}
+          <LinkComponent href="mailto:mdslee@stanford.edu">
+            mdslee@stanford.edu
           </LinkComponent>{' '}
           and{' '}
-          <LinkComponent href="mailto:samchen2@stanford.edu">
-            samchen2@stanford.edu
+          <LinkComponent href="mailto:syenko@stanford.edu">
+            syenko@stanford.edu
           </LinkComponent>
           .
         </Paragraph>

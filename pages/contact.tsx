@@ -224,6 +224,22 @@ export default function Contact() {
                   zaraz@stanford.edu
                 </td>
               </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  Madison Lee
+                </td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  mdslee@stanford.edu
+                </td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  Sabrina Yen-Ko
+                </td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>
+                  syenko@stanford.edu
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

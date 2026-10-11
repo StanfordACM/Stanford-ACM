@@ -101,7 +101,10 @@ export default function About() {
           on real projects to add to your portfolio!
         </Paragraph>
         <Paragraph>
-          <i>Weekly meetings: TBD</i>
+          <i>
+            Weekly meetings: Tuesdays 7PM - 8PM. First meeting: Tuesday, Oct 13!
+            Location: 200-303
+          </i>
         </Paragraph>
 
         <SectionTitle href="/proco">ProCo</SectionTitle>
@@ -161,13 +164,13 @@ export default function About() {
         </Paragraph>
         <Paragraph>
           <i>
-            First social: Estimathon Kickoff, Wednesday 10/21 at 7:30PM.
-            Location: TBD.{' '}
-            <LinkComponent href="https://forms.gle/Pa23oJUbV8Yjr2XR9">
+            First social: Campfire Social at the Lake Lag Fire Pit, Thursday Oct
+            15 or Thursday Oct 22, 7PM - 9PM (vote in the RSVP!). S&apos;mores,
+            banana boats, and cinnamon baked apples!{' '}
+            <LinkComponent href="https://forms.gle/z8CDuht2RqovEUCT9">
               RSVP here
             </LinkComponent>
-            . Contacts: Victor Chen (victor36@stanford.edu), Dylan Khangsar
-            (dylankh@stanford.edu)
+            . Contact: Victor Chen (victor36@stanford.edu)
           </i>
         </Paragraph>
 

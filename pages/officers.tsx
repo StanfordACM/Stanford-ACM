@@ -36,6 +36,15 @@ export default function Contact() {
           <Person name="Maleeka Raddygala" position="MLab Director" />
           <Person name="Ria Garg" position="MLab Director" />
           <Person name="Mao Yu Cheng" year={2028} position="DevLab Director" />
+          <Person name="Madison Lee" position="Stanford Escape Director" />
+          <Person
+            name="Sabrina Yen-Ko"
+            year={2028}
+            position="Stanford Escape Director"
+          />
+          <Person name="Hinson Chan" year={2027} position="Officer" />
+          <Person name="Alexandra Kim" year={2028} position="Officer" />
+          <Person name="Jadelyn Tran" year={2028} position="Officer" />
           <Person name="Victor Chen" position="Social Chair" />
           <Person name="Dylan Khangsar" position="Social Chair" />
           <Person name="Ritwin Narra" position="ProCo Director" />
@@ -61,10 +70,6 @@ export default function Contact() {
           <Person name="Ryan Chi" position="Advisor" />
           <Person name="Nathan Chi" position="Advisor" />
           <Person name="Isabella Lee" position="Advisor" />
-          <Person name="Hinson Chan" position="Advisor" />
-          <Person name="Alexandra Kim" position="Advisor" />
-          <Person name="Jadelyn Tran" position="Advisor" />
-          <Person name="Eric Cui" position="Advisor" />
         </People>
 
         <Title>Previous Officers</Title>
