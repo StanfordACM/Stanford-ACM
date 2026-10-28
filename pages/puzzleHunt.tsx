@@ -109,7 +109,20 @@ export default function PuzzleHunt() {
               height={336}
             />
           </div>
-          <Header>Details for our fall 2026 Puzzle Hunt coming soon!</Header>
+          <Header>
+            Stanford Puzzle Hunt 2026 will take place on Sunday, November 15th
+            from 1-5PM!
+          </Header>
+          <RegisterButton
+            href="https://tinyurl.com/stanfordpuzzlehunt2026"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SIGN UP HERE
+          </RegisterButton>
+          <Paragraph>
+            <b>Sign up before 11/8 to guarantee a spot for your team!</b>
+          </Paragraph>
           <Header>
             Read more about our 2024 Puzzle Hunt{' '}
             <LinkComponent href="https://news.stanford.edu/stories/2024/11/annual-puzzle-hunt-brings-together-hundreds-of-student-solvers">
