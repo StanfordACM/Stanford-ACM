@@ -31,7 +31,7 @@ export default function Contact() {
             <img src="/logos/janestreet.png" alt="Jane Street" />
           </Sponsor>
           <Sponsor>
-            <img src="/logos/drw.png" alt="DRW" />
+            <img src="/logos/jump.png" alt="Jump Trading" />
           </Sponsor>
           <Sponsor>
             <img src="/logos/deshaw.png" alt="DE Shaw" />
@@ -58,7 +58,7 @@ export default function Contact() {
             <img src="/logos/perplexity.png" alt="Perplexity" />
           </Sponsor>
           <Sponsor>
-            <img src="/logos/jump.png" alt="Jump Trading" />
+            <img src="/logos/drw.png" alt="DRW" />
           </Sponsor>
         </Sponsors>
         <br />
