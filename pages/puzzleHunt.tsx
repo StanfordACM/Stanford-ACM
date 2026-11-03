@@ -132,10 +132,10 @@ export default function PuzzleHunt() {
           </Header>
           <div>
             <Image
-              src="/puzzleHunt/2026/temp-puzzlehunt-poster.png"
+              src="/puzzleHunt/2026/puzzlehunt-poster-2026.png"
               alt="Puzzle Hunt 2026"
               width={400}
-              height={500}
+              height={533}
             />
           </div>
           <Paragraph>
